@@ -1,11 +1,11 @@
-import utils
-from data.load_data import load_data_from_json
+import utils.utils as utils
+from src.utils import load_data
 from models.baseline import bart, pegasus, flan_t5, olmo, DistilBart
 
 if __name__ == "__main__":
     args = utils.get_args()
 
-    data_list = load_data_from_json(
+    data_list = load_data.load_data_from_json(
         args.data_path, args.data_option, args.key_option)
     if args.model == 'bart':
         output, gold_metareview = bart.run_bart_summarization(

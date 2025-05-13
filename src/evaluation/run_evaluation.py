@@ -1,6 +1,6 @@
-import utils
-from data.load_data import load_data_from_json
-from evaluation.evaluation import Evaluator
+from src.utils import utils
+from src.utils import load_data
+from src.evaluation.evaluation import Evaluator
 import pandas as pd
 import json
 from tqdm import tqdm
@@ -12,7 +12,7 @@ def load_json_output(file_path):
 if __name__ == "__main__":
     args = utils.get_args()
     
-    data_list = load_data_from_json(args.data_path, args.data_option, args.key_option)
+    data_list = load_data.load_data_from_json(args.data_path, args.data_option, args.key_option)
     # data_list = [{"Review List":[], "Meta review":str}]
     
     

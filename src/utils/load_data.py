@@ -1,6 +1,6 @@
 import json
 
-DATA_PATH_PREFIX = "data/ORSUM_"
+DATA_PATH_PREFIX = "data/raw/ORSUM_"
 JSONL_SUFFIX = ".jsonl"
 
 def load_data_from_json(file_full_path:str, file_option:str, key_option:str) -> list:

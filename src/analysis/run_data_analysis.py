@@ -3,9 +3,9 @@ import json
 import nltk
 from nltk.tokenize import word_tokenize
 from collections import defaultdict
-import utils
+import utils.utils as utils
 nltk.download("punkt")
-from data.load_data import load_data_from_json
+from src.utils import load_data
 import pandas as pd
 
 DATA_SPLITS = ['dev', 'test']
@@ -13,7 +13,7 @@ KEY_OPTION = 'all'
 
 def analyze_dataset(split: str, key_option: str = 'all'):
     file_path = None
-    data = load_data_from_json(file_path, split, key_option)
+    data = load_data.load_data_from_json(file_path, split, key_option)
 
     num_papers = len(data)
     num_metareviews = sum(1 for item in data if item['Metareview'])
