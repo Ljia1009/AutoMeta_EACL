@@ -22,8 +22,8 @@ def get_data(data_list: list, sample_size: int):
                 review, truncation='longest_first', max_length=1020)
             text_to_summary = tokenizer.decode(
                 tokens, skip_special_tokens=True)
-            summary = summarizer(text_to_summary, max_length=100,
-                                 min_length=40, do_sample=False)
+            summary = summarizer(text_to_summary, max_length=70,
+                                 min_length=20, do_sample=False)
             input_text += summary[0]['summary_text']
         item['input_text'] = input_text
         item['target_text'] = paper['Metareview']
