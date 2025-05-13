@@ -1,5 +1,5 @@
 from src.utils.load_data import load_data_from_json
-import utils
+from .args import get_args
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 from datasets import Dataset
 
@@ -32,12 +32,14 @@ def get_data(data_list: list, sample_size: int):
 
 
 def preprocess_function(examples):
-    inputs = [ex['input_text'] for ex in examples]
-    targets = [ex['target_text'] for ex in examples]
-    model_inputs = tokenizer(inputs, max_length=1020, truncation=True)
+    # inputs = [ex['input_text'] for ex in examples]
+    # targets = [ex['target_text'] for ex in examples]
+    model_inputs = tokenizer(
+        examples["input_text"], max_length=1020, truncation=True)
 
     with tokenizer.as_target_tokenizer():
-        labels = tokenizer(targets, max_length=1020, truncation=True)
+        labels = tokenizer(examples["target_text"],
+                           max_length=1020, truncation=True)
 
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
@@ -45,7 +47,7 @@ def preprocess_function(examples):
 
 if __name__ == "__main__":
     # need args: train_data_path, test_data_path, output_dir, data_option, key_option, sample_size
-    args = utils.get_args()
+    args = get_args()
     output_dir = args.output_dir
     train_data_list = load_data_from_json(
         args.train_data_path, args.data_option, args.key_option)
