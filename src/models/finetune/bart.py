@@ -78,7 +78,7 @@ if __name__ == "__main__":
     training_args = Seq2SeqTrainingArguments(
         output_dir=output_dir,
         save_strategy="epoch",
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         learning_rate=1e-5,
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
