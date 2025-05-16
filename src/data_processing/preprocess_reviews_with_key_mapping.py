@@ -88,10 +88,14 @@ def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_opti
 
 # Example usage
 if __name__ == "__main__":
-    processed_data = preprocess_dataset_with_paper_and_review_keys(None, "train")
+    #processed_data_train = preprocess_dataset_with_paper_and_review_keys(None, "train")
+    processed_data_dev = preprocess_dataset_with_paper_and_review_keys(None, "dev")
+    processed_data_test = preprocess_dataset_with_paper_and_review_keys(None, "test")
 
-    with open("data/preprocessed/standardized_train.json", "w") as out:
-        json.dump(processed_data, out, indent=2)
+    with open("data/preprocessed/standardized_dev.json", "w") as out:
+        json.dump(processed_data_dev, out, indent=2)
+    with open("data/preprocessed/standardized_test.json", "w") as out:
+        json.dump(processed_data_test, out, indent=2)
     '''
 
 def inspect_paper_level_keys_per_venue(file_full_path: str, file_option: str):
