@@ -46,7 +46,7 @@ def load_raw_data_grouped_by_venue(file_full_path: str, file_option: str) -> dic
     return venue_data
 
 data_by_venue = load_raw_data_grouped_by_venue(None, "train")
-print(data_by_venue.keys())
+
 
 '''
 output_path = "evaluation/analysis/venue_review_keys_summary.txt"

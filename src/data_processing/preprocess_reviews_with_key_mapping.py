@@ -25,6 +25,17 @@ VENUE_REVIEW_FIELD_MAPPING_OVERRIDES = {
     },
     'MIDL-2022':{
         'rating': 'final_rating_after_the_rebuttal',
+    },
+    'UAI-2022':{
+        'rating': 'Q6 Overall score',
+        'confidence': 'Q8 Confidence in your score',
+    },
+    'LoG-2022':{
+        'rating': 'Overall Score',
+        'confidence': 'Confidence',
+    },
+    'CLeaR-2022':{
+        'rating': 'Overall score',
     }
 }
 PAPER_LEVEL_KEYS = ['Title', 'Abstract', 'Decision', 'Metareview']
@@ -35,11 +46,11 @@ def extract_field(review, unified_field, mapping):
         return review[raw_key]
     else:
         return None
-def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_option: str) -> dict:
+def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_option: str) -> list:
     if not file_full_path:
         file_full_path = DATA_PATH_PREFIX + file_option + JSONL_SUFFIX
 
-    venue_data = defaultdict(list)
+    all_papers = []
 
     with open(file_full_path, 'r') as f:
         for line in f:
@@ -78,6 +89,7 @@ def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_opti
                     if unified_review['review'] and unified_review['review'].strip():
                         processed_paper['ReviewList'].append(unified_review)
 
+            # Try to infer Decision from review-level metadata (recommendation without review)
             if not processed_paper['Decision']:
                 for review in paper_data.get('Review', []):
                     if isinstance(review, dict):
@@ -85,11 +97,12 @@ def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_opti
                         has_review_text = 'review' in review
                         if has_recommendation and not has_review_text:
                             processed_paper['Decision'] = review['recommendation']
-                            break  # Take the first such match
-            if processed_paper['ReviewList']:
-                venue_data[venue].append(processed_paper)
+                            break
 
-    return venue_data
+            if processed_paper['ReviewList']:
+                all_papers.append(processed_paper)
+
+    return all_papers
 
 
 def write_field_completeness_by_venue(processed_data, output_path):
@@ -127,16 +140,14 @@ def write_field_completeness_by_venue(processed_data, output_path):
                 filled = review_counts[key]
                 out.write(f"  {key}: {filled} / {total_reviews} ({(filled / total_reviews if total_reviews else 0):.1%})\n")
 
-    print(f"Field completeness summary saved to: {output_path}")
-
 # Example usage
 if __name__ == "__main__":
     processed_data_train = preprocess_dataset_with_paper_and_review_keys(None, "train")
     with open("data/preprocessed/standardized_train.json", "w") as out:
         json.dump(processed_data_train, out, indent=2)
-    #write_field_completeness_by_venue(processed_data_train, "outputs/analysis/field_completeness_summary.txt")
+    write_field_completeness_by_venue(processed_data_train, "outputs/analysis/field_completeness_summary.txt")
 
-    '''    
+    '''  
     processed_data_dev = preprocess_dataset_with_paper_and_review_keys(None, "dev")
     processed_data_test = preprocess_dataset_with_paper_and_review_keys(None, "test")
 
@@ -144,7 +155,7 @@ if __name__ == "__main__":
         json.dump(processed_data_dev, out, indent=2)
     with open("data/preprocessed/standardized_test.json", "w") as out:
         json.dump(processed_data_test, out, indent=2)
-
+  
 
 def inspect_paper_level_keys_per_venue(file_full_path: str, file_option: str):
     """
