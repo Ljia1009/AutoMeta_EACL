@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 import pandas as pd
 
-DATA_PATH_PREFIX = "data/ORSUM_"
+DATA_PATH_PREFIX = "data/raw/ORSUM_"
 JSONL_SUFFIX = ".jsonl"
 
 def load_raw_data_grouped_by_venue(file_full_path: str, file_option: str) -> dict:
@@ -46,6 +46,7 @@ def load_raw_data_grouped_by_venue(file_full_path: str, file_option: str) -> dic
     return venue_data
 
 data_by_venue = load_raw_data_grouped_by_venue(None, "train")
+print(data_by_venue.keys())
 
 '''
 output_path = "evaluation/analysis/venue_review_keys_summary.txt"
@@ -132,7 +133,9 @@ def analyze_structured_by_venue(file_option="train"):
 
     return venue_stats
 
-
+'''
 results = analyze_structured_by_venue("train")
 df = pd.DataFrame(results)
 df.to_csv("evaluation/analysis/structured_reviews_by_venue.csv", index=False)
+
+'''
