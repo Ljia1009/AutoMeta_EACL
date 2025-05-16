@@ -19,6 +19,12 @@ VENUE_REVIEW_FIELD_MAPPING_OVERRIDES = {
     'AutoML-Conf-2022': {
         'rating': 'review_rating',
         'confidence': 'review_confidence',
+    },
+    'MIDL-2021':{
+        'rating': 'final_rating',
+    },
+    'MIDL-2022':{
+        'rating': 'final_rating_after_the_rebuttal',
     }
 }
 PAPER_LEVEL_KEYS = ['Title', 'Abstract', 'Decision', 'Metareview']
@@ -86,9 +92,51 @@ def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_opti
     return venue_data
 
 
+def write_field_completeness_by_venue(processed_data, output_path):
+    PAPER_LEVEL_KEYS = ['Title', 'Abstract', 'Metareview', 'Decision']
+    REVIEW_LEVEL_KEYS = ['title', 'review', 'rating', 'confidence', 'recommendation']
+
+    with open(output_path, "w") as out:
+        for venue, papers in processed_data.items():
+            paper_counts = defaultdict(int)
+            review_counts = defaultdict(int)
+            total_papers = len(papers)
+            total_reviews = 0
+
+            for paper in papers:
+                for key in PAPER_LEVEL_KEYS:
+                    if paper.get(key):
+                        paper_counts[key] += 1
+
+                for review in paper['ReviewList']:
+                    total_reviews += 1
+                    for key in REVIEW_LEVEL_KEYS:
+                        if review.get(key):
+                            review_counts[key] += 1
+
+            out.write(f"\n=== Venue: {venue} ===\n")
+            out.write(f"# Papers: {total_papers}\n")
+            out.write("Paper-level field coverage:\n")
+            for key in PAPER_LEVEL_KEYS:
+                filled = paper_counts[key]
+                out.write(f"  {key}: {filled} / {total_papers} ({filled / total_papers:.1%})\n")
+
+            out.write(f"\n# Reviews: {total_reviews}\n")
+            out.write("Review-level field coverage:\n")
+            for key in REVIEW_LEVEL_KEYS:
+                filled = review_counts[key]
+                out.write(f"  {key}: {filled} / {total_reviews} ({(filled / total_reviews if total_reviews else 0):.1%})\n")
+
+    print(f"Field completeness summary saved to: {output_path}")
+
 # Example usage
 if __name__ == "__main__":
-    #processed_data_train = preprocess_dataset_with_paper_and_review_keys(None, "train")
+    processed_data_train = preprocess_dataset_with_paper_and_review_keys(None, "train")
+    with open("data/preprocessed/standardized_train.json", "w") as out:
+        json.dump(processed_data_train, out, indent=2)
+    #write_field_completeness_by_venue(processed_data_train, "outputs/analysis/field_completeness_summary.txt")
+
+    '''    
     processed_data_dev = preprocess_dataset_with_paper_and_review_keys(None, "dev")
     processed_data_test = preprocess_dataset_with_paper_and_review_keys(None, "test")
 
@@ -96,7 +144,7 @@ if __name__ == "__main__":
         json.dump(processed_data_dev, out, indent=2)
     with open("data/preprocessed/standardized_test.json", "w") as out:
         json.dump(processed_data_test, out, indent=2)
-    '''
+
 
 def inspect_paper_level_keys_per_venue(file_full_path: str, file_option: str):
     """
