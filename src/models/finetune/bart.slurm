@@ -19,5 +19,5 @@
 # Your programs to run.
 eval "$(/gscratch/stf/jiamu/gscratch/stf/jiamu/miniconda3/bin/conda shell.bash hook)"
 conda activate ling573
-python3 /gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart.py --train_data_path /gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/data/train_data.txt --test_data_path /gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/data/test_data.txt --output_dir /gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart.out
+python3 -m src.models.finetune.bart --train_data_path /gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/data/train_data.txt --test_data_path /gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/data/test_data.txt --output_dir /gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart.out
 conda deactivate
