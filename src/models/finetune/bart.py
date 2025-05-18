@@ -2,7 +2,7 @@
 from .args import get_args
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 from datasets import Dataset
-from data.get_data import get_data
+from .data.get_data import get_data
 
 model_name = "facebook/bart-large-cnn"
 tokenizer = AutoTokenizer.from_pretrained(model_name, model_max_length=1024)
