@@ -1,7 +1,8 @@
-from src.utils.load_data import load_data_from_json
+# from src.utils.load_data import load_data_from_json
 from .args import get_args
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 from datasets import Dataset
+from data.get_data import get_data
 
 model_name = "facebook/bart-large-cnn"
 tokenizer = AutoTokenizer.from_pretrained(model_name, model_max_length=1024)
@@ -9,26 +10,30 @@ model = AutoModelForSeq2SeqLM.from_pretrained(
     model_name, device_map="auto")
 
 
-def get_data(data_list: list, sample_size: int):
-    "data_list: list of dictionaries, each containing 'ReviewList' and 'Metareview' keys"
-    data = []
-    summarizer = pipeline(
-        "summarization", model="facebook/bart-large-cnn")
-    for paper in data_list:
-        item = {}
-        input_text = 'Below are multiple reviews of a paper.'
-        for review in paper['ReviewList']:
-            tokens = tokenizer.encode(
-                review, truncation='longest_first', max_length=1020)
-            text_to_summary = tokenizer.decode(
-                tokens, skip_special_tokens=True)
-            summary = summarizer(text_to_summary, max_length=70,
-                                 min_length=20, do_sample=False)
-            input_text += summary[0]['summary_text']
-        item['input_text'] = input_text
-        item['target_text'] = paper['Metareview']
-        data.append(item)
-    return data
+# def get_data(data_list: list, sample_size: int):
+#     "data_list: list of dictionaries, each containing 'ReviewList' and 'Metareview' keys"
+#     data = []
+#     summarizer = pipeline(
+#         "summarization", model="facebook/bart-large-cnn")
+#     if sample_size == 0:
+#         sample_size = len(data_list)
+#     elif sample_size > len(data_list):
+#         sample_size = len(data_list)
+#     for paper in data_list[:sample_size]:
+#         item = {}
+#         input_text = 'Below are multiple reviews of a paper. '
+#         for review in paper['ReviewList']:
+#             tokens = tokenizer.encode(
+#                 review, truncation='longest_first', max_length=1020)
+#             text_to_summary = tokenizer.decode(
+#                 tokens, skip_special_tokens=True)
+#             summary = summarizer(text_to_summary, max_length=70,
+#                                  min_length=20, do_sample=False)
+#             input_text += summary[0]['summary_text']
+#         item['input_text'] = input_text
+#         item['target_text'] = paper['Metareview']
+#         data.append(item)
+#     return data
 
 
 def preprocess_function(examples):
@@ -46,17 +51,18 @@ def preprocess_function(examples):
 
 
 if __name__ == "__main__":
-    # need args: train_data_path, test_data_path, output_dir, data_option, key_option, sample_size
+    # need args: train_data_path, test_data_path, output_dir. train_data_path and test_data_path are full paths
+    # to the files used for training and testing under finetune/data. output_dir is the full path to save the output.
     args = get_args()
     output_dir = args.output_dir
-    train_data_list = load_data_from_json(
-        args.train_data_path, args.data_option, args.key_option)
-    test_data_list = load_data_from_json(
-        args.test_data_path, args.data_option, args.key_option)
+    # train_data_list = load_data_from_json(
+    #     args.train_data_path, args.data_option, args.key_option)
+    # test_data_list = load_data_from_json(
+    #     args.test_data_path, args.data_option, args.key_option)
     train_data_original = get_data(
-        train_data_list, args.sample_size)
+        args.train_data_path)
     test_data_original = get_data(
-        test_data_list, args.sample_size)
+        args.test_data_path)
     train_data = Dataset.from_list(train_data_original)
     test_data = Dataset.from_list(test_data_original)
 
@@ -86,7 +92,7 @@ if __name__ == "__main__":
         save_total_limit=2,
         num_train_epochs=5,
         predict_with_generate=True,
-        logging_dir='./bart_logs',
+        logging_dir='./src/models/finetune/bart_logs',
     )
     trainer = Seq2SeqTrainer(
         model=model,
