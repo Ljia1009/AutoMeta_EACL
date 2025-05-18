@@ -2,7 +2,7 @@
 
 def get_data(path) -> list:
     """ returns a list of dictionaries, each containing 'input_text' and 'target_text' keys """
-    path = 'src/models/finetune/data/dev_data.txt'
+    # path = 'src/models/finetune/data/dev_data.txt'
     with open(path, 'r') as f:
         lines = f.readlines()
     data = []
