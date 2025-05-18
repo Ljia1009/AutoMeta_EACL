@@ -1,7 +1,6 @@
 from src.utils.load_data import load_data_from_json
 from src.models.finetune.args import get_args
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
-import argparse
 
 model_name = "facebook/bart-large-cnn"
 tokenizer = AutoTokenizer.from_pretrained(model_name, model_max_length=1024)
@@ -38,17 +37,10 @@ def save_data(data_list: list, out_dir: str):
 
 if __name__ == "__main__":
     args = get_args()
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dev_data_path", type=str, default="",
-                        help="Full path of the file used for dev data.")
-    additional_args = parser.parse_args()
     output_dir = args.output_dir
     train_data_list = load_data_from_json(
         args.train_data_path, args.data_option, args.key_option)
-    dev_data_list = load_data_from_json(
-        additional_args.dev_data_path, args.data_option, args.key_option)
     test_data_list = load_data_from_json(
         args.test_data_path, args.data_option, args.key_option)
     save_data(train_data_list, output_dir + "/train_data.txt")
-    save_data(dev_data_list, output_dir + "/dev_data.txt")
     save_data(test_data_list, output_dir + "/test_data.txt")
