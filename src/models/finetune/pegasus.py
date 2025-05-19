@@ -1,50 +1,23 @@
-# from src.utils.load_data import load_data_from_json
 from .args import get_args
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 from datasets import Dataset
 from .data.get_data import get_data
 
-model_name = "facebook/bart-large-cnn"
+model_name = "google/pegasus-xsum"
 tokenizer = AutoTokenizer.from_pretrained(model_name, model_max_length=1024)
 model = AutoModelForSeq2SeqLM.from_pretrained(
     model_name, device_map="auto")
-
-
-# def get_data(data_list: list, sample_size: int):
-#     "data_list: list of dictionaries, each containing 'ReviewList' and 'Metareview' keys"
-#     data = []
-#     summarizer = pipeline(
-#         "summarization", model="facebook/bart-large-cnn")
-#     if sample_size == 0:
-#         sample_size = len(data_list)
-#     elif sample_size > len(data_list):
-#         sample_size = len(data_list)
-#     for paper in data_list[:sample_size]:
-#         item = {}
-#         input_text = 'Below are multiple reviews of a paper. '
-#         for review in paper['ReviewList']:
-#             tokens = tokenizer.encode(
-#                 review, truncation='longest_first', max_length=1020)
-#             text_to_summary = tokenizer.decode(
-#                 tokens, skip_special_tokens=True)
-#             summary = summarizer(text_to_summary, max_length=70,
-#                                  min_length=20, do_sample=False)
-#             input_text += summary[0]['summary_text']
-#         item['input_text'] = input_text
-#         item['target_text'] = paper['Metareview']
-#         data.append(item)
-#     return data
 
 
 def preprocess_function(examples):
     # inputs = [ex['input_text'] for ex in examples]
     # targets = [ex['target_text'] for ex in examples]
     model_inputs = tokenizer(
-        examples["input_text"], max_length=1020, truncation=True)
+        examples["input_text"], max_length=500, truncation=True)
 
     with tokenizer.as_target_tokenizer():
         labels = tokenizer(examples["target_text"],
-                           max_length=1020, truncation=True)
+                           max_length=500, truncation=True)
 
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
@@ -66,8 +39,8 @@ if __name__ == "__main__":
     train_data = Dataset.from_list(train_data_original)
     test_data = Dataset.from_list(test_data_original)
 
-    max_input_length = 1020
-    max_output_length = 1020
+    max_input_length = 500
+    max_output_length = 500
 
     tokenized_train_data = train_data.map(
         preprocess_function,
@@ -90,9 +63,9 @@ if __name__ == "__main__":
         per_device_eval_batch_size=4,
         weight_decay=0.01,
         save_total_limit=2,
-        num_train_epochs=15,
+        num_train_epochs=20,
         predict_with_generate=True,
-        logging_dir='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart_logs',
+        logging_dir='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/pegasus_logs',
     )
     trainer = Seq2SeqTrainer(
         model=model,

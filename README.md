@@ -1,5 +1,6 @@
 # LING573_AutoMeta
 For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
+For finetuned models, visit: https://drive.google.com/drive/folders/1XDfODOWe_p2xHJ0OQnE3oWeM9l-Bcyqx?usp=sharing
 
 ## Summarization
 Command for running summarization from the repo root:
