@@ -13,7 +13,7 @@ def run_t5_summarization(data_path):
     metareviews = []
     for reviews in test_input:
         metareview = summarizer(reviews,min_length=90,do_sample=False)
-        metareviews.append(metareview)
+        metareviews.append(metareview[0]['summary_text'])
     return metareviews,gold_metareviews
 
 def get_arg():

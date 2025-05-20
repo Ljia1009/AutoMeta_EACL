@@ -12,8 +12,8 @@ def run_bart_summarization(data_path):
     summarizer = pipeline("summarization",model='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart_out')
     metareviews = []
     for reviews in test_input:
-        metareview = summarizer(reviews,min_length=90,do_sample=False)
-        metareviews.append(metareview)
+        metareview = summarizer(reviews,min_length=90,max_length=200,do_sample=False)
+        metareviews.append(metareview[0]['summary_text'])
     return metareviews,gold_metareviews
 
 def get_arg():
