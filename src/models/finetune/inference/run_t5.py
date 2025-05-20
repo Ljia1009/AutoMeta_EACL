@@ -2,14 +2,14 @@ from transformers import pipeline
 from ..data.get_data import get_data
 import argparse
 
-def run_bart_summarization(data_path):
+def run_t5_summarization(data_path):
     test_data = get_data(data_path)
     test_input = []
     gold_metareviews = []
     for d in test_data:
         test_input.append(d['input_text'])
         gold_metareviews.append(d['target_text'])
-    summarizer = pipeline("summarization",model='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart_out')
+    summarizer = pipeline("summarization",model='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/t5_out')
     metareviews = []
     for reviews in test_input:
         metareview = summarizer(reviews,min_length=90,do_sample=False)
@@ -28,7 +28,7 @@ def get_arg():
     return arg
 
 if __name__ == '__main__':
-    metareviews,gold_metareviews = run_bart_summarization('/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/data/test_data.txt')
+    metareviews,gold_metareviews = run_t5_summarization('/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/data/test_data.txt')
     arg = get_arg()
     output_path = arg.output_path
     with open(output_path,'w') as f:
@@ -37,7 +37,3 @@ if __name__ == '__main__':
             f.write(generated+'\n')
             f.write('Gold:'+'\t')
             f.write(gold+'\n')
-
-    
-
-
