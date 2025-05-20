@@ -2,7 +2,7 @@ from transformers import pipeline
 from ..data.get_data import get_data
 import argparse
 
-def run_bart_summarization(data_path):
+def run_pegasus_summarization(data_path):
     test_data = get_data(data_path)
     test_input = []
     gold_metareviews = []
