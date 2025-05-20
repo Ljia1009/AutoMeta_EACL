@@ -2,6 +2,7 @@
 
 bart_out
 pegasus_out
+t5_out
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
