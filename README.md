@@ -42,6 +42,8 @@ Arguments:
 --output_path:  Path to save the output.
                 When unspecified, default to outputs/generated/<model>_<key_option>_<sample_size>_out.txt
 ```
+For our finetuned models, you can run them by using individual files located in src/models/finetune/inference
+The results of them locate in src/models/finetune/data
 
 ## Evaluation
 The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `outputs/generated/`:
