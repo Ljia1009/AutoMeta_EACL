@@ -8,6 +8,16 @@ Standardized dev and test sets (across venues) are under `data/preprocessed`
 For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
 For finetuned models, visit: https://drive.google.com/drive/folders/1U4WhO_MG_uu-d_oxzNWZxJZapuz-YaTD?usp=sharing
 
+## Environment
+To use our repo, run:
+```
+pip install -r requirements.txt
+```
+If any conflicts or issues arise, you can set up an enviroment that is exactly ours by:
+```
+conda env create -f environment.yml
+```
+
 ## Summarization
 The following command runs summarization from the repo root:
 ```bash
