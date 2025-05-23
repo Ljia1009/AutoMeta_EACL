@@ -338,4 +338,6 @@ dependencies:
       - wcwidth==0.2.13
       - webencodings==0.5.1
       - yarg==0.1.9
+      - accelerate==1.6.0
+      - psutil==7.0.0
 prefix: /opt/anaconda3/envs/LING573
