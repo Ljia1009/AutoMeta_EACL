@@ -1,0 +1,3 @@
+Split,#Papers,#Metareviews,#Reviews,AvgReviewsPerPaper,MaxReviewsPerPaper,MinReviewsPerPaper,AvgMetaReviewTokens,AvgReviewTokens
+dev,548,548,2057,3.75,6,1,167.91,526.76
+test,549,549,2059,3.75,6,1,156.95,534.21

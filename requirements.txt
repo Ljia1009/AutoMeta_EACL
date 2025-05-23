@@ -1,7 +1,5 @@
 # Requires Python 3.9
-absl-py==2.2.2
 bert_score==0.3.13
-disco_score==0.1.0
 evaluate==0.4.3
 huggingface_hub==0.30.2
 nltk==3.9.1
@@ -9,8 +7,3 @@ numpy==2.0.2
 rouge_score==0.1.2
 torch==2.6.0
 transformers==4.51.3
-sentencepiece==0.2.0
-spacy==3.8.5
-spacy-legacy==3.0.12
-spacy-loggers==1.0.5
-spacy-udpipe==1.0.0

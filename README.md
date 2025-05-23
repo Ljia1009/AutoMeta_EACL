@@ -1,13 +1,16 @@
 # LING573_AutoMeta
 
 ## Data
-The dev and test sets are under `data/`.
+The dev and test sets are under `data/raw`.
+
+Standardized dev and test sets (across venues) are under `data/preprocessed`
+
 For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
 
 ## Summarization
 The following command runs summarization from the repo root:
 ```bash
-python src/run_summarization.py
+python src/models/run_summarization.py
 ```
 Arguments:
 ```
@@ -26,13 +29,13 @@ Arguments:
                 valid options are bart, pegasus, flan-t5, DistilBart.
                 default="bart"
 --output_path:  Path to save the output.
-                When unspecified, default to output/<model>_<key_option>_<sample_size>_out.txt
+                When unspecified, default to outputs/generated/<model>_<key_option>_<sample_size>_out.txt
 ```
 
 ## Evaluation
-The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `output/`:
+The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `outputs/generated/`:
 ```bash
-src/run_evaluation.sh
+src/evaluation/run_evaluation.sh
 ```
 Before running the disco evaluation, do:
 ```
@@ -41,26 +44,10 @@ pip install "git+https://github.com/AIPHES/DiscoScore.git"
 
 The following command runs evaluation using disco metrics from the repo root, for all the output files under `output/`:
 ```bash
-./run_evaluation_disco.sh
+./src/evaluation/run_evaluation_disco.sh
 ```
 
-Before running the summac evaluation, do:
-
-Run evaluation using summac metrics: 
-```
-./run_evaluation_summac.sh
-```
-
-The evaluation results are save as csv files under `./evaluation` as `<metric>_<model>_<key_option>_out.txt.csv`
-
-### Environment Issue
-The environment required by summac package is different from the rest of others.
-To run this, you'll have to have one separate environment.
-
-For summac:
-```
-huggingface-hub<=0.17.0
-```
+The evaluation results are save as csv files under `outputs/evaluation/baseline` as `<metric>_<model>_<key_option>_out.txt.csv`
 
 ### Metrics issues
 "DS_Focus_NN" and "DS_SENT_NN" require using BERT model that has a limit for input length(512).
