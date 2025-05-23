@@ -43,6 +43,7 @@ Arguments:
                 When unspecified, default to outputs/generated/<model>_<key_option>_<sample_size>_out.txt
 ```
 For our finetuned models, you can run them by using individual files located in src/models/finetune/inference
+
 The results of them locate in src/models/finetune/data
 
 ## Evaluation
