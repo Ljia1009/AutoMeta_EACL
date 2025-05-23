@@ -2,8 +2,11 @@
 
 ## Data
 The dev and test sets are under `data/raw`.
-For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
+
 Standardized dev and test sets (across venues) are under `data/preprocessed`
+
+For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
+
 ## Summarization
 The following command runs summarization from the repo root:
 ```bash
@@ -26,11 +29,11 @@ Arguments:
                 valid options are bart, pegasus, flan-t5, DistilBart.
                 default="bart"
 --output_path:  Path to save the output.
-                When unspecified, default to output/<model>_<key_option>_<sample_size>_out.txt
+                When unspecified, default to outputs/generated/<model>_<key_option>_<sample_size>_out.txt
 ```
 
 ## Evaluation
-The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `output/`:
+The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `outputs/generated/`:
 ```bash
 src/evaluation/run_evaluation.sh
 ```
@@ -51,7 +54,7 @@ Run evaluation using summac metrics:
 ./src/evaluation/run_evaluation_summac.sh
 ```
 
-The evaluation results are save as csv files under `./outputs/baseline/evaluation` as `<metric>_<model>_<key_option>_out.txt.csv`
+The evaluation results are save as csv files under `outputs/evaluation/baseline` as `<metric>_<model>_<key_option>_out.txt.csv`
 
 ### Environment Issue
 The environment required by summac package is different from the rest of others.
