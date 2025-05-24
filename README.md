@@ -20,6 +20,8 @@ If any conflicts or issues arise, you can set up an enviroment that is exactly o
 ```
 conda env create -f environment.yml
 ```
+## Model Training
+Necessary files for replicate our finetuning process are under `src/models/finetune`
 
 ## Summarization
 The following command runs summarization from the repo root:
