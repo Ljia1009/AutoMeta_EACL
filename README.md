@@ -47,7 +47,7 @@ Arguments:
 ```
 For our finetuned models, you can run them by using individual files located in `src/models/finetune/inference`
 
-The results of them locate in `src/models/finetune/inference`
+The results of them locate in `outputs/generated/finetune`
 
 ## Evaluation
 The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `outputs/generated/`:
