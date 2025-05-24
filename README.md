@@ -5,9 +5,11 @@ The dev and test sets are under `data/raw`.
 
 Standardized dev and test sets (across venues) are under `data/preprocessed`
 
+Data used for finetuning models are under `src/models/finetune/data`
+
 For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
 
-For finetuned models, visit: https://drive.google.com/drive/folders/1U4WhO_MG_uu-d_oxzNWZxJZapuz-YaTD?usp=sharing
+For finetuned models checkpoints, visit: https://drive.google.com/drive/folders/1U4WhO_MG_uu-d_oxzNWZxJZapuz-YaTD?usp=sharing
 
 ## Environment
 To use our repo, run:
@@ -43,9 +45,9 @@ Arguments:
 --output_path:  Path to save the output.
                 When unspecified, default to outputs/generated/<model>_<key_option>_<sample_size>_out.txt
 ```
-For our finetuned models, you can run them by using individual files located in src/models/finetune/inference
+For our finetuned models, you can run them by using individual files located in `src/models/finetune/inference`
 
-The results of them locate in src/models/finetune/data
+The results of them locate in `src/models/finetune/inference`
 
 ## Evaluation
 The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `outputs/generated/`:
