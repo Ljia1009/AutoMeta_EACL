@@ -56,7 +56,6 @@ class Evaluator:
         scores_conv = []
         data = [(concatenated_reviews[i], meta_reviews[i]) for i in range(len(concatenated_reviews))]
         for doc, summary in data:
-            # TODO: the repo recommends using conv
             # scores_zs.append(model_zs.score([doc], [summary])["scores"][0].item())
             scores_conv.append(model_conv.score([doc], [summary])["scores"][0])
         
@@ -103,22 +102,3 @@ class Evaluator:
             )
         else:
             raise ValueError(f"Unknown metric: {metric}")
-if __name__ == "__main__":
-    preds = ["hello world", "general kenobi"]
-    refs  = ["goodnight moon", "the sun is shining"]
-   
-    ev = Evaluator(preds, refs)
-
-    # rouge_scores = ev.evaluate("rouge_L")
-    # print("ROUGE:", rouge_scores)
-
-    bert_results = ev.evaluate("bertscore", model_type="distilbert-base-uncased")
-    print("BERTScore:", bert_results)
-
-    # factCC = ev.evaluate("factCC", source_docs = source_docs, summaries=summaries)
-    # TODO: what does the 'score' in the result mean?
-    # print("factCC:", factCC)
-
-    # summacC = ev.evaluate("summaC", source_docs=source_docs, summaries=summaries)
-
-    # discoScore = ev.evaluate("disco", meta_reviews = summaries, reviews = [source_docs])

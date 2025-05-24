@@ -1,0 +1,4 @@
+Model,Count,rouge_L,bertscore_precision,bertscore_recall,bertscore_f1,factCC_correct_pct,factCC_avg_score
+bart_res,549,0.2,0.8006,0.794,0.7967,38.62,0.948
+pegasus_res,549,0.172,0.7584,0.7545,0.7555,58.83,0.9434
+t5_res,549,0.2004,0.8051,0.788,0.7959,53.73,0.9408
