@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATA_PATH="data/raw/ORSUM_test.jsonl"
-OUTPUT_DIR="data/generated"
+OUTPUT_DIR="outputs/generated"
 EVAL_DIR="outputs/evaluation"
 
 
