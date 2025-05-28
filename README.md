@@ -61,7 +61,7 @@ Before running the disco evaluation, do:
 pip install "git+https://github.com/AIPHES/DiscoScore.git"
 ```
 
-The following command runs evaluation using disco metrics from the repo root, for all the output files under `output/`:
+The following command runs evaluation using disco metrics from the repo root, for all the output files under `outputs/generated/`:
 ```bash
 ./src/evaluation/run_evaluation_disco.sh
 ```
