@@ -31,7 +31,7 @@ def get_args() -> argparse.Namespace:
         "--output_path",
         type=str,
         default="",
-        help="Full path to save the output; if not provided, the output will be saved in the output/ directory with model options in the name.",
+        help="Full path to save the output; if not provided, the output will be saved in the data/preprocessed/ directory with data options in the name.",
     )
 
     parser.add_argument(

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=ngaeghy-preproc_dec
+#SBATCH --job-name=ngaeghy_preproc_dec
 #SBATCH --mail-type=BEGIN,END,FAIL,TIME_LIMIT
 #SBATCH --mail-user=ngaeghy@uw.edu
 

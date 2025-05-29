@@ -1,5 +1,5 @@
 import json
-from args import get_args
+from .args import get_args
 
 DATA_PATH_PREFIX = "data/raw/ORSUM_"
 JSONL_SUFFIX = ".jsonl"
