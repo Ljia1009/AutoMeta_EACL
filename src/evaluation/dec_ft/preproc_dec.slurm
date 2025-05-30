@@ -20,5 +20,5 @@ module load cuda
 
 eval "$(/gscratch/stf/ngaeghy/miniconda3/bin/conda shell.bash hook)"
 conda activate 573
-/gscratch/stf/ngaeghy/miniconda3/envs/573/bin/python3 -m src.evaluation.dec_ft.preproc_dec --train_data_path /gscratch/stf/ngaeghy/LING573_AutoMeta/data/raw/ORSUM_train.jsonl --output_path /gscratch/stf/ngaeghy/LING573_AutoMeta/data/preprocessed/dec_train.txt
+/gscratch/stf/ngaeghy/miniconda3/envs/573/bin/python3 -m src.evaluation.dec_ft.preproc_dec --data_option train
 conda deactivate
