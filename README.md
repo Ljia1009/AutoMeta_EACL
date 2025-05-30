@@ -20,6 +20,8 @@ If any conflicts or issues arise, you can set up an enviroment that is exactly o
 ```
 conda env create -f environment.yml
 ```
+## Model Training
+Necessary files for replicate our finetuning process are under `src/models/finetune`
 
 ## Summarization
 The following command runs summarization from the repo root:
@@ -47,7 +49,7 @@ Arguments:
 ```
 For our finetuned models, you can run them by using individual files located in `src/models/finetune/inference`
 
-The results of them locate in `src/models/finetune/inference`
+The results of them locate in `outputs/generated/finetune`
 
 ## Evaluation
 The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `outputs/generated/`:
@@ -59,7 +61,7 @@ Before running the disco evaluation, do:
 pip install "git+https://github.com/AIPHES/DiscoScore.git"
 ```
 
-The following command runs evaluation using disco metrics from the repo root, for all the output files under `output/`:
+The following command runs evaluation using disco metrics from the repo root, for all the output files under `outputs/generated/`:
 ```bash
 ./src/evaluation/run_evaluation_disco.sh
 ```
