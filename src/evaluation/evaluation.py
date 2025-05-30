@@ -44,27 +44,41 @@ class Evaluator:
         data = [[[concatenated_reviews[i], meta_reviews[i]]] for i in range(len(concatenated_reviews))]
         return pipe(data, truncation='only_first',padding='max_length')
 
+    def _factCC(self, reviews: list[list[str]], meta_reviews: list[str]) -> list[dict[str, Any]]:
+        """
+        Evaluate factual consistency using FactCC on each review-summary pair.
+        Returns a list of dicts per meta-review, with aggregated correctness and average score.
+        """
+        pipe = pipeline(model="manueldeprada/FactCC")
+        results = []
 
-    def _summaC(self, reviews:list[list[str]], meta_reviews:list[str]) -> list[float]:
-        # TODO: SummaC:https://github.com/tingofurro/summac
-        # model_zs = SummaCZS(granularity="sentence", model_name="vitc", device="cpu") # If you have a GPU: switch to: device="cuda"
-        from summac.model_summac import SummaCConv
+        for review_list, summary in zip(reviews, meta_reviews):
+            pairs = [[[review, summary]] for review in review_list if review.strip()]
+            if not pairs:
+                print('not pairs here')
+                results.append({
+                    "CORRECT": 0,
+                    "INCORRECT": 0,
+                    "avg_score": 0.0
+                })
+                continue
 
-        model_conv = SummaCConv(models=["vitc"], bins='percentile', granularity="sentence", nli_labels="e", device="cpu", start_file="default", agg="mean")
-        concatenated_reviews = [' '.join(review_list) for review_list in reviews]
+            output = pipe(pairs, truncation='only_first', padding='max_length')
 
-        scores_conv = []
-        data = [(concatenated_reviews[i], meta_reviews[i]) for i in range(len(concatenated_reviews))]
-        for doc, summary in data:
-            # scores_zs.append(model_zs.score([doc], [summary])["scores"][0].item())
-            scores_conv.append(model_conv.score([doc], [summary])["scores"][0])
-        
-        return scores_conv
-    
+            correct_count = sum(1 for r in output if r["label"] == "CORRECT")
+            incorrect_count = sum(1 for r in output if r["label"] == "INCORRECT")
+            score_total = sum(r["score"] for r in output)
+
+            results.append({
+                "CORRECT_Percentage": correct_count / (correct_count + incorrect_count),
+                "avg_score": score_total / len(output) if output else 0.0
+            })
+
+        return results
+
+
+
     def _discoScore(self, meta_reviews:list[str], reviews:list[list[str]]) -> list[dict[str, float]]:
-        # TODO: https://github.com/AIPHES/DiscoScore
-        # TODO: which discourse metric to use?
-        # TODO: not sure what the system means
         from disco_score import DiscoScorer
         disco_scorer = DiscoScorer(device='cpu', model_name='bert-base-uncased')
 
@@ -90,15 +104,3 @@ class Evaluator:
                 reviews=kwargs["reviews"],
                 meta_reviews=kwargs["meta_reviews"],
             )
-        elif metric == "summaC":
-            return self._summaC(
-                reviews=kwargs["reviews"],
-                meta_reviews=kwargs["meta_reviews"],
-            )
-        elif metric == "disco":
-            return self._discoScore(
-                reviews=kwargs["reviews"],
-                meta_reviews=kwargs["meta_reviews"],
-            )
-        else:
-            raise ValueError(f"Unknown metric: {metric}")

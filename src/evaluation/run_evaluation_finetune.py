@@ -12,7 +12,9 @@ def load_predictions_and_references(txt_path: str):
     predictions, references = [], []
     with open(txt_path, "r") as f:
         for line in f:
-            if line.startswith("Generated:"):
+            if line.startswith("Generated:	summarize:"):
+                generated = line.strip().replace("Generated:	summarize:", "").strip()
+            elif line.startswith("Generated:"):
                 generated = line.strip().replace("Generated:", "").strip()
             elif line.startswith("Gold:"):
                 gold = line.strip().replace("Gold:", "").strip()
@@ -50,9 +52,10 @@ def evaluate_file(model_name, predictions, references, reviews):
 
         elif metric == "factCC":
             res = evaluator.evaluate(metric, reviews=reviews, meta_reviews=predictions)
-            correct = sum(1 for r in res if r["label"] == "CORRECT")
-            avg_score = sum(r["score"] for r in res) / len(res)
-            results["factCC_correct_pct"] = round(100 * correct / len(res), 2)
+            avg_pct = sum(r["CORRECT_Percentage"] for r in res) / len(res)
+            avg_score = sum(r["avg_score"] for r in res) / len(res)
+
+            results["factCC_correct_pct"] = round(avg_pct, 2)
             results["factCC_avg_score"] = round(avg_score, 4)
 
         elif metric == "disco":
@@ -62,6 +65,7 @@ def evaluate_file(model_name, predictions, references, reviews):
                 results[f"disco_{key}"] = round(sum(values) / len(values), 4)
 
     return results
+
 
 def main():
     review_lists, reference_gold = load_standardized_test_data(PREPROCESSED_DATA)

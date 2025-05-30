@@ -13,7 +13,6 @@ Review-level field coverage:
   review: 144 / 144 (100.0%)
   rating: 144 / 144 (100.0%)
   confidence: 144 / 144 (100.0%)
-  recommendation: 0 / 144 (0.0%)
 
 === Venue: NeurIPS-2022 ===
 # Papers: 2353
@@ -29,7 +28,6 @@ Review-level field coverage:
   review: 8616 / 8616 (100.0%)
   rating: 8616 / 8616 (100.0%)
   confidence: 8616 / 8616 (100.0%)
-  recommendation: 0 / 8616 (0.0%)
 
 === Venue: ICLR-2021 ===
 # Papers: 2296
@@ -45,7 +43,6 @@ Review-level field coverage:
   review: 8858 / 8858 (100.0%)
   rating: 8858 / 8858 (100.0%)
   confidence: 8858 / 8858 (100.0%)
-  recommendation: 0 / 8858 (0.0%)
 
 === Venue: ICLR-2022 ===
 # Papers: 2486
@@ -59,9 +56,8 @@ Paper-level field coverage:
 Review-level field coverage:
   title: 42 / 9682 (0.4%)
   review: 9682 / 9682 (100.0%)
-  rating: 247 / 9682 (2.6%)
+  rating: 9435 / 9682 (97.4%)
   confidence: 9678 / 9682 (100.0%)
-  recommendation: 9435 / 9682 (97.4%)
 
 === Venue: ICLR-OSC-2022 ===
 # Papers: 15
@@ -77,7 +73,6 @@ Review-level field coverage:
   review: 33 / 33 (100.0%)
   rating: 33 / 33 (100.0%)
   confidence: 33 / 33 (100.0%)
-  recommendation: 0 / 33 (0.0%)
 
 === Venue: NeurIPS-Datasets-and-Benchmarks-2022 ===
 # Papers: 400
@@ -93,7 +88,6 @@ Review-level field coverage:
   review: 2184 / 2184 (100.0%)
   rating: 2184 / 2184 (100.0%)
   confidence: 2184 / 2184 (100.0%)
-  recommendation: 0 / 2184 (0.0%)
 
 === Venue: ICLR-2019 ===
 # Papers: 1179
@@ -109,7 +103,6 @@ Review-level field coverage:
   review: 3600 / 3600 (100.0%)
   rating: 3600 / 3600 (100.0%)
   confidence: 3600 / 3600 (100.0%)
-  recommendation: 0 / 3600 (0.0%)
 
 === Venue: UAI-2022 ===
 # Papers: 200
@@ -123,9 +116,8 @@ Paper-level field coverage:
 Review-level field coverage:
   title: 0 / 723 (0.0%)
   review: 723 / 723 (100.0%)
-  rating: 0 / 723 (0.0%)
-  confidence: 0 / 723 (0.0%)
-  recommendation: 0 / 723 (0.0%)
+  rating: 723 / 723 (100.0%)
+  confidence: 723 / 723 (100.0%)
 
 === Venue: NeurIPS-2021 ===
 # Papers: 34
@@ -141,7 +133,6 @@ Review-level field coverage:
   review: 123 / 123 (100.0%)
   rating: 76 / 123 (61.8%)
   confidence: 123 / 123 (100.0%)
-  recommendation: 0 / 123 (0.0%)
 
 === Venue: MIDL-2021 ===
 # Papers: 137
@@ -157,7 +148,6 @@ Review-level field coverage:
   review: 442 / 442 (100.0%)
   rating: 322 / 442 (72.9%)
   confidence: 442 / 442 (100.0%)
-  recommendation: 229 / 442 (51.8%)
 
 === Venue: RC2021 ===
 # Papers: 27
@@ -173,7 +163,6 @@ Review-level field coverage:
   review: 56 / 56 (100.0%)
   rating: 56 / 56 (100.0%)
   confidence: 56 / 56 (100.0%)
-  recommendation: 0 / 56 (0.0%)
 
 === Venue: AKBC-2019 ===
 # Papers: 18
@@ -189,7 +178,6 @@ Review-level field coverage:
   review: 54 / 54 (100.0%)
   rating: 54 / 54 (100.0%)
   confidence: 54 / 54 (100.0%)
-  recommendation: 0 / 54 (0.0%)
 
 === Venue: GI-2021 ===
 # Papers: 23
@@ -205,7 +193,6 @@ Review-level field coverage:
   review: 70 / 70 (100.0%)
   rating: 70 / 70 (100.0%)
   confidence: 70 / 70 (100.0%)
-  recommendation: 0 / 70 (0.0%)
 
 === Venue: LoG-2022 ===
 # Papers: 9
@@ -219,9 +206,8 @@ Paper-level field coverage:
 Review-level field coverage:
   title: 0 / 35 (0.0%)
   review: 35 / 35 (100.0%)
-  rating: 0 / 35 (0.0%)
-  confidence: 0 / 35 (0.0%)
-  recommendation: 0 / 35 (0.0%)
+  rating: 35 / 35 (100.0%)
+  confidence: 35 / 35 (100.0%)
 
 === Venue: CLeaR-2022 ===
 # Papers: 44
@@ -235,9 +221,8 @@ Paper-level field coverage:
 Review-level field coverage:
   title: 0 / 135 (0.0%)
   review: 135 / 135 (100.0%)
-  rating: 0 / 135 (0.0%)
+  rating: 135 / 135 (100.0%)
   confidence: 135 / 135 (100.0%)
-  recommendation: 0 / 135 (0.0%)
 
 === Venue: ICLR-2017 ===
 # Papers: 20
@@ -253,7 +238,6 @@ Review-level field coverage:
   review: 62 / 62 (100.0%)
   rating: 62 / 62 (100.0%)
   confidence: 62 / 62 (100.0%)
-  recommendation: 0 / 62 (0.0%)
 
 === Venue: NeurIPS-nCSI-2022 ===
 # Papers: 19
@@ -269,7 +253,6 @@ Review-level field coverage:
   review: 40 / 40 (100.0%)
   rating: 40 / 40 (100.0%)
   confidence: 40 / 40 (100.0%)
-  recommendation: 0 / 40 (0.0%)
 
 === Venue: ICAPS-HSDIP-2019 ===
 # Papers: 10
@@ -285,7 +268,6 @@ Review-level field coverage:
   review: 20 / 20 (100.0%)
   rating: 20 / 20 (100.0%)
   confidence: 20 / 20 (100.0%)
-  recommendation: 0 / 20 (0.0%)
 
 === Venue: CoRL-2022 ===
 # Papers: 172
@@ -299,9 +281,8 @@ Paper-level field coverage:
 Review-level field coverage:
   title: 0 / 660 (0.0%)
   review: 660 / 660 (100.0%)
-  rating: 0 / 660 (0.0%)
-  confidence: 0 / 660 (0.0%)
-  recommendation: 660 / 660 (100.0%)
+  rating: 660 / 660 (100.0%)
+  confidence: 660 / 660 (100.0%)
 
 === Venue: GI-2020 ===
 # Papers: 41
@@ -317,7 +298,6 @@ Review-level field coverage:
   review: 123 / 123 (100.0%)
   rating: 123 / 123 (100.0%)
   confidence: 123 / 123 (100.0%)
-  recommendation: 0 / 123 (0.0%)
 
 === Venue: AKBC-2021 ===
 # Papers: 31
@@ -333,7 +313,6 @@ Review-level field coverage:
   review: 97 / 97 (100.0%)
   rating: 97 / 97 (100.0%)
   confidence: 97 / 97 (100.0%)
-  recommendation: 0 / 97 (0.0%)
 
 === Venue: NeurIPS-Datasets-and-Benchmarks-2021 ===
 # Papers: 50
@@ -349,7 +328,6 @@ Review-level field coverage:
   review: 158 / 158 (100.0%)
   rating: 158 / 158 (100.0%)
   confidence: 158 / 158 (100.0%)
-  recommendation: 0 / 158 (0.0%)
 
 === Venue: ICML-INNF-2021 ===
 # Papers: 9
@@ -365,7 +343,6 @@ Review-level field coverage:
   review: 23 / 23 (100.0%)
   rating: 23 / 23 (100.0%)
   confidence: 23 / 23 (100.0%)
-  recommendation: 0 / 23 (0.0%)
 
 === Venue: ICLR-EmeCom-2022 ===
 # Papers: 14
@@ -381,7 +358,6 @@ Review-level field coverage:
   review: 28 / 28 (100.0%)
   rating: 28 / 28 (100.0%)
   confidence: 28 / 28 (100.0%)
-  recommendation: 0 / 28 (0.0%)
 
 === Venue: NeurIPS-DLDE-2021 ===
 # Papers: 6
@@ -397,7 +373,6 @@ Review-level field coverage:
   review: 20 / 20 (100.0%)
   rating: 0 / 20 (0.0%)
   confidence: 20 / 20 (100.0%)
-  recommendation: 0 / 20 (0.0%)
 
 === Venue: NeurIPS-GMML-2022 ===
 # Papers: 6
@@ -413,7 +388,6 @@ Review-level field coverage:
   review: 14 / 14 (100.0%)
   rating: 14 / 14 (100.0%)
   confidence: 14 / 14 (100.0%)
-  recommendation: 0 / 14 (0.0%)
 
 === Venue: TEA ===
 # Papers: 10
@@ -429,7 +403,6 @@ Review-level field coverage:
   review: 30 / 30 (100.0%)
   rating: 30 / 30 (100.0%)
   confidence: 30 / 30 (100.0%)
-  recommendation: 0 / 30 (0.0%)
 
 === Venue: MIDL-2022 ===
 # Papers: 70
@@ -445,7 +418,6 @@ Review-level field coverage:
   review: 205 / 205 (100.0%)
   rating: 179 / 205 (87.3%)
   confidence: 205 / 205 (100.0%)
-  recommendation: 186 / 205 (90.7%)
 
 === Venue: MIDL-2020 ===
 # Papers: 34
@@ -461,7 +433,6 @@ Review-level field coverage:
   review: 131 / 131 (100.0%)
   rating: 131 / 131 (100.0%)
   confidence: 131 / 131 (100.0%)
-  recommendation: 0 / 131 (0.0%)
 
 === Venue: ICLR-2023 ===
 # Papers: 25
@@ -477,7 +448,6 @@ Review-level field coverage:
   review: 90 / 90 (100.0%)
   rating: 90 / 90 (100.0%)
   confidence: 90 / 90 (100.0%)
-  recommendation: 0 / 90 (0.0%)
 
 === Venue: MLArchSys-2022 ===
 # Papers: 5
@@ -493,7 +463,6 @@ Review-level field coverage:
   review: 15 / 15 (100.0%)
   rating: 15 / 15 (100.0%)
   confidence: 15 / 15 (100.0%)
-  recommendation: 0 / 15 (0.0%)
 
 === Venue: ICLR-2020 ===
 # Papers: 15
@@ -509,7 +478,6 @@ Review-level field coverage:
   review: 50 / 50 (100.0%)
   rating: 50 / 50 (100.0%)
   confidence: 44 / 50 (88.0%)
-  recommendation: 0 / 50 (0.0%)
 
 === Venue: JSYS ===
 # Papers: 12
@@ -525,7 +493,6 @@ Review-level field coverage:
   review: 43 / 43 (100.0%)
   rating: 0 / 43 (0.0%)
   confidence: 0 / 43 (0.0%)
-  recommendation: 0 / 43 (0.0%)
 
 === Venue: XAIP-2022 ===
 # Papers: 10
@@ -541,7 +508,6 @@ Review-level field coverage:
   review: 19 / 19 (100.0%)
   rating: 19 / 19 (100.0%)
   confidence: 19 / 19 (100.0%)
-  recommendation: 0 / 19 (0.0%)
 
 === Venue: AutoML-Conf-2022 ===
 # Papers: 16
@@ -557,7 +523,6 @@ Review-level field coverage:
   review: 72 / 72 (100.0%)
   rating: 72 / 72 (100.0%)
   confidence: 72 / 72 (100.0%)
-  recommendation: 0 / 72 (0.0%)
 
 === Venue: KGCW-2021 ===
 # Papers: 12
@@ -573,7 +538,6 @@ Review-level field coverage:
   review: 40 / 40 (100.0%)
   rating: 40 / 40 (100.0%)
   confidence: 40 / 40 (100.0%)
-  recommendation: 0 / 40 (0.0%)
 
 === Venue: XAIP-2021 ===
 # Papers: 13
@@ -589,7 +553,6 @@ Review-level field coverage:
   review: 27 / 27 (100.0%)
   rating: 27 / 27 (100.0%)
   confidence: 27 / 27 (100.0%)
-  recommendation: 0 / 27 (0.0%)
 
 === Venue: MICCAI-FLARE-2022 ===
 # Papers: 3
@@ -605,7 +568,6 @@ Review-level field coverage:
   review: 9 / 9 (100.0%)
   rating: 9 / 9 (100.0%)
   confidence: 9 / 9 (100.0%)
-  recommendation: 0 / 9 (0.0%)
 
 === Venue: AAAI-AdvML-2022 ===
 # Papers: 3
@@ -621,4 +583,3 @@ Review-level field coverage:
   review: 6 / 6 (100.0%)
   rating: 6 / 6 (100.0%)
   confidence: 6 / 6 (100.0%)
-  recommendation: 0 / 6 (0.0%)

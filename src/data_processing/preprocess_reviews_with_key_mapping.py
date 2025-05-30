@@ -36,6 +36,13 @@ VENUE_REVIEW_FIELD_MAPPING_OVERRIDES = {
     },
     'CLeaR-2022':{
         'rating': 'Overall score',
+    },
+    'ICLR-2022':{
+        'rating':'recommendation',
+    },
+    'CoRL-2022':{
+        'rating':'recommendation',
+        'confidence':'reviewer_expertise',
     }
 }
 PAPER_LEVEL_KEYS = ['Title', 'Abstract', 'Decision', 'Metareview']
@@ -46,6 +53,15 @@ def extract_field(review, unified_field, mapping):
         return review[raw_key]
     else:
         return None
+    
+
+def group_by_venue(processed_data):
+    venue_dict = defaultdict(list)
+    for paper in processed_data:
+        venue = paper.get("Venue", "UNKNOWN")
+        venue_dict[venue].append(paper)
+    return venue_dict
+
 def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_option: str) -> list:
     if not file_full_path:
         file_full_path = DATA_PATH_PREFIX + file_option + JSONL_SUFFIX
@@ -83,7 +99,7 @@ def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_opti
                         'review': extract_field(review, 'review', review_field_mapping),
                         'rating': extract_field(review, 'rating', review_field_mapping),
                         'confidence': extract_field(review, 'confidence', review_field_mapping),
-                        'recommendation': extract_field(review, 'recommendation', review_field_mapping),
+                        #'recommendation': extract_field(review, 'recommendation', review_field_mapping),
                     }
 
                     if unified_review['review'] and unified_review['review'].strip():
@@ -107,7 +123,7 @@ def preprocess_dataset_with_paper_and_review_keys(file_full_path: str, file_opti
 
 def write_field_completeness_by_venue(processed_data, output_path):
     PAPER_LEVEL_KEYS = ['Title', 'Abstract', 'Metareview', 'Decision']
-    REVIEW_LEVEL_KEYS = ['title', 'review', 'rating', 'confidence', 'recommendation']
+    REVIEW_LEVEL_KEYS = ['title', 'review', 'rating', 'confidence']
 
     with open(output_path, "w") as out:
         for venue, papers in processed_data.items():
@@ -143,63 +159,19 @@ def write_field_completeness_by_venue(processed_data, output_path):
 # Example usage
 if __name__ == "__main__":
     processed_data_train = preprocess_dataset_with_paper_and_review_keys(None, "train")
-    with open("data/preprocessed/standardized_train.json", "w") as out:
-        json.dump(processed_data_train, out, indent=2)
-    write_field_completeness_by_venue(processed_data_train, "outputs/analysis/field_completeness_summary.txt")
-
-    '''  
-    processed_data_dev = preprocess_dataset_with_paper_and_review_keys(None, "dev")
+    with open("data/preprocessed/standardized_train.jsonl", "w") as f:
+        for entry in processed_data_train:
+            json.dump(entry, f)
+            f.write("\n")
     processed_data_test = preprocess_dataset_with_paper_and_review_keys(None, "test")
-
-    with open("data/preprocessed/standardized_dev.json", "w") as out:
-        json.dump(processed_data_dev, out, indent=2)
-    with open("data/preprocessed/standardized_test.json", "w") as out:
-        json.dump(processed_data_test, out, indent=2)
-  
-
-def inspect_paper_level_keys_per_venue(file_full_path: str, file_option: str):
-    """
-    Inspect and count all paper-level keys (excluding 'Review') per venue.
-    """
-    if not file_full_path:
-        file_full_path = DATA_PATH_PREFIX + file_option + JSONL_SUFFIX
-
-    # A dictionary of Counters per venue
-    venue_keys_counter = defaultdict(Counter)
-
-    with open(file_full_path, 'r') as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            paper_data = json.loads(line)
-
-            venue = paper_data.get("Venue", "UNKNOWN")
-
-            # Get all top-level keys except 'Review'
-            paper_keys = set(paper_data.keys())
-            paper_keys.discard('Review')
-
-            venue_keys_counter[venue].update(paper_keys)
-
-    # Display the result
-    for venue, counter in venue_keys_counter.items():
-        print(f"\n=== Venue: {venue} ===")
-        for key, count in counter.most_common():
-            print(f"{key}: {count}")
-# Example usage
-if __name__ == "__main__":
-
-
-    inspect_paper_level_keys_per_venue(None, "train")
-
-
-    processed_data = preprocess_dataset_by_venue(None, "train")
-
-    with open("standardized_train_by_venue.json", "w") as out:
-        json.dump(processed_data, out, indent=2)
-
-    # Quick overview
-    for venue, papers in processed_data.items():
-        print(f"Venue: {venue}, Papers: {len(papers)}")
-        print("Sample processed review keys:", list(processed_data[venue][0]['ReviewList'][0].keys()))'''
+    with open("data/preprocessed/standardized_test.jsonl", "w") as f:
+        for entry in processed_data_test:
+            json.dump(entry, f)
+            f.write("\n")
+    processed_data_dev = preprocess_dataset_with_paper_and_review_keys(None, "dev")
+    with open("data/preprocessed/standardized_dev.jsonl", "w") as f:
+        for entry in processed_data_dev:
+            json.dump(entry, f)
+            f.write("\n")
+    #grouped_data = group_by_venue(processed_data_train)
+    #write_field_completeness_by_venue(grouped_data, "outputs/analysis/field_completeness_summary.txt")

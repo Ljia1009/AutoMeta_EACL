@@ -5,7 +5,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 
-#file_paths = glob.glob("../evaluation/*.csv")
+file_paths = glob.glob("../evaluation/*.csv")
 
 regular_files = [fp for fp in file_paths if not os.path.basename(fp).startswith('disco')]
 main_metrics = []
