@@ -1,0 +1,640 @@
+Venue: AKBC-2020
+# Papers: 47
+All review keys used: ['confidence', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 144
+  review: 144
+  rating: 144
+  confidence: 144
+
+========================================
+
+Venue: NeurIPS-2022
+# Papers: 2353
+All review keys used: ['award', 'code_of_conduct', 'confidence', 'contribution', 'ethical_issues', 'ethics_flag', 'ethics_review', 'ethics_review_area', 'issues_acknowledged', 'issues_acknowledged_description', 'presentation', 'questions', 'rating', 'recommendation', 'review', 'soundness', 'title']
+Key usage frequency:
+  confidence: 10970
+  rating: 8616
+  review: 8616
+  questions: 8612
+  ethics_flag: 8612
+  ethics_review_area: 8612
+  soundness: 8612
+  presentation: 8612
+  contribution: 8612
+  code_of_conduct: 8612
+  recommendation: 2423
+  award: 2354
+  ethical_issues: 69
+  ethics_review: 69
+  issues_acknowledged: 69
+  issues_acknowledged_description: 69
+  title: 4
+
+========================================
+
+Venue: ICLR-2021
+# Papers: 2307
+All review keys used: ['accessibility', 'award', 'code_of_conduct', 'confidence', 'contribution', 'decision', 'ethics_flag', 'ethics_review', 'ethics_review_area', 'groundsforrejection', 'litreview', 'presentation', 'problemstatement', 'questions', 'rating', 'recommendation', 'relevance', 'results', 'review', 'reviewerconfidence', 'reviewtext', 'score', 'soundness', 'title', 'withdrawal confirmation']
+Key usage frequency:
+  title: 8882
+  confidence: 8875
+  review: 8858
+  rating: 8858
+  reviewtext: 23
+  problemstatement: 23
+  litreview: 23
+  relevance: 23
+  accessibility: 23
+  results: 23
+  score: 23
+  reviewerconfidence: 23
+  withdrawal confirmation: 18
+  recommendation: 17
+  questions: 17
+  ethics_flag: 17
+  ethics_review_area: 17
+  soundness: 17
+  presentation: 17
+  contribution: 17
+  code_of_conduct: 17
+  groundsforrejection: 8
+  award: 5
+  decision: 5
+  ethics_review: 5
+
+========================================
+
+Venue: ICLR-2022
+# Papers: 2486
+All review keys used: ['additional feedback', 'award', 'best_paper_nomination', 'clarity', 'clarity_of_presentation', 'code_of_conduct', 'confidence', 'contribution', 'correctness', 'decision', 'details_of_ethics_concerns', 'documentation', 'empirical_novelty_and_significance', 'ethical_issues', 'ethics', 'ethics_flag', 'ethics_review', 'ethics_review_area', 'flag_for_ethics_review', 'impact', 'issues', 'issues_acknowledged', 'issues_acknowledged_description', 'originality', 'presentation', 'quality_of_the_limitations_section', 'questions', 'rating', 'recommendation', 'relation to prior work', 'review', 'reviewer_expertise', 'robotics_focus', 'soundness', 'summary_of_recommendation', 'technical_novelty_and_significance', 'technical_quality', 'title', 'withdrawal confirmation']
+Key usage frequency:
+  confidence: 9738
+  review: 9732
+  recommendation: 9497
+  correctness: 9443
+  technical_novelty_and_significance: 9431
+  empirical_novelty_and_significance: 9431
+  flag_for_ethics_review: 9431
+  details_of_ethics_concerns: 891
+  rating: 247
+  questions: 205
+  ethics_flag: 205
+  ethics_review_area: 205
+  soundness: 205
+  presentation: 205
+  contribution: 205
+  code_of_conduct: 205
+  title: 92
+  award: 57
+  withdrawal confirmation: 45
+  clarity: 12
+  relation to prior work: 12
+  documentation: 12
+  ethics: 12
+  additional feedback: 12
+  decision: 4
+  originality: 4
+  technical_quality: 4
+  clarity_of_presentation: 4
+  impact: 4
+  robotics_focus: 4
+  quality_of_the_limitations_section: 4
+  summary_of_recommendation: 4
+  issues: 4
+  reviewer_expertise: 4
+  ethical_issues: 2
+  ethics_review: 2
+  issues_acknowledged: 2
+  issues_acknowledged_description: 2
+  best_paper_nomination: 1
+
+========================================
+
+Venue: ICLR-OSC-2022
+# Papers: 15
+All review keys used: ['award', 'code_of_conduct', 'confidence', 'contribution', 'ethics_flag', 'ethics_review_area', 'presentation', 'questions', 'rating', 'recommendation', 'review', 'soundness', 'title']
+Key usage frequency:
+  confidence: 34
+  review: 33
+  rating: 33
+  title: 29
+  questions: 4
+  ethics_flag: 4
+  ethics_review_area: 4
+  soundness: 4
+  presentation: 4
+  contribution: 4
+  code_of_conduct: 4
+  recommendation: 1
+  award: 1
+
+========================================
+
+Venue: NeurIPS-Datasets-and-Benchmarks-2022
+# Papers: 400
+All review keys used: ['additional feedback', 'clarity', 'confidence', 'correctness', 'documentation', 'ethics', 'ethics_documentation', 'ethics_review', 'rating', 'recommendation', 'relation to prior work', 'review', 'title']
+Key usage frequency:
+  confidence: 2584
+  title: 2184
+  rating: 2184
+  documentation: 2184
+  ethics: 2184
+  additional feedback: 2184
+  review: 2184
+  correctness: 2182
+  clarity: 2182
+  relation to prior work: 2182
+  recommendation: 502
+  ethics_review: 102
+  ethics_documentation: 69
+
+========================================
+
+Venue: ICLR-2019
+# Papers: 1179
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 4777
+  title: 4777
+  review: 3600
+  rating: 3600
+  recommendation: 1177
+
+========================================
+
+Venue: UAI-2022
+# Papers: 200
+All review keys used: ['Q1 Summary and contributions', 'Q10 Ethical concerns (Optional)', 'Q2 Assessment of the paper', 'Q2(1) Originality/Novelty', 'Q2(2) Significance/Impact', 'Q2(3) Correctness/Technical quality', 'Q2(4) Quality of experiments (Optional)', 'Q2(5) Reproducibility', 'Q2(6) Clarity of writing', 'Q6 Overall score', 'Q7 Justification for your score', 'Q8 Confidence in your score', 'Q9 Complying with reviewing instructions', 'review']
+Key usage frequency:
+  Q1 Summary and contributions: 723
+  Q2 Assessment of the paper: 723
+  Q2(1) Originality/Novelty: 723
+  Q2(2) Significance/Impact: 723
+  Q2(3) Correctness/Technical quality: 723
+  Q2(5) Reproducibility: 723
+  Q2(6) Clarity of writing: 723
+  Q6 Overall score: 723
+  Q7 Justification for your score: 723
+  Q8 Confidence in your score: 723
+  Q9 Complying with reviewing instructions: 723
+  review: 723
+  Q2(4) Quality of experiments (Optional): 678
+  Q10 Ethical concerns (Optional): 147
+
+========================================
+
+Venue: NeurIPS-2021
+# Papers: 34
+All review keys used: ['award', 'code_of_conduct', 'confidence', 'contribution', 'ethical_concerns', 'ethics_flag', 'ethics_review_area', 'limitations_and_societal_impact', 'main_review', 'needs_ethics_review', 'presentation', 'questions', 'rating', 'recommendation', 'review', 'score', 'soundness', 'time_spent_reviewing', 'title']
+Key usage frequency:
+  confidence: 125
+  review: 123
+  title: 99
+  rating: 76
+  score: 47
+  ethics_review_area: 24
+  code_of_conduct: 24
+  main_review: 15
+  limitations_and_societal_impact: 15
+  needs_ethics_review: 15
+  time_spent_reviewing: 15
+  questions: 9
+  ethics_flag: 9
+  soundness: 9
+  presentation: 9
+  contribution: 9
+  ethical_concerns: 3
+  recommendation: 2
+  award: 2
+
+========================================
+
+Venue: MIDL-2021
+# Papers: 140
+All review keys used: ['anonymity_and_confidentiality', 'confidence', 'deanonymize_review', 'detailed_comments', 'final_rating', 'final_rating_justification', 'justification_of_the_preliminary_rating', 'justification_of_the_rating', 'paper_type', 'preliminary_rating', 'questions_to_address_in_the_rebuttal', 'recommendation', 'review', 'special_issue', 'summary', 'your_profile_and_conflicts_of_interest']
+Key usage frequency:
+  paper_type: 545
+  recommendation: 517
+  confidence: 479
+  your_profile_and_conflicts_of_interest: 442
+  anonymity_and_confidentiality: 442
+  special_issue: 442
+  deanonymize_review: 442
+  review: 442
+  preliminary_rating: 377
+  justification_of_the_preliminary_rating: 377
+  final_rating: 322
+  detailed_comments: 320
+  questions_to_address_in_the_rebuttal: 271
+  final_rating_justification: 257
+  summary: 189
+  justification_of_the_rating: 65
+
+========================================
+
+Venue: RC2021
+# Papers: 27
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 83
+  title: 56
+  review: 56
+  rating: 56
+  recommendation: 27
+
+========================================
+
+Venue: AKBC-2019
+# Papers: 18
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  title: 72
+  confidence: 72
+  review: 54
+  rating: 54
+  recommendation: 18
+
+========================================
+
+Venue: GI-2021
+# Papers: 23
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 93
+  title: 70
+  review: 70
+  rating: 70
+  recommendation: 23
+
+========================================
+
+Venue: LoG-2022
+# Papers: 9
+All review keys used: ['Code of conduct acknowledgment', 'Confidence', 'Ethical concerns', 'Meta Review', 'Overall Score', 'Recommendation', 'confidence', 'review']
+Key usage frequency:
+  review: 35
+  Ethical concerns: 35
+  Overall Score: 35
+  Confidence: 35
+  Code of conduct acknowledgment: 35
+  confidence: 8
+  Meta Review: 8
+  Recommendation: 8
+
+========================================
+
+Venue: CLeaR-2022
+# Papers: 44
+All review keys used: ['Overall score', 'Summary', 'confidence', 'review']
+Key usage frequency:
+  confidence: 135
+  Summary: 135
+  Overall score: 135
+  review: 135
+
+========================================
+
+Venue: ICLR-2017
+# Papers: 20
+All review keys used: ['confidence', 'question', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 94
+  rating: 62
+  review: 62
+  confidence: 62
+  question: 32
+
+========================================
+
+Venue: NeurIPS-nCSI-2022
+# Papers: 19
+All review keys used: ['award', 'code_of_conduct', 'confidence', 'contribution', 'ethics_flag', 'ethics_review_area', 'presentation', 'questions', 'rating', 'recommendation', 'review', 'soundness', 'title']
+Key usage frequency:
+  confidence: 59
+  review: 40
+  rating: 40
+  title: 36
+  recommendation: 19
+  questions: 4
+  ethics_flag: 4
+  ethics_review_area: 4
+  soundness: 4
+  presentation: 4
+  contribution: 4
+  code_of_conduct: 4
+  award: 1
+
+========================================
+
+Venue: ICAPS-HSDIP-2019
+# Papers: 10
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  title: 30
+  confidence: 30
+  review: 20
+  rating: 20
+  recommendation: 10
+
+========================================
+
+Venue: CoRL-2022
+# Papers: 172
+All review keys used: ['best_paper_nomination', 'clarity_of_presentation', 'confidence', 'impact', 'issues', 'originality', 'quality_of_the_limitations_section', 'recommendation', 'review', 'reviewer_expertise', 'robotics_focus', 'summary_of_recommendation', 'technical_quality']
+Key usage frequency:
+  recommendation: 832
+  originality: 660
+  technical_quality: 660
+  clarity_of_presentation: 660
+  impact: 660
+  robotics_focus: 660
+  quality_of_the_limitations_section: 660
+  summary_of_recommendation: 660
+  issues: 660
+  reviewer_expertise: 660
+  review: 660
+  confidence: 172
+  best_paper_nomination: 127
+
+========================================
+
+Venue: GI-2020
+# Papers: 41
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 164
+  title: 123
+  rating: 123
+  review: 123
+  recommendation: 41
+
+========================================
+
+Venue: AKBC-2021
+# Papers: 31
+All review keys used: ['confidence', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 97
+  review: 97
+  rating: 97
+  confidence: 97
+
+========================================
+
+Venue: NeurIPS-Datasets-and-Benchmarks-2021
+# Papers: 50
+All review keys used: ['URL', 'additional feedback', 'clarity', 'confidence', 'correctness', 'documentation', 'ethics', 'rating', 'relation to prior work', 'review', 'title']
+Key usage frequency:
+  title: 158
+  rating: 158
+  confidence: 158
+  review: 158
+  correctness: 147
+  clarity: 147
+  relation to prior work: 147
+  documentation: 147
+  ethics: 147
+  additional feedback: 147
+  URL: 1
+
+========================================
+
+Venue: ICML-INNF-2021
+# Papers: 9
+All review keys used: ['[Optional] Respond to feedback request by the authors', 'confidence', 'rating', 'review', 'summary']
+Key usage frequency:
+  rating: 23
+  confidence: 23
+  summary: 23
+  review: 23
+  [Optional] Respond to feedback request by the authors: 2
+
+========================================
+
+Venue: ICLR-EmeCom-2022
+# Papers: 14
+All review keys used: ['best_paper_award', 'confidence', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 28
+  review: 28
+  rating: 28
+  confidence: 28
+  best_paper_award: 1
+
+========================================
+
+Venue: NeurIPS-DLDE-2021
+# Papers: 6
+All review keys used: ['confidence', 'review', 'score', 'title']
+Key usage frequency:
+  title: 20
+  review: 20
+  confidence: 20
+  score: 20
+
+========================================
+
+Venue: NeurIPS-GMML-2022
+# Papers: 6
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 20
+  title: 14
+  review: 14
+  rating: 14
+  recommendation: 6
+
+========================================
+
+Venue: TEA
+# Papers: 10
+All review keys used: ['confidence', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 30
+  review: 30
+  rating: 30
+  confidence: 30
+
+========================================
+
+Venue: MIDL-2022
+# Papers: 71
+All review keys used: ['anonymity_and_confidentiality', 'confidence', 'deanonymize_review', 'detailed_comments', 'final_rating_after_the_rebuttal', 'justification_of_the_final_rating', 'paper_type', 'preliminary_rating', 'questions_to_address_in_the_rebuttal', 'recommendation', 'review', 'special_issue', 'your_profile_and_conflicts_of_interest']
+Key usage frequency:
+  recommendation: 276
+  confidence: 276
+  your_profile_and_conflicts_of_interest: 205
+  anonymity_and_confidentiality: 205
+  paper_type: 205
+  questions_to_address_in_the_rebuttal: 205
+  preliminary_rating: 205
+  special_issue: 205
+  deanonymize_review: 205
+  review: 205
+  final_rating_after_the_rebuttal: 179
+  justification_of_the_final_rating: 179
+  detailed_comments: 159
+
+========================================
+
+Venue: MIDL-2020
+# Papers: 34
+All review keys used: ['confidence', 'paper_type', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 165
+  rating: 165
+  review: 131
+  confidence: 131
+  paper_type: 34
+
+========================================
+
+Venue: ICLR-2023
+# Papers: 25
+All review keys used: ['award', 'code_of_conduct', 'confidence', 'contribution', 'ethical_issues', 'ethics_flag', 'ethics_review', 'ethics_review_area', 'issues_acknowledged', 'issues_acknowledged_description', 'presentation', 'questions', 'rating', 'recommendation', 'review', 'soundness', 'title']
+Key usage frequency:
+  confidence: 115
+  rating: 90
+  review: 90
+  questions: 88
+  ethics_flag: 88
+  ethics_review_area: 88
+  soundness: 88
+  presentation: 88
+  contribution: 88
+  code_of_conduct: 88
+  recommendation: 27
+  award: 24
+  title: 3
+  ethical_issues: 2
+  ethics_review: 2
+  issues_acknowledged: 2
+  issues_acknowledged_description: 2
+
+========================================
+
+Venue: MLArchSys-2022
+# Papers: 5
+All review keys used: ['confidence', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 15
+  review: 15
+  rating: 15
+  confidence: 15
+
+========================================
+
+Venue: ICLR-2020
+# Papers: 15
+All review keys used: ['confidence', 'experience_assessment', 'rating', 'recommendation', 'review', 'review_assessment:_checking_correctness_of_derivations_and_theory', 'review_assessment:_checking_correctness_of_experiments', 'review_assessment:_thoroughness_in_paper_reading', 'title']
+Key usage frequency:
+  title: 56
+  confidence: 50
+  review: 50
+  rating: 50
+  recommendation: 6
+  experience_assessment: 6
+  review_assessment:_checking_correctness_of_experiments: 6
+  review_assessment:_thoroughness_in_paper_reading: 6
+  review_assessment:_checking_correctness_of_derivations_and_theory: 6
+
+========================================
+
+Venue: JSYS
+# Papers: 12
+All review keys used: ['confidence', 'decision', 'expertise', 'recommendation', 'review', 'title', 'useful']
+Key usage frequency:
+  title: 43
+  review: 43
+  expertise: 43
+  useful: 43
+  decision: 42
+  recommendation: 14
+  confidence: 14
+
+========================================
+
+Venue: XAIP-2022
+# Papers: 10
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 29
+  title: 19
+  review: 19
+  rating: 19
+  recommendation: 10
+
+========================================
+
+Venue: AutoML-Conf-2022
+# Papers: 17
+All review keys used: ['clarity', 'clarity_rating', 'confidence', 'ethics_details_(optional)', 'ethics_rating', 'overall_review', 'potential_impact_on_the_field_of_AutoML', 'potential_impact_on_the_field_of_AutoML_rating', 'recommendation', 'reproducibility', 'review', 'review_confidence', 'review_rating', 'review_summary', 'summary_of_contributions', 'technical_quality_and_correctness', 'technical_quality_and_correctness_rating']
+Key usage frequency:
+  potential_impact_on_the_field_of_AutoML_rating: 77
+  technical_quality_and_correctness_rating: 77
+  clarity_rating: 77
+  reproducibility: 77
+  ethics_rating: 77
+  review_rating: 77
+  review_confidence: 77
+  review: 72
+  recommendation: 17
+  confidence: 17
+  ethics_details_(optional): 12
+  summary_of_contributions: 5
+  potential_impact_on_the_field_of_AutoML: 5
+  technical_quality_and_correctness: 5
+  clarity: 5
+  overall_review: 5
+  review_summary: 5
+
+========================================
+
+Venue: KGCW-2021
+# Papers: 12
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 52
+  title: 40
+  review: 40
+  rating: 40
+  recommendation: 12
+
+========================================
+
+Venue: XAIP-2021
+# Papers: 13
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 40
+  title: 27
+  review: 27
+  rating: 27
+  recommendation: 13
+
+========================================
+
+Venue: MICCAI-FLARE-2022
+# Papers: 3
+All review keys used: ['confidence', 'rating', 'recommendation', 'review', 'title']
+Key usage frequency:
+  confidence: 12
+  title: 9
+  review: 9
+  rating: 9
+  recommendation: 3
+
+========================================
+
+Venue: AAAI-AdvML-2022
+# Papers: 3
+All review keys used: ['confidence', 'rating', 'review', 'title']
+Key usage frequency:
+  title: 6
+  review: 6
+  rating: 6
+  confidence: 6
+
+========================================
+
