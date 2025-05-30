@@ -32,7 +32,7 @@ def process_data_for_dec(file_full_path:str, file_option:str) -> list:
                     # filtered out
                     continue
                 if MR_LABEL in paper_data:
-                    mr_string = paper_data[MR_LABEL]
+                    mr_string = paper_data[MR_LABEL].strip().replace('\n', ' ').replace('\t', ' ')
                     if mr_string:
                         output_line = output_dec + '\t' + mr_string + '\n'
                         output_list.append(output_line)
