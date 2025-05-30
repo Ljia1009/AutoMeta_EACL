@@ -1,4 +1,0 @@
-Model,Count,AvgPredTokens,AvgGoldTokens,LengthRatio
-bart_res,549,120.54,156.95,0.77
-pegasus_res,549,149.84,156.95,0.95
-t5_res,549,97.1,156.95,0.62
