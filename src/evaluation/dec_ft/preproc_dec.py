@@ -5,6 +5,7 @@ DATA_PATH_PREFIX = "data/raw/ORSUM_"
 JSONL_SUFFIX = ".jsonl"
 DEC_LABEL = "Decision"
 MR_LABEL = "Metareview"
+REC_LABEL = "recommendation"
 
 def process_data_for_dec(file_full_path:str, file_option:str) -> list:
     """
@@ -15,15 +16,16 @@ def process_data_for_dec(file_full_path:str, file_option:str) -> list:
         file_full_path = DATA_PATH_PREFIX + file_option + JSONL_SUFFIX
     
     output_list = []
+    idx = 0
     with open(file_full_path, 'r') as f:
         for line in f:
             line = line.strip()
             if not line:
                 continue
             paper_data = json.loads(line)
+            idx += 1
             if DEC_LABEL in paper_data:
-                dec_string = paper_data['Metareview']
-                dec_string = dec_string.lower()
+                dec_string = paper_data[DEC_LABEL].lower()
                 if 'accept' in dec_string:
                     output_dec = "1"
                 elif 'reject' in dec_string:
@@ -34,7 +36,7 @@ def process_data_for_dec(file_full_path:str, file_option:str) -> list:
                 if MR_LABEL in paper_data:
                     mr_string = paper_data[MR_LABEL].strip().replace('\n', ' ').replace('\t', ' ')
                     if mr_string:
-                        output_line = output_dec + '\t' + mr_string + '\n'
+                        output_line = idx + '\t' + output_dec + '\t' + mr_string + '\n'
                         output_list.append(output_line)
     return output_list
 
