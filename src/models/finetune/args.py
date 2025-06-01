@@ -4,6 +4,12 @@ import argparse
 def get_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument(
+        "--max_source_length",
+        type=int,
+        default=1020, # Default to BART's original if not specified
+        help="Maximum source sequence length after tokenization. Use with the modified modeling_utils.py for lengths > 1024.",
+    )
+    parser.add_argument(
         "--train_data_path",
         type=str,
         default="",
