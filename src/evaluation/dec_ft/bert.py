@@ -1,12 +1,17 @@
 from .args import get_args
-from transformers import BertTokenizerFast, AutoModel, TrainingArguments, Trainer
+from transformers import BertTokenizerFast, AutoModelForSequenceClassification, TrainingArguments, Trainer
 from torch import nn
 from datasets import Dataset
 
 #load model and tokenizer
-bert = AutoModel.from_pretrained('bert-base-uncased')
+# bert = AutoModel.from_pretrained('bert-base-uncased')
+model = AutoModelForSequenceClassification.from_pretrained(
+    "bert-base-uncased",
+    num_labels=2 
+)
 tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
 
+'''
 #defining new layers
 class BERT_architecture(nn.Module):
 
@@ -21,8 +26,6 @@ class BERT_architecture(nn.Module):
       self.fc1 = nn.Linear(768,512)
       # dense layer 2 (Output layer)
       self.fc2 = nn.Linear(512,2)
-      #softmax activation function
-      self.softmax = nn.LogSoftmax(dim=1)
 
     #define the forward pass
     def forward(self, input_ids, attention_mask):
@@ -35,7 +38,7 @@ class BERT_architecture(nn.Module):
       x = self.fc2(x)
       # return the logits
       return x
-
+'''
 
 def process_dec_data(path):
     with open(path, 'r') as f:
@@ -78,18 +81,22 @@ if __name__ == "__main__":
         batched=True,
         remove_columns=valid_data.column_names,
     )
-
+    
+    '''
     #freeze the pretrained layers
     for param in bert.parameters():
         param.requires_grad = False
     
     model = BERT_architecture(bert)
+    '''
 
     training_args = TrainingArguments(
         output_dir=model_save_path,   # Directory to save the model
         eval_strategy="epoch",    # Evaluate after each epoch
+        save_strategy="epoch",    # Save after each epoch
         learning_rate=1e-5,             # Common starting point for BERT
         per_device_train_batch_size=4, # Adjust based on GPU memory
+        per_device_eval_batch_size=4, # Adjust based on GPU memory
         num_train_epochs=15,             # You can experiment with more epochs
         weight_decay=0.01,              # L2 regularization
         logging_dir=model_save_path + "/logs",           # TensorBoard logs
@@ -100,6 +107,7 @@ if __name__ == "__main__":
         args=training_args,
         train_dataset=tokenized_train_data,
         eval_dataset=tokenized_valid_data,
+        processing_class=tokenizer
     )
 
     print('training')
