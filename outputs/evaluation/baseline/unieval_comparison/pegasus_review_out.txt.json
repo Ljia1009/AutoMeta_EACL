@@ -1,0 +1,4943 @@
+[
+    {
+        "coherence": 0.738237062732258,
+        "consistency": 0.891520169073004,
+        "fluency": 0.5469405203560244,
+        "relevance": 0.7025145841757521,
+        "overall": 0.7198030840842596,
+        "Generated": "1",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.5819447739326667,
+        "consistency": 0.8477525941675585,
+        "fluency": 0.601706586000976,
+        "relevance": 0.7716110762592733,
+        "overall": 0.7007537575901187,
+        "Generated": "2",
+        "Gold": "The following papers have been published in the Journal of Geophysical Research."
+    },
+    {
+        "coherence": 0.4983565358089343,
+        "consistency": 0.7929661064822594,
+        "fluency": 0.4911684983857408,
+        "relevance": 0.5251858074444096,
+        "overall": 0.576919237030336,
+        "Generated": "3",
+        "Gold": "A paper's reviews can be found here."
+    },
+    {
+        "coherence": 0.405762360055993,
+        "consistency": 0.7801849598418509,
+        "fluency": 0.4199853973001009,
+        "relevance": 0.20683732011649258,
+        "overall": 0.4531925093286093,
+        "Generated": "4",
+        "Gold": "Reviews of research papers published in refereed journals in computer science and engineering can be found here."
+    },
+    {
+        "coherence": 0.2923309258974805,
+        "consistency": 0.5410653767834249,
+        "fluency": 0.3469293517976111,
+        "relevance": 0.19637023068803475,
+        "overall": 0.34417397129163785,
+        "Generated": "5",
+        "Gold": "The annual meeting of the National Association for the Advancement of Science (NeurIPS) is taking place in Washington, DC."
+    },
+    {
+        "coherence": 0.19137378520138504,
+        "consistency": 0.4758536427701419,
+        "fluency": 0.3566773992005496,
+        "relevance": 0.7034193128436211,
+        "overall": 0.4318310350039244,
+        "Generated": "6",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.4000815350379078,
+        "consistency": 0.6597483361844051,
+        "fluency": 0.37755125001002116,
+        "relevance": 0.7228885055518324,
+        "overall": 0.5400674066960416,
+        "Generated": "7",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.21860854609453126,
+        "consistency": 0.5279958361831074,
+        "fluency": 0.48932008754574774,
+        "relevance": 0.6497012084226227,
+        "overall": 0.4714064195615023,
+        "Generated": "8",
+        "Gold": "The following papers have been published in the journal Neuron."
+    },
+    {
+        "coherence": 0.2683050897213578,
+        "consistency": 0.4204978970813536,
+        "fluency": 0.4849557968899586,
+        "relevance": 0.8583393506022606,
+        "overall": 0.5080245335737327,
+        "Generated": "9",
+        "Gold": "The following papers have been published in refereed journals."
+    },
+    {
+        "coherence": 0.18821182254646476,
+        "consistency": 0.471589724259171,
+        "fluency": 0.37648540120294216,
+        "relevance": 0.16474101190739093,
+        "overall": 0.3002569899789922,
+        "Generated": "10",
+        "Gold": "The International Conference on Machine Learning (ICML) took place in Amsterdam, the Netherlands, from 14 to 17 May 2014."
+    },
+    {
+        "coherence": 0.1063542571692905,
+        "consistency": 0.3584925015436447,
+        "fluency": 0.4229363772093041,
+        "relevance": 0.620095163832403,
+        "overall": 0.37696957493866057,
+        "Generated": "11",
+        "Gold": "The following papers have been accepted for publication in the journal OpenAI."
+    },
+    {
+        "coherence": 0.0875256768060968,
+        "consistency": 0.20243056151614508,
+        "fluency": 0.39587979443556953,
+        "relevance": 0.46869960120116805,
+        "overall": 0.2886339084897449,
+        "Generated": "12",
+        "Gold": "The following papers have been published in the journalReinforcement Learning."
+    },
+    {
+        "coherence": 0.062168310020042916,
+        "consistency": 0.19196165023715578,
+        "fluency": 0.5409813215257674,
+        "relevance": 0.41761594040171385,
+        "overall": 0.30318180554616997,
+        "Generated": "13",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.1338265837670234,
+        "consistency": 0.2743298430648811,
+        "fluency": 0.38039832940524176,
+        "relevance": 0.26818353713655746,
+        "overall": 0.26418457334342593,
+        "Generated": "14",
+        "Gold": "Several papers on \"backdoor learning\" have been published in recent weeks."
+    },
+    {
+        "coherence": 0.10991825555828005,
+        "consistency": 0.33737776347239357,
+        "fluency": 0.37194065955563155,
+        "relevance": 0.3711651049728723,
+        "overall": 0.2976004458897944,
+        "Generated": "15",
+        "Gold": "The following papers have been published in the Notices of the Royal Statistical Society."
+    },
+    {
+        "coherence": 0.3693413625231913,
+        "consistency": 0.7978926126718526,
+        "fluency": 0.43362077508091795,
+        "relevance": 0.32153473422052803,
+        "overall": 0.4805973711241225,
+        "Generated": "16",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.0998075552821086,
+        "consistency": 0.27941617468266744,
+        "fluency": 0.3784657823618259,
+        "relevance": 0.34144639653773123,
+        "overall": 0.2747839772160833,
+        "Generated": "17",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.14596881272313553,
+        "consistency": 0.3229190301117344,
+        "fluency": 0.29426420619196875,
+        "relevance": 0.29596880879034104,
+        "overall": 0.2647802144542949,
+        "Generated": "18",
+        "Gold": "The following papers have been published in the Notices of the Royal Statistical Society."
+    },
+    {
+        "coherence": 0.17805774421989976,
+        "consistency": 0.26383671624277555,
+        "fluency": 0.3457530558877978,
+        "relevance": 0.7647163930709928,
+        "overall": 0.38809097735536646,
+        "Generated": "19",
+        "Gold": "The following papers have been published in the Notices of the American Mathematical Society and the Notices of the European Mathematical Society."
+    },
+    {
+        "coherence": 0.08208050061580206,
+        "consistency": 0.23919504731619107,
+        "fluency": 0.34852691224124616,
+        "relevance": 0.4245038235143525,
+        "overall": 0.27357657092189797,
+        "Generated": "20",
+        "Gold": "The following papers have been reviewed by the journal Science."
+    },
+    {
+        "coherence": 0.16278879443841893,
+        "consistency": 0.37934184333161025,
+        "fluency": 0.4608279690330365,
+        "relevance": 0.5180460676396873,
+        "overall": 0.3802511686106883,
+        "Generated": "21",
+        "Gold": "The following papers have been accepted for publication in the journal NeurIPS."
+    },
+    {
+        "coherence": 0.0499309103131843,
+        "consistency": 0.12535637337501623,
+        "fluency": 0.4699218371412996,
+        "relevance": 0.602418656272599,
+        "overall": 0.3119069442755248,
+        "Generated": "22",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.1073690284071755,
+        "consistency": 0.33779718056273766,
+        "fluency": 0.26958867080774956,
+        "relevance": 0.5995895588477356,
+        "overall": 0.3285861096563496,
+        "Generated": "23",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.22536763773430063,
+        "consistency": 0.3924257134807737,
+        "fluency": 0.12276808904451421,
+        "relevance": 0.2831128214023236,
+        "overall": 0.255918565415478,
+        "Generated": "24",
+        "Gold": "The following papers have been published in the journals Nature Communications, Advances in Neural Information Processing Systems, and Nature Communications."
+    },
+    {
+        "coherence": 0.2816892555600138,
+        "consistency": 0.44295148857896066,
+        "fluency": 0.2627733525961826,
+        "relevance": 0.5355357082080291,
+        "overall": 0.3807374512357965,
+        "Generated": "25",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.14956459558895244,
+        "consistency": 0.1805189848000152,
+        "fluency": 0.26189200138058044,
+        "relevance": 0.10784622024464965,
+        "overall": 0.1749554505035494,
+        "Generated": "26",
+        "Gold": "Several papers on deep learning-based outlier detection have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.14198042426869964,
+        "consistency": 0.2742818180989117,
+        "fluency": 0.3741750136250363,
+        "relevance": 0.6177690987954082,
+        "overall": 0.3520515886970139,
+        "Generated": "27",
+        "Gold": "The following papers have been accepted for publication in the journal Mathematica."
+    },
+    {
+        "coherence": 0.1319040799852331,
+        "consistency": 0.20502678932470683,
+        "fluency": 0.3595369282406741,
+        "relevance": 0.4223699515852875,
+        "overall": 0.2797094372839754,
+        "Generated": "28",
+        "Gold": "Each day we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.20695265934698875,
+        "consistency": 0.3941422061429014,
+        "fluency": 0.4022811443606963,
+        "relevance": 0.5651605426702813,
+        "overall": 0.3921341381302169,
+        "Generated": "29",
+        "Gold": "The following papers have been published in the Notices of the Royal Statistical Society."
+    },
+    {
+        "coherence": 0.17398264191361143,
+        "consistency": 0.3209757540324336,
+        "fluency": 0.27034532387265353,
+        "relevance": 0.42785354687065386,
+        "overall": 0.2982893166723381,
+        "Generated": "30",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.3066228216747433,
+        "consistency": 0.4001282777747594,
+        "fluency": 0.3166866736967195,
+        "relevance": 0.4922525783238255,
+        "overall": 0.378922587867512,
+        "Generated": "31",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.1018722440538023,
+        "consistency": 0.16852569754227043,
+        "fluency": 0.5424712887169288,
+        "relevance": 0.5244518223908421,
+        "overall": 0.33433026317596093,
+        "Generated": "32",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.12223798342256578,
+        "consistency": 0.35436853215812647,
+        "fluency": 0.5276183816292189,
+        "relevance": 0.2355307866656953,
+        "overall": 0.3099389209689016,
+        "Generated": "33",
+        "Gold": "A number of papers have been published in the journal Physical Review Letters in recent weeks."
+    },
+    {
+        "coherence": 0.08616046370349072,
+        "consistency": 0.28017682067136696,
+        "fluency": 0.4237193423578137,
+        "relevance": 0.48632908586372603,
+        "overall": 0.31909642814909933,
+        "Generated": "34",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.09288487292143184,
+        "consistency": 0.3026623790632038,
+        "fluency": 0.4954146959032808,
+        "relevance": 0.07715454147770111,
+        "overall": 0.2420291223414044,
+        "Generated": "35",
+        "Gold": "The following is a review of the paper \"Improving predictions for tail labels in multi-label classification\"."
+    },
+    {
+        "coherence": 0.1556749292468779,
+        "consistency": 0.2435101368597249,
+        "fluency": 0.3739738254675524,
+        "relevance": 0.4783889636650863,
+        "overall": 0.3128869638098104,
+        "Generated": "36",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.07733587026538319,
+        "consistency": 0.16042088624906164,
+        "fluency": 0.47572697364931005,
+        "relevance": 0.3196898737606457,
+        "overall": 0.25829340098110015,
+        "Generated": "37",
+        "Gold": "The results of a number of papers on deep learning have been published in refereed journals."
+    },
+    {
+        "coherence": 0.07115162959779174,
+        "consistency": 0.2862571588877141,
+        "fluency": 0.4491601882803334,
+        "relevance": 0.4795672637757224,
+        "overall": 0.32153406013539043,
+        "Generated": "38",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.09322477419661714,
+        "consistency": 0.1960993839192184,
+        "fluency": 0.38170996758924075,
+        "relevance": 0.6612388727716746,
+        "overall": 0.3330682496191877,
+        "Generated": "39",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.16046328293200623,
+        "consistency": 0.38445935448445784,
+        "fluency": 0.4188469434451028,
+        "relevance": 0.47569156711103416,
+        "overall": 0.3598652869931503,
+        "Generated": "40",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.2113794836249545,
+        "consistency": 0.45554416025467404,
+        "fluency": 0.4455709383603653,
+        "relevance": 0.45675569319008313,
+        "overall": 0.39231256885751925,
+        "Generated": "41",
+        "Gold": "The following papers have been published in the journal Neuron."
+    },
+    {
+        "coherence": 0.05619098769673813,
+        "consistency": 0.18050893582589472,
+        "fluency": 0.544491053443481,
+        "relevance": 0.1972349915903224,
+        "overall": 0.24460649213910907,
+        "Generated": "42",
+        "Gold": "A number of papers have been published in the journal Neuron in recent weeks."
+    },
+    {
+        "coherence": 0.08331847592054907,
+        "consistency": 0.24240876342593073,
+        "fluency": 0.5157499867378195,
+        "relevance": 0.480861892341571,
+        "overall": 0.3305847796064676,
+        "Generated": "43",
+        "Gold": "The following papers have been reviewed by me."
+    },
+    {
+        "coherence": 0.05833881963142903,
+        "consistency": 0.2787090905519979,
+        "fluency": 0.25889571049468335,
+        "relevance": 0.16421498045645355,
+        "overall": 0.19003965028364095,
+        "Generated": "44",
+        "Gold": "Papers on natural language processing (NLP) and artificial intelligence (AI) have been published in the Journal of Natural Language Processing."
+    },
+    {
+        "coherence": 0.043462416744219384,
+        "consistency": 0.1716557259137085,
+        "fluency": 0.2904170493453858,
+        "relevance": 0.6107456155709872,
+        "overall": 0.27907020189357523,
+        "Generated": "45",
+        "Gold": "The following papers have been published in the refereed journals of the European Association for the Study of Machine Learning (EASL)."
+    },
+    {
+        "coherence": 0.048483021742955906,
+        "consistency": 0.0984684380876226,
+        "fluency": 0.388428190503257,
+        "relevance": 0.4333844755390645,
+        "overall": 0.24219103146822502,
+        "Generated": "46",
+        "Gold": "The following papers have been published in the journal Neural Networks."
+    },
+    {
+        "coherence": 0.18090051677193447,
+        "consistency": 0.3537567575775485,
+        "fluency": 0.37654658401827096,
+        "relevance": 0.741688334733167,
+        "overall": 0.41322304827523026,
+        "Generated": "47",
+        "Gold": "The following papers have been published in refereed journals in the past year."
+    },
+    {
+        "coherence": 0.17029483096468198,
+        "consistency": 0.3823272317313899,
+        "fluency": 0.22499892188784634,
+        "relevance": 0.5299369611719229,
+        "overall": 0.32688948643896026,
+        "Generated": "48",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.12886469008977366,
+        "consistency": 0.23139911828585863,
+        "fluency": 0.4381791269986617,
+        "relevance": 0.06956599836014814,
+        "overall": 0.21700223343361053,
+        "Generated": "49",
+        "Gold": "We have just completed a review of a paper entitled \"De disentanglement properties of BYOL representations\"."
+    },
+    {
+        "coherence": 0.04352760219284808,
+        "consistency": 0.11880715685264867,
+        "fluency": 0.34654569166633886,
+        "relevance": 0.5609210847796189,
+        "overall": 0.26745038387286363,
+        "Generated": "50",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.09446167215784664,
+        "consistency": 0.25432056967726546,
+        "fluency": 0.28881968307703915,
+        "relevance": 0.15633058907736325,
+        "overall": 0.1984831284973786,
+        "Generated": "51",
+        "Gold": "In this paper, we investigate why backdoors are hard to detect, and propose a novel concept of consistency in backdoor learning, and propose to evaluate them with several metrics."
+    },
+    {
+        "coherence": 0.1497081186664947,
+        "consistency": 0.3240486239624158,
+        "fluency": 0.4242881171918244,
+        "relevance": 0.19359393191030572,
+        "overall": 0.27290969793276015,
+        "Generated": "52",
+        "Gold": "Combinatorial programming has been the subject of a number of papers in recent weeks."
+    },
+    {
+        "coherence": 0.09296714184449112,
+        "consistency": 0.23950652870923908,
+        "fluency": 0.47166603430398896,
+        "relevance": 0.3024170896758131,
+        "overall": 0.2766391986333831,
+        "Generated": "53",
+        "Gold": "A number of papers have been presented at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.10544015010529374,
+        "consistency": 0.2558319073829386,
+        "fluency": 0.2841380423937991,
+        "relevance": 0.3731056318458777,
+        "overall": 0.25462893293197725,
+        "Generated": "54",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.1260314277233979,
+        "consistency": 0.2650220085708447,
+        "fluency": 0.204756341735833,
+        "relevance": 0.2617618716353748,
+        "overall": 0.2143929124163626,
+        "Generated": "55",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.1037245073838929,
+        "consistency": 0.21077707585646765,
+        "fluency": 0.3318270448725663,
+        "relevance": 0.09748446290469834,
+        "overall": 0.1859532727544063,
+        "Generated": "56",
+        "Gold": "Reviews of papers on learnable front-ends for audio classification can be found here."
+    },
+    {
+        "coherence": 0.14086142785941372,
+        "consistency": 0.39106015084427076,
+        "fluency": 0.16793136653106588,
+        "relevance": 0.5794145208688132,
+        "overall": 0.3198168665258909,
+        "Generated": "57",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.31180712682368145,
+        "consistency": 0.48033180463601766,
+        "fluency": 0.1000241155574418,
+        "relevance": 0.12168314149862773,
+        "overall": 0.2534615471289422,
+        "Generated": "58",
+        "Gold": "The following is a review of a paper published in the Journal of the American Mathematical Society."
+    },
+    {
+        "coherence": 0.17440721975204634,
+        "consistency": 0.32035770411866266,
+        "fluency": 0.19134036519693187,
+        "relevance": 0.2789501810270621,
+        "overall": 0.24126386752367573,
+        "Generated": "59",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.07190817789333595,
+        "consistency": 0.2772024696286184,
+        "fluency": 0.32159733997608153,
+        "relevance": 0.23706717047384365,
+        "overall": 0.22694378949296987,
+        "Generated": "60",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.17131747365717442,
+        "consistency": 0.38456501759477985,
+        "fluency": 0.17641920483776843,
+        "relevance": 0.37308670589828874,
+        "overall": 0.27634710049700284,
+        "Generated": "61",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.13848782849594404,
+        "consistency": 0.29950201866162646,
+        "fluency": 0.2124434476020013,
+        "relevance": 0.29982667427916576,
+        "overall": 0.2375649922596844,
+        "Generated": "62",
+        "Gold": "Several papers on envy-free rent division have been published in the Notices of the Royal Society."
+    },
+    {
+        "coherence": 0.13621233091059695,
+        "consistency": 0.28704054936542445,
+        "fluency": 0.16486236852219374,
+        "relevance": 0.11726940520316083,
+        "overall": 0.176346163500344,
+        "Generated": "63",
+        "Gold": "Reviews of papers on artificial intelligence can be found here."
+    },
+    {
+        "coherence": 0.27041211892248823,
+        "consistency": 0.4433543351420404,
+        "fluency": 0.3514517317102857,
+        "relevance": 0.46580681978848293,
+        "overall": 0.38275625139082436,
+        "Generated": "64",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.1501609571977254,
+        "consistency": 0.31636871977735265,
+        "fluency": 0.29340911727094854,
+        "relevance": 0.1267408417059048,
+        "overall": 0.22166990898798286,
+        "Generated": "65",
+        "Gold": "This week, a number of papers were presented at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.14053931788423657,
+        "consistency": 0.2751601780530362,
+        "fluency": 0.15523681596277425,
+        "relevance": 0.1833342577230526,
+        "overall": 0.1885676424057749,
+        "Generated": "66",
+        "Gold": "There have been a number of papers published in the Notices of the Royal Society this week."
+    },
+    {
+        "coherence": 0.4422333594894833,
+        "consistency": 0.8408444799750564,
+        "fluency": 0.17812612514773607,
+        "relevance": 0.1984230615917058,
+        "overall": 0.41490675655099535,
+        "Generated": "67",
+        "Gold": "Several papers have been published on the topic of diagnosing typed errors made by pretrained language models."
+    },
+    {
+        "coherence": 0.11021363304766615,
+        "consistency": 0.21439140111369412,
+        "fluency": 0.1892782037136228,
+        "relevance": 0.09409806572614837,
+        "overall": 0.15199532590028286,
+        "Generated": "68",
+        "Gold": "The following is a review of a paper published in the Journal of the American Mathematical Society."
+    },
+    {
+        "coherence": 0.2953363981089662,
+        "consistency": 0.5209076228560747,
+        "fluency": 0.20744008876240033,
+        "relevance": 0.5696565358704194,
+        "overall": 0.39833516139946523,
+        "Generated": "69",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.24371325281793033,
+        "consistency": 0.38301252649349143,
+        "fluency": 0.3273340281934221,
+        "relevance": 0.1799497672769051,
+        "overall": 0.2835023936954372,
+        "Generated": "70",
+        "Gold": "A paper's reviews can be found here."
+    },
+    {
+        "coherence": 0.16943296170890107,
+        "consistency": 0.3821517875732398,
+        "fluency": 0.2593792915033215,
+        "relevance": 0.26622056737406874,
+        "overall": 0.2692961520398828,
+        "Generated": "71",
+        "Gold": "Each week we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.14120568272521797,
+        "consistency": 0.41684935205288187,
+        "fluency": 0.47301812401617666,
+        "relevance": 0.1480632631940507,
+        "overall": 0.2947841054970818,
+        "Generated": "72",
+        "Gold": "This week, a number of papers have been published in the journals ImageNet, arXiv, and Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.2755311491380517,
+        "consistency": 0.4994967609621574,
+        "fluency": 0.2208206744859776,
+        "relevance": 0.45789034826472047,
+        "overall": 0.3634347332127268,
+        "Generated": "73",
+        "Gold": "The following papers have been published in the journal Machine Learning."
+    },
+    {
+        "coherence": 0.20560067593645362,
+        "consistency": 0.5419190284701517,
+        "fluency": 0.22881253933499449,
+        "relevance": 0.13989195280583056,
+        "overall": 0.27905604913685755,
+        "Generated": "74",
+        "Gold": "Reviews of papers on deep learning can be found here."
+    },
+    {
+        "coherence": 0.1524599721529344,
+        "consistency": 0.2090079937978592,
+        "fluency": 0.3840264242398233,
+        "relevance": 0.2926340524278283,
+        "overall": 0.2595321106546113,
+        "Generated": "75",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.11712388591803012,
+        "consistency": 0.21184190511340822,
+        "fluency": 0.23573374706812805,
+        "relevance": 0.3146271038480476,
+        "overall": 0.2198316604869035,
+        "Generated": "76",
+        "Gold": "The following papers have been published in the journal Confusing ML."
+    },
+    {
+        "coherence": 0.2710334125543731,
+        "consistency": 0.5577070343195787,
+        "fluency": 0.2819585557574758,
+        "relevance": 0.23877748388779196,
+        "overall": 0.3373691216298049,
+        "Generated": "77",
+        "Gold": "Several papers on Twitter bot detection have been published in recent weeks."
+    },
+    {
+        "coherence": 0.21169245279220378,
+        "consistency": 0.523576419414135,
+        "fluency": 0.15687957664116237,
+        "relevance": 0.1522436372419548,
+        "overall": 0.261098021522364,
+        "Generated": "78",
+        "Gold": "In our series of letters from African journalists, film-maker, and columnist Ahmed Rashid looks at some of the papers that have been published this year in the field of machine learning."
+    },
+    {
+        "coherence": 0.3352408625152902,
+        "consistency": 0.41579370225821444,
+        "fluency": 0.26156609556161114,
+        "relevance": 0.27166609281096044,
+        "overall": 0.3210666882865191,
+        "Generated": "79",
+        "Gold": "Each day we feature a paper published in the journal Dependable Research."
+    },
+    {
+        "coherence": 0.19174551200266668,
+        "consistency": 0.3649080257633306,
+        "fluency": 0.40611616261816436,
+        "relevance": 0.25873231109336425,
+        "overall": 0.3053755028693814,
+        "Generated": "80",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.1511097937495499,
+        "consistency": 0.3998310351331824,
+        "fluency": 0.20306754617867973,
+        "relevance": 0.3535061315118992,
+        "overall": 0.2768786266433278,
+        "Generated": "81",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.16052251903744486,
+        "consistency": 0.1972670471587314,
+        "fluency": 0.2924264164918088,
+        "relevance": 0.3505609354061484,
+        "overall": 0.2501942295235333,
+        "Generated": "82",
+        "Gold": "The following papers have been published in the journal Neural Networks."
+    },
+    {
+        "coherence": 0.14838272283271556,
+        "consistency": 0.2681957606976117,
+        "fluency": 0.2858376903191393,
+        "relevance": 0.3161735915459587,
+        "overall": 0.2546474413488563,
+        "Generated": "83",
+        "Gold": "All papers on embodied agents are copyrighted."
+    },
+    {
+        "coherence": 0.18814316660261163,
+        "consistency": 0.35467109325985563,
+        "fluency": 0.146214194499844,
+        "relevance": 0.2314479482992457,
+        "overall": 0.2301191006653892,
+        "Generated": "84",
+        "Gold": "Several papers have been published in recent weeks on the subject of data poisoning."
+    },
+    {
+        "coherence": 0.05370608584411938,
+        "consistency": 0.11319586526772345,
+        "fluency": 0.327328725995568,
+        "relevance": 0.06530338240630153,
+        "overall": 0.1398835148784281,
+        "Generated": "85",
+        "Gold": "This is a review of a paper on Ricci-GNN, where the authors propose to use Ricci flow to compute the distance between nodes."
+    },
+    {
+        "coherence": 0.12427392783179554,
+        "consistency": 0.3063155285876874,
+        "fluency": 0.14585321613251792,
+        "relevance": 0.4358452284777012,
+        "overall": 0.25307197525742553,
+        "Generated": "86",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.20857190840136017,
+        "consistency": 0.37946888854761146,
+        "fluency": 0.14905127583856595,
+        "relevance": 0.42575119708544945,
+        "overall": 0.29071081746824673,
+        "Generated": "87",
+        "Gold": "The following papers have been published in the Journal of Robotics and Mechatronics."
+    },
+    {
+        "coherence": 0.1567131465468329,
+        "consistency": 0.3599322274849736,
+        "fluency": 0.07858500984873043,
+        "relevance": 0.3646436632429133,
+        "overall": 0.23996851178086256,
+        "Generated": "88",
+        "Gold": "The following papers have been published in the journal Vision Research."
+    },
+    {
+        "coherence": 0.33245279610011635,
+        "consistency": 0.5140932557370474,
+        "fluency": 0.1291755440789064,
+        "relevance": 0.6630190192104254,
+        "overall": 0.4096851537816239,
+        "Generated": "89",
+        "Gold": "The following papers have been published in refereed journals in the past year."
+    },
+    {
+        "coherence": 0.40248467722967124,
+        "consistency": 0.443811874674234,
+        "fluency": 0.2582160407958563,
+        "relevance": 0.25428955582959906,
+        "overall": 0.3397005371323401,
+        "Generated": "90",
+        "Gold": "The following papers have been published in the journal Learning and Teaching."
+    },
+    {
+        "coherence": 0.20467084762448487,
+        "consistency": 0.3684380623179538,
+        "fluency": 0.10681154212600376,
+        "relevance": 0.13103623989205537,
+        "overall": 0.20273917299012445,
+        "Generated": "91",
+        "Gold": "The following is a list of problems with the paper \"Learning computational aspect of GAN\"."
+    },
+    {
+        "coherence": 0.17964288314632346,
+        "consistency": 0.32987639706366656,
+        "fluency": 0.2153391656963877,
+        "relevance": 0.4357663572687412,
+        "overall": 0.29015620079377974,
+        "Generated": "92",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.15146014190439405,
+        "consistency": 0.3533139098562826,
+        "fluency": 0.16246206524511106,
+        "relevance": 0.48894896318101294,
+        "overall": 0.2890462700467002,
+        "Generated": "93",
+        "Gold": "The following papers have been published in the journal reinforcement learning."
+    },
+    {
+        "coherence": 0.10764951140554421,
+        "consistency": 0.2630298298677413,
+        "fluency": 0.0738316985065013,
+        "relevance": 0.41773277552936083,
+        "overall": 0.2155609538272869,
+        "Generated": "94",
+        "Gold": "The following papers have been published in the journal Evolutionary Computation."
+    },
+    {
+        "coherence": 0.1536151738836097,
+        "consistency": 0.2808869142118718,
+        "fluency": 0.09941360997776785,
+        "relevance": 0.292468354686911,
+        "overall": 0.2065960131900401,
+        "Generated": "95",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.04229261042082702,
+        "consistency": 0.05916577697439877,
+        "fluency": 0.17856215562808905,
+        "relevance": 0.28567855215360866,
+        "overall": 0.14142477379423088,
+        "Generated": "96",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.1334860122122539,
+        "consistency": 0.26925064439301705,
+        "fluency": 0.07221681304235224,
+        "relevance": 0.5244220145961838,
+        "overall": 0.24984387106095174,
+        "Generated": "97",
+        "Gold": "The following papers have been published in the journal reinforcement learning."
+    },
+    {
+        "coherence": 0.09426243841744064,
+        "consistency": 0.17866628185069658,
+        "fluency": 0.09902768457292797,
+        "relevance": 0.06585624504764095,
+        "overall": 0.10945316247217654,
+        "Generated": "98",
+        "Gold": "The following is a review of the paper \"Understanding anding Deep Neural Networks Trained with Noisy Labels\" by Chen, Pengfei, et al."
+    },
+    {
+        "coherence": 0.0675509547867251,
+        "consistency": 0.2347524164870132,
+        "fluency": 0.2971902216978,
+        "relevance": 0.2278574792601756,
+        "overall": 0.2068377680579285,
+        "Generated": "99",
+        "Gold": "The following papers have been accepted for publication in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.18614271514312833,
+        "consistency": 0.1428345862839865,
+        "fluency": 0.34349496837177534,
+        "relevance": 0.48664418733150183,
+        "overall": 0.28977911428259795,
+        "Generated": "100",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.0834410941172555,
+        "consistency": 0.16787798334652904,
+        "fluency": 0.5058384844083711,
+        "relevance": 0.2905459974649182,
+        "overall": 0.26192588983426845,
+        "Generated": "101",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.08693215812630091,
+        "consistency": 0.16681757868848462,
+        "fluency": 0.29471909370636207,
+        "relevance": 0.2784364888102175,
+        "overall": 0.20672632983284128,
+        "Generated": "102",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.06826152071587634,
+        "consistency": 0.1605417229823342,
+        "fluency": 0.189842286239905,
+        "relevance": 0.13008344989639228,
+        "overall": 0.13718224495862696,
+        "Generated": "103",
+        "Gold": "Several papers have been published in the journal ICML this week."
+    },
+    {
+        "coherence": 0.106685822037255,
+        "consistency": 0.18196857464878813,
+        "fluency": 0.12935407460994994,
+        "relevance": 0.2894285301725763,
+        "overall": 0.17685925036714234,
+        "Generated": "104",
+        "Gold": "The following papers have been published in the journal reinforcement learning and artificial intelligence."
+    },
+    {
+        "coherence": 0.25359200386631275,
+        "consistency": 0.43092010864143987,
+        "fluency": 0.1582944520941628,
+        "relevance": 0.10718167999601477,
+        "overall": 0.23749706114948257,
+        "Generated": "105",
+        "Gold": "A paper's reviews can be found here."
+    },
+    {
+        "coherence": 0.2214548826204964,
+        "consistency": 0.3511567406275323,
+        "fluency": 0.13232650850830294,
+        "relevance": 0.2967587235384191,
+        "overall": 0.2504242138236877,
+        "Generated": "106",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.23868182322531994,
+        "consistency": 0.5374251133393751,
+        "fluency": 0.12531813809560802,
+        "relevance": 0.44582047301991856,
+        "overall": 0.3368113869200554,
+        "Generated": "107",
+        "Gold": "All of the papers on this page have been reviewed by experts in their field."
+    },
+    {
+        "coherence": 0.19895129517174243,
+        "consistency": 0.38471165306574484,
+        "fluency": 0.14997065101256205,
+        "relevance": 0.14787389918329186,
+        "overall": 0.2203768746083353,
+        "Generated": "108",
+        "Gold": "The International Conference on Machine Learning (ICML) is the world's largest annual conference on machine learning."
+    },
+    {
+        "coherence": 0.22113434423476516,
+        "consistency": 0.5417304967988522,
+        "fluency": 0.2031464340166618,
+        "relevance": 0.29383763498367316,
+        "overall": 0.31496222750848807,
+        "Generated": "109",
+        "Gold": "The following papers have been published in the journal 3D holography."
+    },
+    {
+        "coherence": 0.3073417391948098,
+        "consistency": 0.45378604116094673,
+        "fluency": 0.27667313275784533,
+        "relevance": 0.14754138032863157,
+        "overall": 0.2963355733605584,
+        "Generated": "110",
+        "Gold": "A series of papers on embodied AI have been published in the journal Science."
+    },
+    {
+        "coherence": 0.1600496147389118,
+        "consistency": 0.34681043837512143,
+        "fluency": 0.11472152623665358,
+        "relevance": 0.22895145530954106,
+        "overall": 0.21263325866505697,
+        "Generated": "111",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.0917757589490042,
+        "consistency": 0.2984330233848407,
+        "fluency": 0.16058907277509488,
+        "relevance": 0.22284492838339381,
+        "overall": 0.1934106958730834,
+        "Generated": "112",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.12398661454848718,
+        "consistency": 0.2273090475496352,
+        "fluency": 0.16410896840520886,
+        "relevance": 0.08737240158600089,
+        "overall": 0.15069425802233305,
+        "Generated": "113",
+        "Gold": "I have just read a paper on topic models based on adversarial training."
+    },
+    {
+        "coherence": 0.2806485527826687,
+        "consistency": 0.4313307016366122,
+        "fluency": 0.10888608406097279,
+        "relevance": 0.17702880365718643,
+        "overall": 0.24947353553436002,
+        "Generated": "114",
+        "Gold": "Each day we feature a paper that has been reviewed by the journal Science."
+    },
+    {
+        "coherence": 0.13361333557034707,
+        "consistency": 0.30409492860151466,
+        "fluency": 0.2893036014718745,
+        "relevance": 0.5305120622360285,
+        "overall": 0.3143809819699412,
+        "Generated": "115",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.1212104197240957,
+        "consistency": 0.31173539269722633,
+        "fluency": 0.17571657626512488,
+        "relevance": 0.2431365129820177,
+        "overall": 0.21294972541711613,
+        "Generated": "116",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.16078787471293307,
+        "consistency": 0.2615325192275711,
+        "fluency": 0.2303674460688221,
+        "relevance": 0.22404516153211065,
+        "overall": 0.2191832503853592,
+        "Generated": "117",
+        "Gold": "Each week we feature a paper that has been reviewed by one of our scientists."
+    },
+    {
+        "coherence": 0.11406123615564215,
+        "consistency": 0.3453953574149815,
+        "fluency": 0.21538604385377627,
+        "relevance": 0.479703904720879,
+        "overall": 0.2886366355363197,
+        "Generated": "118",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.18547139048432876,
+        "consistency": 0.3685069232324953,
+        "fluency": 0.14532649550437657,
+        "relevance": 0.1029658339534101,
+        "overall": 0.20056766079365268,
+        "Generated": "119",
+        "Gold": "The following is a review of a paper by the authors:"
+    },
+    {
+        "coherence": 0.14413270656631158,
+        "consistency": 0.30047625557454705,
+        "fluency": 0.32536562901852767,
+        "relevance": 0.2758894170252914,
+        "overall": 0.26146600204616943,
+        "Generated": "120",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.10264709913637371,
+        "consistency": 0.21621474943196484,
+        "fluency": 0.1663240398663635,
+        "relevance": 0.21488561860799185,
+        "overall": 0.17501787676067346,
+        "Generated": "121",
+        "Gold": "The reviews of papers published in the journal NeurIPS are compiled by the journal's editors."
+    },
+    {
+        "coherence": 0.14830205050733752,
+        "consistency": 0.2944121152511493,
+        "fluency": 0.19075294556238928,
+        "relevance": 0.19763663114435856,
+        "overall": 0.20777593561630867,
+        "Generated": "122",
+        "Gold": "The results of a paper are quite surprising and interesting to those working on optimization/randomized numerical algorithms."
+    },
+    {
+        "coherence": 0.10237931014468475,
+        "consistency": 0.2741585837590734,
+        "fluency": 0.18135382884077675,
+        "relevance": 0.17148571319833766,
+        "overall": 0.18234435898571816,
+        "Generated": "123",
+        "Gold": "Each day we feature a paper that has been published in the journal Science."
+    },
+    {
+        "coherence": 0.1654100578496441,
+        "consistency": 0.4405760668444014,
+        "fluency": 0.055183541954178676,
+        "relevance": 0.07014713343374622,
+        "overall": 0.1828292000204926,
+        "Generated": "124",
+        "Gold": "Several papers have been published in the Journal of the American Mathematical Society (JAMS) on the theory and practice of gradient descent."
+    },
+    {
+        "coherence": 0.14119496542318238,
+        "consistency": 0.22199135272818882,
+        "fluency": 0.12174471643710162,
+        "relevance": 0.2658798102269879,
+        "overall": 0.18770271120386517,
+        "Generated": "125",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.12535057640722724,
+        "consistency": 0.22578271690057067,
+        "fluency": 0.23244227203695123,
+        "relevance": 0.5277651371702042,
+        "overall": 0.2778351756287384,
+        "Generated": "126",
+        "Gold": "The following papers have been published in refereed journals in recent weeks."
+    },
+    {
+        "coherence": 0.1374476446316817,
+        "consistency": 0.17813201485375724,
+        "fluency": 0.38011341619573835,
+        "relevance": 0.34811589327354997,
+        "overall": 0.2609522422386818,
+        "Generated": "127",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.09465432457347872,
+        "consistency": 0.15776506286846625,
+        "fluency": 0.3962269785340113,
+        "relevance": 0.1545065402240536,
+        "overall": 0.20078822655000247,
+        "Generated": "128",
+        "Gold": "There have been a number of papers published in the Notices of the Royal Academy of Sciences this week."
+    },
+    {
+        "coherence": 0.18167761041340483,
+        "consistency": 0.3229393755834859,
+        "fluency": 0.24234227205066763,
+        "relevance": 0.17884937508590698,
+        "overall": 0.23145215828336635,
+        "Generated": "129",
+        "Gold": "The journal IEEE Transactions on Pattern Analysis and Machine Intelligence has published a series of papers on a variety of topics."
+    },
+    {
+        "coherence": 0.06268412069258063,
+        "consistency": 0.1351690509461975,
+        "fluency": 0.26522957557978516,
+        "relevance": 0.05976382139871622,
+        "overall": 0.13071164215431988,
+        "Generated": "130",
+        "Gold": "I have just read a paper in the Journal of Machine Learning (JML) on Role Labelling and on languages for expressing the general meaning of language in terms of relations and concepts."
+    },
+    {
+        "coherence": 0.2330025908586864,
+        "consistency": 0.42524296439283976,
+        "fluency": 0.1658136971223629,
+        "relevance": 0.41874267106297086,
+        "overall": 0.310700480859215,
+        "Generated": "131",
+        "Gold": "The following papers have been accepted for publication in the journal Mathematica."
+    },
+    {
+        "coherence": 0.3904493986038579,
+        "consistency": 0.4068574478715971,
+        "fluency": 0.31210817019478276,
+        "relevance": 0.25643240600620654,
+        "overall": 0.34146185566911114,
+        "Generated": "132",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.09893255767670364,
+        "consistency": 0.2917413892640686,
+        "fluency": 0.10874773392068575,
+        "relevance": 0.058424040094665126,
+        "overall": 0.1394614302390308,
+        "Generated": "133",
+        "Gold": "The following is a review of the submitted manuscript: A safety-aware reinforcement learning algorithm that learns to perform tasks with minimal side-effects."
+    },
+    {
+        "coherence": 0.2566632183267104,
+        "consistency": 0.4001535036433198,
+        "fluency": 0.27625212203489563,
+        "relevance": 0.1879081334219458,
+        "overall": 0.2802442443567179,
+        "Generated": "134",
+        "Gold": "The International Conference on Machine Learning (ICML) is the world's largest conference on machine learning."
+    },
+    {
+        "coherence": 0.27677700908670144,
+        "consistency": 0.3101152861482274,
+        "fluency": 0.462515359186587,
+        "relevance": 0.16077663597382236,
+        "overall": 0.30254607259883454,
+        "Generated": "135",
+        "Gold": "A number of papers have been submitted to the European Conference on Machine Learning (ECML)."
+    },
+    {
+        "coherence": 0.2713368629695235,
+        "consistency": 0.4259552478174254,
+        "fluency": 0.2123725590298795,
+        "relevance": 0.4434128391260174,
+        "overall": 0.33826937723571143,
+        "Generated": "136",
+        "Gold": "The following papers have been published in the journal Nature."
+    },
+    {
+        "coherence": 0.13452146914968094,
+        "consistency": 0.26893461259574575,
+        "fluency": 0.1637229748984753,
+        "relevance": 0.22535319229086523,
+        "overall": 0.19813306223369181,
+        "Generated": "137",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.19711941060879082,
+        "consistency": 0.3539151290170112,
+        "fluency": 0.11023615488288892,
+        "relevance": 0.35727587758515666,
+        "overall": 0.2546366430234619,
+        "Generated": "138",
+        "Gold": "The following papers have been reviewed by the University of Aberdeen Institute (UAI)."
+    },
+    {
+        "coherence": 0.07095694830597232,
+        "consistency": 0.29440147622300683,
+        "fluency": 0.16435258146764065,
+        "relevance": 0.4521194563118972,
+        "overall": 0.24545761557712925,
+        "Generated": "139",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.21127768587425463,
+        "consistency": 0.3147319379609494,
+        "fluency": 0.349557503002696,
+        "relevance": 0.1510919213347122,
+        "overall": 0.256664762043153,
+        "Generated": "140",
+        "Gold": "Each day we feature a research paper published in a leading journal."
+    },
+    {
+        "coherence": 0.13302173188598837,
+        "consistency": 0.36844210608885747,
+        "fluency": 0.13586036921318012,
+        "relevance": 0.1682535122236963,
+        "overall": 0.20139442985293057,
+        "Generated": "141",
+        "Gold": "All papers published on this page are copyrighted."
+    },
+    {
+        "coherence": 0.19781937385381052,
+        "consistency": 0.278121103240435,
+        "fluency": 0.2971926990469593,
+        "relevance": 0.594425007418714,
+        "overall": 0.34188954588997966,
+        "Generated": "142",
+        "Gold": "The following papers have been reviewed by the scientific community."
+    },
+    {
+        "coherence": 0.21423189296479775,
+        "consistency": 0.4626700296661088,
+        "fluency": 0.16172180454186527,
+        "relevance": 0.08883404927545255,
+        "overall": 0.2318644441120561,
+        "Generated": "143",
+        "Gold": "The following is a review of a paper by Ping Li, Art Owen, and Cun-hui Zhang."
+    },
+    {
+        "coherence": 0.07306322177017857,
+        "consistency": 0.162674509506828,
+        "fluency": 0.14181989238735526,
+        "relevance": 0.12997263541840873,
+        "overall": 0.12688256477069265,
+        "Generated": "144",
+        "Gold": "Each day we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.3495559345018851,
+        "consistency": 0.3621968012762827,
+        "fluency": 0.26580123623325386,
+        "relevance": 0.34469221734070254,
+        "overall": 0.33056154733803106,
+        "Generated": "145",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.22734787476729637,
+        "consistency": 0.4320801624669358,
+        "fluency": 0.24405964184055667,
+        "relevance": 0.16493142532783772,
+        "overall": 0.26710477610065664,
+        "Generated": "146",
+        "Gold": "Several papers on low-recall search algorithms have been published in recent months."
+    },
+    {
+        "coherence": 0.18660123592017147,
+        "consistency": 0.2270822536305915,
+        "fluency": 0.3377335171847828,
+        "relevance": 0.18665230105432215,
+        "overall": 0.23451732694746696,
+        "Generated": "147",
+        "Gold": "There have been a number of papers published in the Notices of the Royal Academy of Sciences this week."
+    },
+    {
+        "coherence": 0.15910032354145492,
+        "consistency": 0.16852409279481187,
+        "fluency": 0.21638620756906815,
+        "relevance": 0.14748660920086276,
+        "overall": 0.17287430827654943,
+        "Generated": "148",
+        "Gold": "Uncertainty quantification is a major problem in many areas of computer science."
+    },
+    {
+        "coherence": 0.2984522974609248,
+        "consistency": 0.3908732360248079,
+        "fluency": 0.2836033269899907,
+        "relevance": 0.4837691298837378,
+        "overall": 0.3641744975898653,
+        "Generated": "149",
+        "Gold": "The following papers have been published in the Notices of the American Mathematical Society."
+    },
+    {
+        "coherence": 0.3358051695466011,
+        "consistency": 0.5193216421549534,
+        "fluency": 0.32299958460995687,
+        "relevance": 0.09436692461177584,
+        "overall": 0.3181233302308218,
+        "Generated": "150",
+        "Gold": "A new tool to train self-driving agents and a novel method for learning how to drive autonomous cars are among the latest research papers published in the journal Science."
+    },
+    {
+        "coherence": 0.2980712805479526,
+        "consistency": 0.41053176061931107,
+        "fluency": 0.19961592577632709,
+        "relevance": 0.3249077123022368,
+        "overall": 0.3082816698114569,
+        "Generated": "151",
+        "Gold": "All papers submitted to the International Conference on Machine Learning (ICML) are reviewed by the conference's reviewers."
+    },
+    {
+        "coherence": 0.339693734628108,
+        "consistency": 0.5042658209343777,
+        "fluency": 0.31512667978668535,
+        "relevance": 0.4142162180591889,
+        "overall": 0.39332561335209,
+        "Generated": "152",
+        "Gold": "The following papers have been accepted for publication in refereed journals."
+    },
+    {
+        "coherence": 0.24079570105132977,
+        "consistency": 0.3881644015904063,
+        "fluency": 0.25347012526020873,
+        "relevance": 0.13421555756516912,
+        "overall": 0.2541614463667785,
+        "Generated": "153",
+        "Gold": "The following is a review of a recent work on mutual information based feature selection."
+    },
+    {
+        "coherence": 0.21938797733526672,
+        "consistency": 0.5098737600112488,
+        "fluency": 0.24159829036559913,
+        "relevance": 0.07318643446157655,
+        "overall": 0.2610116155434228,
+        "Generated": "154",
+        "Gold": "The following is a review of a paper by Wei, Linzen, and Pavlick on the phenomenon of Transformer language models in the light of model size, catastrophic and unique of forgetting tokens such as part of speech."
+    },
+    {
+        "coherence": 0.14481578416205818,
+        "consistency": 0.25384591931955247,
+        "fluency": 0.2443955705842212,
+        "relevance": 0.36873041015114677,
+        "overall": 0.25294692105424466,
+        "Generated": "155",
+        "Gold": "The following papers have been published in leading scientific journals."
+    },
+    {
+        "coherence": 0.3964798021429546,
+        "consistency": 0.40120323206002506,
+        "fluency": 0.19823216686147047,
+        "relevance": 0.12601885793852316,
+        "overall": 0.28048351475074335,
+        "Generated": "156",
+        "Gold": "The following is a review of a paper published in the journal Reluplex: https://arxiv.org/pdf/1804.10829.pdf."
+    },
+    {
+        "coherence": 0.49094595882163905,
+        "consistency": 0.6609500905719112,
+        "fluency": 0.27529008031466506,
+        "relevance": 0.399543411043938,
+        "overall": 0.4566823851880384,
+        "Generated": "157",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.4891431649500584,
+        "consistency": 0.5979519734968639,
+        "fluency": 0.1638215652454474,
+        "relevance": 0.23171629507278005,
+        "overall": 0.3706582496912874,
+        "Generated": "158",
+        "Gold": "The following papers have been accepted for publication in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.49253106813329944,
+        "consistency": 0.7000034213551452,
+        "fluency": 0.23329403185525294,
+        "relevance": 0.12351992901397839,
+        "overall": 0.387337112589419,
+        "Generated": "159",
+        "Gold": "A number of papers have been published in the journal of the International Conference on Computer Vision (ICCV)."
+    },
+    {
+        "coherence": 0.3433512373706261,
+        "consistency": 0.4370853249428781,
+        "fluency": 0.31381503518959764,
+        "relevance": 0.254653785780668,
+        "overall": 0.33722634582094246,
+        "Generated": "160",
+        "Gold": "All of the papers on this page have been reviewed by our readers."
+    },
+    {
+        "coherence": 0.06481599485923228,
+        "consistency": 0.14858363601418367,
+        "fluency": 0.07722574060470432,
+        "relevance": 0.1916018998417653,
+        "overall": 0.1205568178299714,
+        "Generated": "161",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.11192757785228213,
+        "consistency": 0.2513389508280952,
+        "fluency": 0.15306207873299826,
+        "relevance": 0.11782852786012446,
+        "overall": 0.158539283818375,
+        "Generated": "162",
+        "Gold": "Each day we feature a paper that has been published in a leading journal."
+    },
+    {
+        "coherence": 0.20964228633157553,
+        "consistency": 0.3689870121262039,
+        "fluency": 0.11294016228477972,
+        "relevance": 0.1552095420909314,
+        "overall": 0.21169475070837265,
+        "Generated": "163",
+        "Gold": "Each day we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.3379805076062132,
+        "consistency": 0.43087140318854006,
+        "fluency": 0.24065203097610272,
+        "relevance": 0.145009101103085,
+        "overall": 0.28862826071848524,
+        "Generated": "164",
+        "Gold": "Several papers have been published in the journal Neural Computation this week."
+    },
+    {
+        "coherence": 0.13574418154378254,
+        "consistency": 0.22789394235168067,
+        "fluency": 0.1693082679081708,
+        "relevance": 0.3628845991706361,
+        "overall": 0.22395774774356753,
+        "Generated": "165",
+        "Gold": "The following papers have been reviewed by members of the Computing Review team."
+    },
+    {
+        "coherence": 0.1319641701475416,
+        "consistency": 0.21089684707803488,
+        "fluency": 0.10967596151817272,
+        "relevance": 0.07352266708764367,
+        "overall": 0.13151491145784822,
+        "Generated": "166",
+        "Gold": "The annual meeting of the American Association for the Advancement of Science (AAAS) is taking place in Washington, DC this week."
+    },
+    {
+        "coherence": 0.23571312828452096,
+        "consistency": 0.39578966134914173,
+        "fluency": 0.4324870505265651,
+        "relevance": 0.18475718045336473,
+        "overall": 0.31218675515339817,
+        "Generated": "167",
+        "Gold": "In our series of letters from African journalists, film-maker and columnist Ahmed Rashid looks at a new dataset that helps to understand the material properties of objects in real-life."
+    },
+    {
+        "coherence": 0.18225286793142803,
+        "consistency": 0.3567138911005241,
+        "fluency": 0.2138293073915403,
+        "relevance": 0.24545063175963286,
+        "overall": 0.24956167454578132,
+        "Generated": "168",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.13532293046211313,
+        "consistency": 0.1583727038900157,
+        "fluency": 0.2785824958561386,
+        "relevance": 0.42625130746248446,
+        "overall": 0.24963235941768797,
+        "Generated": "169",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.07580177401287824,
+        "consistency": 0.14440905888158587,
+        "fluency": 0.42209722031153624,
+        "relevance": 0.34017363183573984,
+        "overall": 0.24562042126043504,
+        "Generated": "170",
+        "Gold": "The following papers have been accepted for publication in refereed journals."
+    },
+    {
+        "coherence": 0.0975866198924468,
+        "consistency": 0.2558196576181294,
+        "fluency": 0.10393692814617464,
+        "relevance": 0.2297101633923086,
+        "overall": 0.17176334226226486,
+        "Generated": "171",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.3773682885377982,
+        "consistency": 0.5237989551276261,
+        "fluency": 0.40345185898422065,
+        "relevance": 0.09163424493137107,
+        "overall": 0.34906333689525404,
+        "Generated": "172",
+        "Gold": "Adversarial training for deep neural networks has been proposed and proposed as an alternative method for training such networks."
+    },
+    {
+        "coherence": 0.17974528673708837,
+        "consistency": 0.17509704340692026,
+        "fluency": 0.14701576606530314,
+        "relevance": 0.2320227860961778,
+        "overall": 0.18347022057637238,
+        "Generated": "173",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.19216108007257315,
+        "consistency": 0.38022296317705867,
+        "fluency": 0.2989637900056545,
+        "relevance": 0.3225041558485063,
+        "overall": 0.29846299727594816,
+        "Generated": "174",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.21264933897693336,
+        "consistency": 0.37805224672891313,
+        "fluency": 0.5293015351033722,
+        "relevance": 0.27821899473108697,
+        "overall": 0.3495555288850764,
+        "Generated": "175",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.24924692262242268,
+        "consistency": 0.36268182428874585,
+        "fluency": 0.4576648843878136,
+        "relevance": 0.26661779555274057,
+        "overall": 0.3340528567129307,
+        "Generated": "176",
+        "Gold": "Generative adversarial networks (GANs) have been used for image reconstruction and image super-resolution for many years."
+    },
+    {
+        "coherence": 0.1107386592747193,
+        "consistency": 0.3167591518222163,
+        "fluency": 0.21565747569435958,
+        "relevance": 0.13982464051980106,
+        "overall": 0.19574498182777406,
+        "Generated": "177",
+        "Gold": "A number of papers have been published in the journal Natural Language Processing this week."
+    },
+    {
+        "coherence": 0.1482278032283003,
+        "consistency": 0.26885672458246584,
+        "fluency": 0.14153970357971762,
+        "relevance": 0.1269786791688634,
+        "overall": 0.17140072763983677,
+        "Generated": "178",
+        "Gold": "A number of papers have been published at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.27355667415581386,
+        "consistency": 0.4047006689419226,
+        "fluency": 0.4251702684356279,
+        "relevance": 0.31970760525499425,
+        "overall": 0.35578380419708966,
+        "Generated": "179",
+        "Gold": "The following papers have been accepted for publication in the journal Mathematica."
+    },
+    {
+        "coherence": 0.10142740127789693,
+        "consistency": 0.1671648672886201,
+        "fluency": 0.3099697570782018,
+        "relevance": 0.02011918708980352,
+        "overall": 0.1496703031836306,
+        "Generated": "180",
+        "Gold": "I have just read a paper in the journal Fuzzy Logic, where the authors highlight the problems of linear interpolation based evaluation in the field of unsupervised generative models. I have just read a paper in the journal Fuzzy Logic, where the authors highlight the problems of linear interpolation based evaluation in the field of unsupervised generative"
+    },
+    {
+        "coherence": 0.1045241948923454,
+        "consistency": 0.27890051644650876,
+        "fluency": 0.04210530096005431,
+        "relevance": 0.18973337066857557,
+        "overall": 0.15381584574187102,
+        "Generated": "181",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.16778578055731386,
+        "consistency": 0.2581931713220705,
+        "fluency": 0.08565996998174044,
+        "relevance": 0.1875744417115643,
+        "overall": 0.1748033408931723,
+        "Generated": "182",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.43945291172113016,
+        "consistency": 0.48351160009252026,
+        "fluency": 0.33170385048844697,
+        "relevance": 0.45081100187282663,
+        "overall": 0.426369841043731,
+        "Generated": "183",
+        "Gold": "The following papers have been accepted for publication in refereed journals."
+    },
+    {
+        "coherence": 0.2714740778098747,
+        "consistency": 0.3878229061514138,
+        "fluency": 0.14759248080743761,
+        "relevance": 0.12814168203946627,
+        "overall": 0.2337577867020481,
+        "Generated": "184",
+        "Gold": "The following is a review of the paper \"Data unlearnable towards adversarial training\"."
+    },
+    {
+        "coherence": 0.04679548208991433,
+        "consistency": 0.11167438610457812,
+        "fluency": 0.17653174356497364,
+        "relevance": 0.2865728959251583,
+        "overall": 0.1553936269211561,
+        "Generated": "185",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.28661486335616165,
+        "consistency": 0.3821883975429025,
+        "fluency": 0.24371604190183588,
+        "relevance": 0.09250816171874691,
+        "overall": 0.2512568661299117,
+        "Generated": "186",
+        "Gold": "The following is a review of a paper published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.2965626662273278,
+        "consistency": 0.3820815253598696,
+        "fluency": 0.1431270191333373,
+        "relevance": 0.23992474435141178,
+        "overall": 0.2654239887679867,
+        "Generated": "187",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.23520134510819596,
+        "consistency": 0.3090450447658084,
+        "fluency": 0.13433261867252264,
+        "relevance": 0.2342483149855087,
+        "overall": 0.22820683088300894,
+        "Generated": "188",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.18438395962009124,
+        "consistency": 0.2896119735553547,
+        "fluency": 0.12116353529658729,
+        "relevance": 0.34029363469617857,
+        "overall": 0.23386327579205293,
+        "Generated": "189",
+        "Gold": "The following papers have been published in the journal Proceedings of the National Academy of Sciences."
+    },
+    {
+        "coherence": 0.2349704167776716,
+        "consistency": 0.30219379811692787,
+        "fluency": 0.14358855499240492,
+        "relevance": 0.1354160765039794,
+        "overall": 0.20404221159774594,
+        "Generated": "190",
+        "Gold": "The results of the Rademacher manuscript on learning graph embeddings have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.19311691214385052,
+        "consistency": 0.30811006124249074,
+        "fluency": 0.06265204334543864,
+        "relevance": 0.053110517749969645,
+        "overall": 0.15424738362043738,
+        "Generated": "191",
+        "Gold": "The following is a review of a paper published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.1745313062489351,
+        "consistency": 0.18860762919131774,
+        "fluency": 0.07966397736380489,
+        "relevance": 0.23225555626585795,
+        "overall": 0.1687646172674789,
+        "Generated": "192",
+        "Gold": "A selection of photos from around the world this week:"
+    },
+    {
+        "coherence": 0.1142841802811013,
+        "consistency": 0.2439754842634631,
+        "fluency": 0.0985378146890283,
+        "relevance": 0.4989007919632596,
+        "overall": 0.23892456779921306,
+        "Generated": "193",
+        "Gold": "The following papers have been reviewed by members of the scientific community."
+    },
+    {
+        "coherence": 0.15804172649359569,
+        "consistency": 0.2087000583724117,
+        "fluency": 0.10069103069757744,
+        "relevance": 0.045540301424031086,
+        "overall": 0.12824327924690399,
+        "Generated": "194",
+        "Gold": "The following is a review of the paper \" spectral clustering for node classification in graph data\"."
+    },
+    {
+        "coherence": 0.14810045595077415,
+        "consistency": 0.24614209161172565,
+        "fluency": 0.10125543597617465,
+        "relevance": 0.13666687285359888,
+        "overall": 0.15804121409806832,
+        "Generated": "195",
+        "Gold": "Each day we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.29100373776057314,
+        "consistency": 0.420742612153068,
+        "fluency": 0.2753854985581076,
+        "relevance": 0.08410461246338118,
+        "overall": 0.2678091152337825,
+        "Generated": "196",
+        "Gold": "This is a review of a paper that I have just read."
+    },
+    {
+        "coherence": 0.16970138752115074,
+        "consistency": 0.17188638657105101,
+        "fluency": 0.31122331486420973,
+        "relevance": 0.18347138403630678,
+        "overall": 0.20907061824817957,
+        "Generated": "197",
+        "Gold": "Each week we feature a paper from a leading academic journal."
+    },
+    {
+        "coherence": 0.17240956924155074,
+        "consistency": 0.25197609457549003,
+        "fluency": 0.23750613528719164,
+        "relevance": 0.3489956334428571,
+        "overall": 0.2527218581367724,
+        "Generated": "198",
+        "Gold": "The following papers have been published in the Journal of Robotics and Mechatronics."
+    },
+    {
+        "coherence": 0.29114495368582033,
+        "consistency": 0.3788317610876854,
+        "fluency": 0.19828846132840916,
+        "relevance": 0.15278742463104839,
+        "overall": 0.2552631501832408,
+        "Generated": "199",
+        "Gold": "Several papers have been published in the journal Physical Review Letters in recent weeks."
+    },
+    {
+        "coherence": 0.2933393918022073,
+        "consistency": 0.35407383167501083,
+        "fluency": 0.143868050978976,
+        "relevance": 0.03738257998330003,
+        "overall": 0.20716596360987355,
+        "Generated": "200",
+        "Gold": "The following is a review of a paper published in Plos One."
+    },
+    {
+        "coherence": 0.1328715324794839,
+        "consistency": 0.2970238232190046,
+        "fluency": 0.08115323285291166,
+        "relevance": 0.27432807501086987,
+        "overall": 0.19634416589056752,
+        "Generated": "201",
+        "Gold": "All of the papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.1025080434457235,
+        "consistency": 0.11548850101782199,
+        "fluency": 0.06413782303069109,
+        "relevance": 0.052246293669118905,
+        "overall": 0.08359516529083888,
+        "Generated": "202",
+        "Gold": "The results of a paper's reviews are posted on the journal's website."
+    },
+    {
+        "coherence": 0.11087917085647289,
+        "consistency": 0.2016872356616098,
+        "fluency": 0.08600866443700077,
+        "relevance": 0.2189732486324765,
+        "overall": 0.15438707989689,
+        "Generated": "203",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.20604881637401656,
+        "consistency": 0.32482214251547153,
+        "fluency": 0.12723152797622672,
+        "relevance": 0.2501085425165985,
+        "overall": 0.22705275734557834,
+        "Generated": "204",
+        "Gold": "The following papers have been published in Dependable Computing."
+    },
+    {
+        "coherence": 0.258029895271507,
+        "consistency": 0.43438407053145117,
+        "fluency": 0.05785281957762582,
+        "relevance": 0.344781654504323,
+        "overall": 0.27376210997122674,
+        "Generated": "205",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Biology and the Royal Academy of Engineering."
+    },
+    {
+        "coherence": 0.20793224948677422,
+        "consistency": 0.34481276690480284,
+        "fluency": 0.08344748565438873,
+        "relevance": 0.1713769221887973,
+        "overall": 0.20189235605869077,
+        "Generated": "206",
+        "Gold": "Some of the papers I have read this week have been published in refereed journals."
+    },
+    {
+        "coherence": 0.17895408350484332,
+        "consistency": 0.3723301926736777,
+        "fluency": 0.07987865002545479,
+        "relevance": 0.25626755043166516,
+        "overall": 0.22185761915891025,
+        "Generated": "207",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.31236024066129703,
+        "consistency": 0.3272172198043295,
+        "fluency": 0.09321734097412997,
+        "relevance": 0.49234892165758914,
+        "overall": 0.3062859307743364,
+        "Generated": "208",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.2189751401521103,
+        "consistency": 0.2193272525170757,
+        "fluency": 0.18458054094136225,
+        "relevance": 0.3629741265198098,
+        "overall": 0.2464642650325895,
+        "Generated": "209",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.15905816429925598,
+        "consistency": 0.170788578399459,
+        "fluency": 0.06018835115816132,
+        "relevance": 0.07400800238868378,
+        "overall": 0.11601077406139002,
+        "Generated": "210",
+        "Gold": "The following is a review of the paper \"Transformer-based attention prediction module\" I think the architecture proposed in this paper is not well supported."
+    },
+    {
+        "coherence": 0.14908222644884989,
+        "consistency": 0.3092015244662322,
+        "fluency": 0.05085637162428369,
+        "relevance": 0.04011028153508863,
+        "overall": 0.13731260101861362,
+        "Generated": "211",
+        "Gold": "The following is a review of a paper that has been submitted to the R2RML workshop."
+    },
+    {
+        "coherence": 0.23534863826238622,
+        "consistency": 0.46858938543864725,
+        "fluency": 0.06494779103778807,
+        "relevance": 0.2274773783352082,
+        "overall": 0.24909079826850744,
+        "Generated": "212",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.17586457777504383,
+        "consistency": 0.3093038901708494,
+        "fluency": 0.09449956935218051,
+        "relevance": 0.252448713893965,
+        "overall": 0.20802918779800972,
+        "Generated": "213",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.2038311749040883,
+        "consistency": 0.22529145366872255,
+        "fluency": 0.08863161660376438,
+        "relevance": 0.2852766962836302,
+        "overall": 0.20075773536505137,
+        "Generated": "214",
+        "Gold": "The following papers have been published in the journal Motion and Control."
+    },
+    {
+        "coherence": 0.07864179260176632,
+        "consistency": 0.21402941088638758,
+        "fluency": 0.15751015366097376,
+        "relevance": 0.21686558366007327,
+        "overall": 0.16676173520230023,
+        "Generated": "215",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.17765322189983848,
+        "consistency": 0.27761543267383415,
+        "fluency": 0.12379246361004935,
+        "relevance": 0.07967782175493375,
+        "overall": 0.16468473498466393,
+        "Generated": "216",
+        "Gold": "The following is a review of a paper published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.30976634503483796,
+        "consistency": 0.37554941217364185,
+        "fluency": 0.10461074739528946,
+        "relevance": 0.03521416400043573,
+        "overall": 0.20628516715105125,
+        "Generated": "217",
+        "Gold": "I have just published a review of a paper on class selectivity in deep neural networks."
+    },
+    {
+        "coherence": 0.22451988564552194,
+        "consistency": 0.36686165263227477,
+        "fluency": 0.2039803563100307,
+        "relevance": 0.18437625489537723,
+        "overall": 0.24493453737080115,
+        "Generated": "218",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.23751804396040674,
+        "consistency": 0.3398314879173957,
+        "fluency": 0.1812280496821821,
+        "relevance": 0.3507125186008856,
+        "overall": 0.27732252504021754,
+        "Generated": "219",
+        "Gold": "The following papers have been published in leading journals."
+    },
+    {
+        "coherence": 0.07431651727019088,
+        "consistency": 0.16803648941171323,
+        "fluency": 0.32813080222748314,
+        "relevance": 0.15958410627483233,
+        "overall": 0.1825169787960549,
+        "Generated": "220",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.06674074199081047,
+        "consistency": 0.12094787291454642,
+        "fluency": 0.28238180632792587,
+        "relevance": 0.16373296059707343,
+        "overall": 0.15845084545758903,
+        "Generated": "221",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.155926526308803,
+        "consistency": 0.3187338648727997,
+        "fluency": 0.1082233596091179,
+        "relevance": 0.19068309215525475,
+        "overall": 0.19339171073649386,
+        "Generated": "222",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Biology."
+    },
+    {
+        "coherence": 0.060069466226239564,
+        "consistency": 0.0926194687091333,
+        "fluency": 0.21980450846800503,
+        "relevance": 0.13500043407924728,
+        "overall": 0.1268734693706563,
+        "Generated": "223",
+        "Gold": "Each week we feature a paper that has been reviewed by an expert in the field."
+    },
+    {
+        "coherence": 0.22357173792871765,
+        "consistency": 0.36583261180267984,
+        "fluency": 0.1031818333371518,
+        "relevance": 0.14957737161475618,
+        "overall": 0.21054088867082635,
+        "Generated": "224",
+        "Gold": "Several papers have been published in the Notices of the Royal Academy of Sciences this week."
+    },
+    {
+        "coherence": 0.11236170543200764,
+        "consistency": 0.25426260867937706,
+        "fluency": 0.06194939862039045,
+        "relevance": 0.13959161157031258,
+        "overall": 0.14204133107552191,
+        "Generated": "225",
+        "Gold": "The International Journal of Machine Learning (IJML) is a leading journal in the field of machine learning."
+    },
+    {
+        "coherence": 0.09307173337762079,
+        "consistency": 0.25528171034199443,
+        "fluency": 0.36102011101807696,
+        "relevance": 0.2573376593670188,
+        "overall": 0.24167780352617774,
+        "Generated": "226",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Technology."
+    },
+    {
+        "coherence": 0.12362316470048546,
+        "consistency": 0.15948167858027318,
+        "fluency": 0.48872442849061226,
+        "relevance": 0.3450562637297529,
+        "overall": 0.27922138387528095,
+        "Generated": "227",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Edinburgh."
+    },
+    {
+        "coherence": 0.2776237941742698,
+        "consistency": 0.4379736030872446,
+        "fluency": 0.3823579383918707,
+        "relevance": 0.2596143028191524,
+        "overall": 0.3393924096181344,
+        "Generated": "228",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.2500659699060399,
+        "consistency": 0.3938530422436038,
+        "fluency": 0.2911584673940491,
+        "relevance": 0.12458100045848844,
+        "overall": 0.2649146200005453,
+        "Generated": "229",
+        "Gold": "In our series of letters from African journalists, film-maker and columnist Ahmed Rashid looks at a new dataset that helps to understand the material properties of objects in real-life."
+    },
+    {
+        "coherence": 0.11977410722533484,
+        "consistency": 0.18574145828682495,
+        "fluency": 0.3168019479576048,
+        "relevance": 0.11993954914076889,
+        "overall": 0.18556426565263337,
+        "Generated": "230",
+        "Gold": "The following is a score of 4 out of 5 for this paper:"
+    },
+    {
+        "coherence": 0.2280266145964227,
+        "consistency": 0.36532509354654114,
+        "fluency": 0.1178478138306183,
+        "relevance": 0.4680884646106926,
+        "overall": 0.2948219966460687,
+        "Generated": "231",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.18837369425461226,
+        "consistency": 0.2904023030178724,
+        "fluency": 0.07826929296366082,
+        "relevance": 0.2665248509510391,
+        "overall": 0.20589253529679613,
+        "Generated": "232",
+        "Gold": "The following papers have been published in the journal Neuron."
+    },
+    {
+        "coherence": 0.2523251038495721,
+        "consistency": 0.48341045203169475,
+        "fluency": 0.09603954769683236,
+        "relevance": 0.3555044769664134,
+        "overall": 0.29681989513612816,
+        "Generated": "233",
+        "Gold": "The following papers have been published in the past year."
+    },
+    {
+        "coherence": 0.20937809294887605,
+        "consistency": 0.4766902743042256,
+        "fluency": 0.18211185059990773,
+        "relevance": 0.14040161016962285,
+        "overall": 0.25214545700565805,
+        "Generated": "234",
+        "Gold": "Each day we feature a review of a paper published in the journal Translation Research."
+    },
+    {
+        "coherence": 0.23947300488437892,
+        "consistency": 0.36170326779410145,
+        "fluency": 0.2010545160842224,
+        "relevance": 0.2698499298192658,
+        "overall": 0.2680201796454922,
+        "Generated": "235",
+        "Gold": "The following papers have been published in the Journal of the American Medical Association."
+    },
+    {
+        "coherence": 0.08597901832643044,
+        "consistency": 0.16392240526835244,
+        "fluency": 0.36918105091280745,
+        "relevance": 0.28819817295404776,
+        "overall": 0.22682016186540954,
+        "Generated": "236",
+        "Gold": "The following papers have been published in the journal Proceedings of the National Academy of Sciences."
+    },
+    {
+        "coherence": 0.0965522851562986,
+        "consistency": 0.2418443190707488,
+        "fluency": 0.2640949501834837,
+        "relevance": 0.3484124254044123,
+        "overall": 0.23772599495373586,
+        "Generated": "237",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.14677846875888279,
+        "consistency": 0.25414501423001074,
+        "fluency": 0.31849279499113503,
+        "relevance": 0.29354524564085593,
+        "overall": 0.25324038090522116,
+        "Generated": "238",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.08196934135750146,
+        "consistency": 0.11220998387615985,
+        "fluency": 0.23474416839360904,
+        "relevance": 0.19374476594990223,
+        "overall": 0.15566706489429313,
+        "Generated": "239",
+        "Gold": "Each day we feature a research paper published in a leading academic journal."
+    },
+    {
+        "coherence": 0.28339885547167776,
+        "consistency": 0.2878914971270781,
+        "fluency": 0.09275447979957398,
+        "relevance": 0.34922204416764774,
+        "overall": 0.2533167191414944,
+        "Generated": "240",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.12489613122200469,
+        "consistency": 0.31931613362426464,
+        "fluency": 0.04484249542457557,
+        "relevance": 0.31890066209415374,
+        "overall": 0.20198885559124966,
+        "Generated": "241",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.06849110489392757,
+        "consistency": 0.1277832031577425,
+        "fluency": 0.12915888668229994,
+        "relevance": 0.09139294992156757,
+        "overall": 0.1042065361638844,
+        "Generated": "242",
+        "Gold": "The International Conference on Machine Learning (ICML) is the world's largest conference on machine learning."
+    },
+    {
+        "coherence": 0.0667495911920391,
+        "consistency": 0.16699088445465152,
+        "fluency": 0.08428972298544089,
+        "relevance": 0.11034193896945993,
+        "overall": 0.10709303440039786,
+        "Generated": "243",
+        "Gold": "Each week we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.09043339305034745,
+        "consistency": 0.22885732542239928,
+        "fluency": 0.15961973454518166,
+        "relevance": 0.04508076177609511,
+        "overall": 0.13099780369850586,
+        "Generated": "244",
+        "Gold": "The following is a review of a paper by Hegermann and Hegermann (2021): This paper presents a new approach to the problem of learning the solutions to differential equations."
+    },
+    {
+        "coherence": 0.20997909014635646,
+        "consistency": 0.27661977113288283,
+        "fluency": 0.25072162142693716,
+        "relevance": 0.03750818043094252,
+        "overall": 0.19370716578427974,
+        "Generated": "245",
+        "Gold": "I have just published a paper in the Notices of the Royal Society of Chemistry describing a method for improving the performance of gradient-based computations."
+    },
+    {
+        "coherence": 0.24354497061905836,
+        "consistency": 0.374748945938028,
+        "fluency": 0.2356487695701103,
+        "relevance": 0.09181919767864029,
+        "overall": 0.23644047095145923,
+        "Generated": "246",
+        "Gold": "The following are the main points of a paper:"
+    },
+    {
+        "coherence": 0.11770349216681002,
+        "consistency": 0.2640885928117853,
+        "fluency": 0.19735393398022663,
+        "relevance": 0.16603072647625794,
+        "overall": 0.18629418635877,
+        "Generated": "247",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.1137722421835283,
+        "consistency": 0.3536529771816484,
+        "fluency": 0.27825028906449145,
+        "relevance": 0.20011365715977594,
+        "overall": 0.236447291397361,
+        "Generated": "248",
+        "Gold": "The following papers have been published in the journal Machine Learning and Deep Learning."
+    },
+    {
+        "coherence": 0.18775140531560996,
+        "consistency": 0.31884036892800527,
+        "fluency": 0.18771786612129315,
+        "relevance": 0.10698324007361752,
+        "overall": 0.20032322010963147,
+        "Generated": "249",
+        "Gold": "A paper's reviews can be found here."
+    },
+    {
+        "coherence": 0.2307483312809796,
+        "consistency": 0.27070630075243185,
+        "fluency": 0.26145283323867985,
+        "relevance": 0.1869711341358987,
+        "overall": 0.2374696498519975,
+        "Generated": "250",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic and Pattern Recognition."
+    },
+    {
+        "coherence": 0.14824570135288098,
+        "consistency": 0.34288027425932416,
+        "fluency": 0.06144497492263344,
+        "relevance": 0.18916951761868078,
+        "overall": 0.18543511703837984,
+        "Generated": "251",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.08745511660512584,
+        "consistency": 0.18816776592459666,
+        "fluency": 0.12121231628390251,
+        "relevance": 0.05979154763292147,
+        "overall": 0.11415668661163662,
+        "Generated": "252",
+        "Gold": "There have been a number of papers published in the latest issue of the Journal of the American College of Cardiology."
+    },
+    {
+        "coherence": 0.2387977317764377,
+        "consistency": 0.2996199244593567,
+        "fluency": 0.06616473050560082,
+        "relevance": 0.23108413261646346,
+        "overall": 0.20891662983946466,
+        "Generated": "253",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.12675675065513267,
+        "consistency": 0.13134742020468307,
+        "fluency": 0.11935645761709865,
+        "relevance": 0.045225659088970305,
+        "overall": 0.10567157189147118,
+        "Generated": "254",
+        "Gold": "Several papers have been published in the journal Plos One this week on a variety of topics, including:"
+    },
+    {
+        "coherence": 0.10498455319621695,
+        "consistency": 0.1376014053652149,
+        "fluency": 0.213053367267741,
+        "relevance": 0.11745691822946241,
+        "overall": 0.1432740610146588,
+        "Generated": "255",
+        "Gold": "The following papers have been published in Plos One."
+    },
+    {
+        "coherence": 0.0632206629329696,
+        "consistency": 0.13090311022992607,
+        "fluency": 0.09031998435240911,
+        "relevance": 0.3028102855347858,
+        "overall": 0.14681351076252264,
+        "Generated": "256",
+        "Gold": "The following papers have been published in the Notices of the American Mathematical Society and the Notices of the European Mathematical Society."
+    },
+    {
+        "coherence": 0.22599723147785802,
+        "consistency": 0.24403133880272074,
+        "fluency": 0.2126850131957607,
+        "relevance": 0.3531990715790122,
+        "overall": 0.2589781637638379,
+        "Generated": "257",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Biology."
+    },
+    {
+        "coherence": 0.3158942928445557,
+        "consistency": 0.3315055299773887,
+        "fluency": 0.28696248592414497,
+        "relevance": 0.1371406477175815,
+        "overall": 0.2678757391159177,
+        "Generated": "258",
+        "Gold": "Several papers have been published in the journal Mathematica in recent weeks."
+    },
+    {
+        "coherence": 0.2391533788213809,
+        "consistency": 0.26556592863077744,
+        "fluency": 0.400341628674397,
+        "relevance": 0.33136699574299616,
+        "overall": 0.30910698296738787,
+        "Generated": "259",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.2234897311628707,
+        "consistency": 0.17343906014151012,
+        "fluency": 0.10289872985403058,
+        "relevance": 0.1390113041609874,
+        "overall": 0.1597097063298497,
+        "Generated": "260",
+        "Gold": "This paper presents a new method for taking as input a corpus of reviews about a set of items and building as output a directed graph where each node represents an opinion phrase (extracted from text) and edges indicate implication."
+    },
+    {
+        "coherence": 0.1377268005853625,
+        "consistency": 0.23219955506124207,
+        "fluency": 0.22169330962386016,
+        "relevance": 0.14165530198613224,
+        "overall": 0.18331874181414926,
+        "Generated": "261",
+        "Gold": "The following is a list of questions for the paper “transformer_big”, which extends the current attention models from word level to “area of items”, i.e., the combination of adjacent words."
+    },
+    {
+        "coherence": 0.07443440348217031,
+        "consistency": 0.1580643541347556,
+        "fluency": 0.16366957635299118,
+        "relevance": 0.5103968306359933,
+        "overall": 0.2266412911514776,
+        "Generated": "262",
+        "Gold": "All of the papers in this series have been published online by the journal Science."
+    },
+    {
+        "coherence": 0.26096109025235337,
+        "consistency": 0.32857680038741793,
+        "fluency": 0.23907502697221578,
+        "relevance": 0.1125144647579297,
+        "overall": 0.23528184559247917,
+        "Generated": "263",
+        "Gold": "This week's Notices of the Royal Society of Chemistry feature papers on learning-max problems."
+    },
+    {
+        "coherence": 0.3346493480049845,
+        "consistency": 0.35865881368810143,
+        "fluency": 0.15237500062958312,
+        "relevance": 0.08368350986033143,
+        "overall": 0.23234166804575013,
+        "Generated": "264",
+        "Gold": "Several papers have been published in the journal of the American Mathematical Society this week."
+    },
+    {
+        "coherence": 0.047237761127321046,
+        "consistency": 0.0874797171943526,
+        "fluency": 0.16799382869248208,
+        "relevance": 0.22899715848537114,
+        "overall": 0.13292711637488172,
+        "Generated": "265",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.2246282978366778,
+        "consistency": 0.3586546810476769,
+        "fluency": 0.41758351045841935,
+        "relevance": 0.18684940292665816,
+        "overall": 0.29692897306735805,
+        "Generated": "266",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the European Association for the Study of Machine Learning (EASL)."
+    },
+    {
+        "coherence": 0.18583892978490463,
+        "consistency": 0.22858077314965983,
+        "fluency": 0.35954141201957895,
+        "relevance": 0.36580680206030847,
+        "overall": 0.284941979253613,
+        "Generated": "267",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of London."
+    },
+    {
+        "coherence": 0.2631696310155997,
+        "consistency": 0.30875849210602324,
+        "fluency": 0.48731302780799196,
+        "relevance": 0.2664836249706624,
+        "overall": 0.3314311939750693,
+        "Generated": "268",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.4057723761363771,
+        "consistency": 0.3743223659140317,
+        "fluency": 0.3709225547100348,
+        "relevance": 0.302089792815453,
+        "overall": 0.36327677239397416,
+        "Generated": "269",
+        "Gold": "All of the papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.31160059983555666,
+        "consistency": 0.5415757848283653,
+        "fluency": 0.16127605957468774,
+        "relevance": 0.35244040121808606,
+        "overall": 0.34172321136417394,
+        "Generated": "270",
+        "Gold": "The following papers have been published in the journal Network Computing."
+    },
+    {
+        "coherence": 0.1531580814225763,
+        "consistency": 0.15036248075954078,
+        "fluency": 0.2814834224116987,
+        "relevance": 0.3566872054001402,
+        "overall": 0.235422797498489,
+        "Generated": "271",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.14766740687911786,
+        "consistency": 0.2935643430242312,
+        "fluency": 0.1864918092880844,
+        "relevance": 0.26256034806069606,
+        "overall": 0.22257097681303237,
+        "Generated": "272",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.10756667617942238,
+        "consistency": 0.15198685436872514,
+        "fluency": 0.14808990985181616,
+        "relevance": 0.09013275293705769,
+        "overall": 0.12444404833425535,
+        "Generated": "273",
+        "Gold": "Several papers have been published in the journal Neuron on the robustness of artificial intelligence models trained on EEG data."
+    },
+    {
+        "coherence": 0.28186226152397437,
+        "consistency": 0.24945114684220948,
+        "fluency": 0.30195861981818256,
+        "relevance": 0.37596879148051815,
+        "overall": 0.3023102049162211,
+        "Generated": "274",
+        "Gold": "The following papers have been published in the Notices of the Royal Society."
+    },
+    {
+        "coherence": 0.28038267529971017,
+        "consistency": 0.39559163267225683,
+        "fluency": 0.26005388521084527,
+        "relevance": 0.1780894841436774,
+        "overall": 0.2785294193316224,
+        "Generated": "275",
+        "Gold": "A number of papers have been published in recent weeks on the subject of multi-headed self-attention."
+    },
+    {
+        "coherence": 0.2747139088468577,
+        "consistency": 0.31996452702662426,
+        "fluency": 0.42196691865385166,
+        "relevance": 0.19055967273048927,
+        "overall": 0.30180125681445574,
+        "Generated": "276",
+        "Gold": "The following is a review of two papers:"
+    },
+    {
+        "coherence": 0.06895589683525571,
+        "consistency": 0.09286654436391463,
+        "fluency": 0.4031591208845574,
+        "relevance": 0.2281042951903261,
+        "overall": 0.19827146431851345,
+        "Generated": "277",
+        "Gold": "A number of papers have been published in the journal Science in recent months."
+    },
+    {
+        "coherence": 0.21152005113765365,
+        "consistency": 0.2337750044138497,
+        "fluency": 0.46489753750560475,
+        "relevance": 0.38147299267845375,
+        "overall": 0.3229163964338905,
+        "Generated": "278",
+        "Gold": "The following papers have been reviewed by me."
+    },
+    {
+        "coherence": 0.2608970167958294,
+        "consistency": 0.26390321304972253,
+        "fluency": 0.4063761335431803,
+        "relevance": 0.13692049171360077,
+        "overall": 0.2670242137755833,
+        "Generated": "279",
+        "Gold": "The following papers have been accepted for publication at the NeurIPS conference, which will be held at the University of California, Los Angeles, in May 2014."
+    },
+    {
+        "coherence": 0.3052369656275747,
+        "consistency": 0.38261801363160397,
+        "fluency": 0.151232858708243,
+        "relevance": 0.056879811766998946,
+        "overall": 0.22399191243360514,
+        "Generated": "280",
+        "Gold": "The following is a review of a paper published in Plos One, entitled \" tilted empirical risk algorithm for classification and regression\"."
+    },
+    {
+        "coherence": 0.17490759460640193,
+        "consistency": 0.22299576026604156,
+        "fluency": 0.16604486538853072,
+        "relevance": 0.15729760742552035,
+        "overall": 0.18031145692162365,
+        "Generated": "281",
+        "Gold": "Several papers on best-arm identification and multi-fidelity planning algorithms have been published in recent months."
+    },
+    {
+        "coherence": 0.16220775935466905,
+        "consistency": 0.5342499524643155,
+        "fluency": 0.22370874544641878,
+        "relevance": 0.17475329025797529,
+        "overall": 0.2737299368808447,
+        "Generated": "282",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.3265341709899433,
+        "consistency": 0.2840735761961154,
+        "fluency": 0.29110660010365985,
+        "relevance": 0.4681541385679469,
+        "overall": 0.3424671214644164,
+        "Generated": "283",
+        "Gold": "The following papers have been published in Springer's Notices of the Royal Academy of Sciences."
+    },
+    {
+        "coherence": 0.15571562392065838,
+        "consistency": 0.2871117959202529,
+        "fluency": 0.2929432442190007,
+        "relevance": 0.3139891177723025,
+        "overall": 0.2624399454580536,
+        "Generated": "284",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.2785967132170419,
+        "consistency": 0.25810233553430584,
+        "fluency": 0.2727186841041617,
+        "relevance": 0.2127014166736642,
+        "overall": 0.2555297873822934,
+        "Generated": "285",
+        "Gold": "The following papers have been published in the journal Machine Learning and Deep Learning."
+    },
+    {
+        "coherence": 0.2907262858874,
+        "consistency": 0.24798480033677686,
+        "fluency": 0.2412437448508307,
+        "relevance": 0.10418599731591358,
+        "overall": 0.22103520709773028,
+        "Generated": "286",
+        "Gold": "The following is a review of a paper published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.19639185614382673,
+        "consistency": 0.25499833042274933,
+        "fluency": 0.28714929743554346,
+        "relevance": 0.31514544830195323,
+        "overall": 0.26342123307601817,
+        "Generated": "287",
+        "Gold": "The following papers have been published in the journal Acoustics, Speech and Signal Processing (ICASSP)."
+    },
+    {
+        "coherence": 0.19737085650646777,
+        "consistency": 0.12659154727923072,
+        "fluency": 0.23109295069682367,
+        "relevance": 0.1492128006633916,
+        "overall": 0.17606703878647845,
+        "Generated": "288",
+        "Gold": "The following is a review of a paper on the construction of connection graphs."
+    },
+    {
+        "coherence": 0.43712374223105455,
+        "consistency": 0.4553385295320199,
+        "fluency": 0.2698028545838237,
+        "relevance": 0.24291595197306695,
+        "overall": 0.3512952695799913,
+        "Generated": "289",
+        "Gold": "Each day we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.2273439416377007,
+        "consistency": 0.3328719212508279,
+        "fluency": 0.17295569551225842,
+        "relevance": 0.3116221537206688,
+        "overall": 0.26119842803036397,
+        "Generated": "290",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.14218393270565458,
+        "consistency": 0.28378288082538355,
+        "fluency": 0.1556293324944069,
+        "relevance": 0.15940238648905936,
+        "overall": 0.1852496331286261,
+        "Generated": "291",
+        "Gold": "Several papers on source code summarization have been published in the recent months."
+    },
+    {
+        "coherence": 0.13954013393251635,
+        "consistency": 0.21846979245866907,
+        "fluency": 0.33466857670604516,
+        "relevance": 0.056325965176796264,
+        "overall": 0.18725111706850672,
+        "Generated": "292",
+        "Gold": "The following is a review of a paper's work on learning action representations for problems involving high-dimensional action spaces. The following is a review of Sharma et al's work on learning action representations for problems involving high-dimensional action spaces."
+    },
+    {
+        "coherence": 0.23042806200533145,
+        "consistency": 0.2173177744962059,
+        "fluency": 0.1458280684984872,
+        "relevance": 0.08739656264911976,
+        "overall": 0.17024261691228607,
+        "Generated": "293",
+        "Gold": "ML-based methods for learning the time feature of a salamander's retina has been proposed."
+    },
+    {
+        "coherence": 0.3064423752688161,
+        "consistency": 0.3272502078486809,
+        "fluency": 0.18773046933656706,
+        "relevance": 0.1338691885260963,
+        "overall": 0.23882306024504013,
+        "Generated": "294",
+        "Gold": "Several papers have been published on the subject of pose estimation in recent months."
+    },
+    {
+        "coherence": 0.15622875872528644,
+        "consistency": 0.2027665053646752,
+        "fluency": 0.238027035144257,
+        "relevance": 0.10134892101071546,
+        "overall": 0.17459280506123354,
+        "Generated": "295",
+        "Gold": "Each week we ask you to give us your top three things that you would have liked to have seen more of in a paper."
+    },
+    {
+        "coherence": 0.5039054717375266,
+        "consistency": 0.5362594066192796,
+        "fluency": 0.3988547492310426,
+        "relevance": 0.2871408500794295,
+        "overall": 0.4315401194168196,
+        "Generated": "296",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.33317644834439547,
+        "consistency": 0.3542686441616769,
+        "fluency": 0.22669275047830148,
+        "relevance": 0.3306712480212509,
+        "overall": 0.3112022727514062,
+        "Generated": "297",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Mathematical Society (AMS)."
+    },
+    {
+        "coherence": 0.22840505197722527,
+        "consistency": 0.26192417936439666,
+        "fluency": 0.35272628956019153,
+        "relevance": 0.21179005180477758,
+        "overall": 0.26371139317664777,
+        "Generated": "298",
+        "Gold": "The following papers have been accepted for publication in ICLR."
+    },
+    {
+        "coherence": 0.20092553766805357,
+        "consistency": 0.4311848816360562,
+        "fluency": 0.4400630840554686,
+        "relevance": 0.15718563351636305,
+        "overall": 0.3073397842189854,
+        "Generated": "299",
+        "Gold": "Pre-training on language and image data can affect fine-tuning of Transformers on offline reinforcement learning tasks."
+    },
+    {
+        "coherence": 0.22105059365274865,
+        "consistency": 0.2628565226119726,
+        "fluency": 0.20493925023751638,
+        "relevance": 0.31317950107391546,
+        "overall": 0.25050646689403827,
+        "Generated": "300",
+        "Gold": "The following papers have been reviewed by the scientific community."
+    },
+    {
+        "coherence": 0.2409282624970793,
+        "consistency": 0.4189992391597097,
+        "fluency": 0.09321930315083293,
+        "relevance": 0.22649911346537507,
+        "overall": 0.24491147956824927,
+        "Generated": "301",
+        "Gold": "The following papers have been published in the journal Neuron."
+    },
+    {
+        "coherence": 0.05318073184770891,
+        "consistency": 0.14575297246098237,
+        "fluency": 0.12449841578790692,
+        "relevance": 0.19899307354346632,
+        "overall": 0.13060629841001614,
+        "Generated": "302",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.08726398488348093,
+        "consistency": 0.22319122229642138,
+        "fluency": 0.08072371985660108,
+        "relevance": 0.2459969909657594,
+        "overall": 0.1592939795005657,
+        "Generated": "303",
+        "Gold": "The following papers have been published in the Journal of the American Medical Association."
+    },
+    {
+        "coherence": 0.16612337310147954,
+        "consistency": 0.21365309065559174,
+        "fluency": 0.1552107160356705,
+        "relevance": 0.18563027977116237,
+        "overall": 0.18015436489097603,
+        "Generated": "304",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.23715879247452262,
+        "consistency": 0.3302963693825252,
+        "fluency": 0.07732481207975374,
+        "relevance": 0.08342173645838856,
+        "overall": 0.18205042759879753,
+        "Generated": "305",
+        "Gold": "The following is a review of a recent paper on binary weight networks (BWNs)."
+    },
+    {
+        "coherence": 0.2229604121857697,
+        "consistency": 0.3783195470019781,
+        "fluency": 0.11261984656572895,
+        "relevance": 0.12154498449431778,
+        "overall": 0.20886119756194865,
+        "Generated": "306",
+        "Gold": "The following papers have been published in refereed journals in recent weeks."
+    },
+    {
+        "coherence": 0.19621552507844536,
+        "consistency": 0.22353716239751828,
+        "fluency": 0.11260272011548048,
+        "relevance": 0.29053410588583606,
+        "overall": 0.20572237836932003,
+        "Generated": "307",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.18296374159130935,
+        "consistency": 0.2779145710806235,
+        "fluency": 0.08475577638350645,
+        "relevance": 0.11553348646305124,
+        "overall": 0.16529189387962265,
+        "Generated": "308",
+        "Gold": "The following papers have been published in the journalReinforcement Learning."
+    },
+    {
+        "coherence": 0.1314992325200322,
+        "consistency": 0.27375864381878556,
+        "fluency": 0.11309599983644313,
+        "relevance": 0.3130503876658623,
+        "overall": 0.2078510659602808,
+        "Generated": "309",
+        "Gold": "The following papers have been published in leading academic journals."
+    },
+    {
+        "coherence": 0.2059618746243247,
+        "consistency": 0.2115429545910697,
+        "fluency": 0.13107500950482776,
+        "relevance": 0.2594776625075938,
+        "overall": 0.20201437530695399,
+        "Generated": "310",
+        "Gold": "The following papers have been published in the journal Science."
+    },
+    {
+        "coherence": 0.08257224509004343,
+        "consistency": 0.20065433180248007,
+        "fluency": 0.0385442815778502,
+        "relevance": 0.09246824204372166,
+        "overall": 0.10355977512852384,
+        "Generated": "311",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.21826080941436468,
+        "consistency": 0.2772385876726091,
+        "fluency": 0.08488874522380764,
+        "relevance": 0.11657874819448104,
+        "overall": 0.1742417226263156,
+        "Generated": "312",
+        "Gold": "The following papers have been published in the journal Natural Language Processing (NLP)."
+    },
+    {
+        "coherence": 0.27915582739235895,
+        "consistency": 0.29622057186632095,
+        "fluency": 0.07267628213247498,
+        "relevance": 0.1328088307412939,
+        "overall": 0.1952153780331122,
+        "Generated": "313",
+        "Gold": "Several papers on deep learning have been published in recent weeks."
+    },
+    {
+        "coherence": 0.15567133588736268,
+        "consistency": 0.20414017430956052,
+        "fluency": 0.10604719816210315,
+        "relevance": 0.16616618948065814,
+        "overall": 0.15800622445992113,
+        "Generated": "314",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Probability."
+    },
+    {
+        "coherence": 0.15568028229731573,
+        "consistency": 0.18931063396154302,
+        "fluency": 0.13820702462507728,
+        "relevance": 0.16176615747609838,
+        "overall": 0.1612410245900086,
+        "Generated": "315",
+        "Gold": "The following papers have been published in the Journal of the American Physical Society."
+    },
+    {
+        "coherence": 0.24175365989067865,
+        "consistency": 0.35628205845007904,
+        "fluency": 0.13569031634322393,
+        "relevance": 0.07552870675886895,
+        "overall": 0.20231368536071262,
+        "Generated": "316",
+        "Gold": "The following is a review of a paper on fragment-based molecule generation (MoLeR)."
+    },
+    {
+        "coherence": 0.16256733425056746,
+        "consistency": 0.24209601286807358,
+        "fluency": 0.06644344439756582,
+        "relevance": 0.09085393395854947,
+        "overall": 0.1404901813686891,
+        "Generated": "317",
+        "Gold": "The results of this paper show that deep general process (GP) methods do better when the \"trivial\" function is compositional."
+    },
+    {
+        "coherence": 0.33618830523707066,
+        "consistency": 0.3398651584665188,
+        "fluency": 0.16434458320523768,
+        "relevance": 0.05654688771410851,
+        "overall": 0.22423623365573395,
+        "Generated": "318",
+        "Gold": "The following is a review of a paper published in the Journal of the American Mathematical Society."
+    },
+    {
+        "coherence": 0.11941619057255425,
+        "consistency": 0.2328110498434306,
+        "fluency": 0.13593234798319875,
+        "relevance": 0.055749872262562644,
+        "overall": 0.13597736516543657,
+        "Generated": "319",
+        "Gold": "The following are some of the shortcomings of a paper on semi-supervised learning that has been published in the Journal of the National Institute of Standards and Technology (NIST)."
+    },
+    {
+        "coherence": 0.4256709721649623,
+        "consistency": 0.47377919137093566,
+        "fluency": 0.23383034564708174,
+        "relevance": 0.13171042050929643,
+        "overall": 0.3162477324230691,
+        "Generated": "320",
+        "Gold": "The following is a review of a paper by Wang et.al."
+    },
+    {
+        "coherence": 0.11354652110038023,
+        "consistency": 0.19419515834027998,
+        "fluency": 0.17566584702790883,
+        "relevance": 0.05521578530608507,
+        "overall": 0.13465582794366354,
+        "Generated": "321",
+        "Gold": "The following is a review of a recent paper on probabilistic naming."
+    },
+    {
+        "coherence": 0.077643316665879,
+        "consistency": 0.13575944288283961,
+        "fluency": 0.3090674039773602,
+        "relevance": 0.045621848215881694,
+        "overall": 0.14202300293549014,
+        "Generated": "322",
+        "Gold": "The Vartak conference is an international conference on artificial intelligence and machine learning."
+    },
+    {
+        "coherence": 0.07562959731159735,
+        "consistency": 0.16211316158305544,
+        "fluency": 0.1616444252190834,
+        "relevance": 0.14718942184555528,
+        "overall": 0.13664415148982287,
+        "Generated": "323",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.20822284878686426,
+        "consistency": 0.38453003759904253,
+        "fluency": 0.32565402322449544,
+        "relevance": 0.14284829560628706,
+        "overall": 0.2653138013041723,
+        "Generated": "324",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.29254618054157483,
+        "consistency": 0.2316214163611016,
+        "fluency": 0.3822900731508511,
+        "relevance": 0.13896048286313178,
+        "overall": 0.2613545382291649,
+        "Generated": "325",
+        "Gold": "All papers published in Notices of the Royal Society of Chemistry are copyrighted."
+    },
+    {
+        "coherence": 0.0476365021791688,
+        "consistency": 0.06157083660171235,
+        "fluency": 0.31400554330333197,
+        "relevance": 0.20156942380336182,
+        "overall": 0.15619557647189375,
+        "Generated": "326",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.18296728297139286,
+        "consistency": 0.3854730445007978,
+        "fluency": 0.3046071665896714,
+        "relevance": 0.10262720116670253,
+        "overall": 0.24391867380714113,
+        "Generated": "327",
+        "Gold": "The aim of this paper is to develop new methods for continuous learning."
+    },
+    {
+        "coherence": 0.23523835130514054,
+        "consistency": 0.5406764456413347,
+        "fluency": 0.10793952879385328,
+        "relevance": 0.15798506526113767,
+        "overall": 0.26045984775036657,
+        "Generated": "328",
+        "Gold": "The following papers have been published in the journal Nature Communications."
+    },
+    {
+        "coherence": 0.3098193061738798,
+        "consistency": 0.41123008884635637,
+        "fluency": 0.17375694361059077,
+        "relevance": 0.19944704502241054,
+        "overall": 0.2735633459133094,
+        "Generated": "329",
+        "Gold": "The following papers have been published in the journal Neural Information Processing Systems (NIPS)."
+    },
+    {
+        "coherence": 0.20442005613779698,
+        "consistency": 0.421578033840186,
+        "fluency": 0.06882537870730451,
+        "relevance": 0.08548321661509645,
+        "overall": 0.19507667132509598,
+        "Generated": "330",
+        "Gold": "There have been a number of papers published in the Notices of the Royal Society of Chemistry this week."
+    },
+    {
+        "coherence": 0.24786699341121457,
+        "consistency": 0.2672552464965389,
+        "fluency": 0.10136531407433205,
+        "relevance": 0.215302735596941,
+        "overall": 0.20794757239475664,
+        "Generated": "331",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.21276426498398043,
+        "consistency": 0.28358151127831716,
+        "fluency": 0.3163445880013535,
+        "relevance": 0.14676963229146225,
+        "overall": 0.23986499913877835,
+        "Generated": "332",
+        "Gold": "The following papers have been published in the journal Physical Review Letters."
+    },
+    {
+        "coherence": 0.07401139112945211,
+        "consistency": 0.19220134061251604,
+        "fluency": 0.1522496546908842,
+        "relevance": 0.10729626524833652,
+        "overall": 0.1314396629202972,
+        "Generated": "333",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.10124966791734988,
+        "consistency": 0.19891921962766967,
+        "fluency": 0.10288276197163111,
+        "relevance": 0.22762549613559152,
+        "overall": 0.15766928641306055,
+        "Generated": "334",
+        "Gold": "The following papers have been published in leading academic journals."
+    },
+    {
+        "coherence": 0.14407230801959364,
+        "consistency": 0.22027605270706746,
+        "fluency": 0.25395640620958476,
+        "relevance": 0.08657993079184652,
+        "overall": 0.1762211744320231,
+        "Generated": "335",
+        "Gold": "All papers published in the journal Notices of the Royal Society of Chemistry are copyrighted."
+    },
+    {
+        "coherence": 0.17859282639526042,
+        "consistency": 0.2582079180690609,
+        "fluency": 0.3229663623701008,
+        "relevance": 0.18630508452552214,
+        "overall": 0.23651804783998603,
+        "Generated": "336",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.1268792440609132,
+        "consistency": 0.1718504670618782,
+        "fluency": 0.21507290415728564,
+        "relevance": 0.08730512255748953,
+        "overall": 0.15027693445939164,
+        "Generated": "337",
+        "Gold": "Several papers have been published in recent weeks on the topic of summaries in legal documents."
+    },
+    {
+        "coherence": 0.21665741489513907,
+        "consistency": 0.32921500757049704,
+        "fluency": 0.24731338282509932,
+        "relevance": 0.15535006908956395,
+        "overall": 0.23713396859507485,
+        "Generated": "338",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.1915684971315718,
+        "consistency": 0.1809581241683607,
+        "fluency": 0.205915173565512,
+        "relevance": 0.22846711245251988,
+        "overall": 0.20172722682949112,
+        "Generated": "339",
+        "Gold": "Each day we feature a paper that has been reviewed by our readers."
+    },
+    {
+        "coherence": 0.23840444894401702,
+        "consistency": 0.38826313302012655,
+        "fluency": 0.05459602872535905,
+        "relevance": 0.3485766534901953,
+        "overall": 0.2574600660449245,
+        "Generated": "340",
+        "Gold": "The following papers have been reviewed by researchers at the Massachusetts Institute of Technology (MIT)."
+    },
+    {
+        "coherence": 0.22643233064998286,
+        "consistency": 0.24002277580834822,
+        "fluency": 0.11707132053314562,
+        "relevance": 0.14600036872437638,
+        "overall": 0.18238169892896328,
+        "Generated": "341",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.07414496042686762,
+        "consistency": 0.18107982113074167,
+        "fluency": 0.22536401255068375,
+        "relevance": 0.43041579687598674,
+        "overall": 0.22775114774606994,
+        "Generated": "342",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.16523497266700976,
+        "consistency": 0.21152853622101475,
+        "fluency": 0.12827077120196193,
+        "relevance": 0.20821899415999778,
+        "overall": 0.17831331856249605,
+        "Generated": "343",
+        "Gold": "The following papers have been published in the journal Proceedings of the National Academy of Sciences."
+    },
+    {
+        "coherence": 0.14771858768584187,
+        "consistency": 0.3166284361459403,
+        "fluency": 0.19600350592974589,
+        "relevance": 0.07365960650588692,
+        "overall": 0.18350253406685374,
+        "Generated": "344",
+        "Gold": "Several papers have been published in the journal Neural Computation in recent weeks."
+    },
+    {
+        "coherence": 0.18830206208735353,
+        "consistency": 0.20994048786166425,
+        "fluency": 0.24091324323934474,
+        "relevance": 0.1633820081300814,
+        "overall": 0.20063445032961097,
+        "Generated": "345",
+        "Gold": "The following papers have been published in the journal Science."
+    },
+    {
+        "coherence": 0.2199236174286068,
+        "consistency": 0.32174986633991187,
+        "fluency": 0.23947549045195823,
+        "relevance": 0.3351551299312363,
+        "overall": 0.2790760260379283,
+        "Generated": "346",
+        "Gold": "The following papers have been published in Springer's Notices of the Royal Society."
+    },
+    {
+        "coherence": 0.23361785126893092,
+        "consistency": 0.3362679998972384,
+        "fluency": 0.2671906681697176,
+        "relevance": 0.19294269657426172,
+        "overall": 0.25750480397753717,
+        "Generated": "347",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.20321793534829666,
+        "consistency": 0.2621679333655924,
+        "fluency": 0.3137012471425895,
+        "relevance": 0.38380241624115563,
+        "overall": 0.29072238302440856,
+        "Generated": "348",
+        "Gold": "The results of this study are quite interesting, and I am happy to upgrade my score if authors can address some of my concerns satisfactorily."
+    },
+    {
+        "coherence": 0.2492038245153606,
+        "consistency": 0.32990775281828805,
+        "fluency": 0.1829467569106071,
+        "relevance": 0.19356446735660243,
+        "overall": 0.23890570040021453,
+        "Generated": "349",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.17015520507552376,
+        "consistency": 0.1905237051023292,
+        "fluency": 0.36991462638380973,
+        "relevance": 0.13263601103423234,
+        "overall": 0.21580738689897377,
+        "Generated": "350",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.06396331385434639,
+        "consistency": 0.146119082771703,
+        "fluency": 0.11250109235938967,
+        "relevance": 0.3108789367481526,
+        "overall": 0.15836560643339792,
+        "Generated": "351",
+        "Gold": "The following papers have been published in refereed journals in the past year."
+    },
+    {
+        "coherence": 0.09654379502883213,
+        "consistency": 0.21025342106154118,
+        "fluency": 0.0848209472055104,
+        "relevance": 0.06884192948213055,
+        "overall": 0.11511502319450356,
+        "Generated": "352",
+        "Gold": "The journal Brain has published a series of papers on artificial intelligence (AI) in the field of brain cancer."
+    },
+    {
+        "coherence": 0.07418193390989332,
+        "consistency": 0.25519269598178146,
+        "fluency": 0.11712966993909188,
+        "relevance": 0.1644978293148571,
+        "overall": 0.15275053228640595,
+        "Generated": "353",
+        "Gold": "The following papers have been published in the journal Machine Learning."
+    },
+    {
+        "coherence": 0.2750360934944445,
+        "consistency": 0.3428274425610097,
+        "fluency": 0.15416880649688217,
+        "relevance": 0.22895569175333283,
+        "overall": 0.2502470085764173,
+        "Generated": "354",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.10409043709936472,
+        "consistency": 0.23275371334461248,
+        "fluency": 0.22731373579141256,
+        "relevance": 0.20153617756916636,
+        "overall": 0.19142351595113904,
+        "Generated": "355",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.13772722890968764,
+        "consistency": 0.25958616998163225,
+        "fluency": 0.14567733500752786,
+        "relevance": 0.18308735171964552,
+        "overall": 0.18151952140462332,
+        "Generated": "356",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.17710504152430315,
+        "consistency": 0.42051350017385575,
+        "fluency": 0.15330443355291418,
+        "relevance": 0.08404525656353234,
+        "overall": 0.20874205795365136,
+        "Generated": "357",
+        "Gold": "The following is a review of a paper on black-box adversarial attacks published in the Journal of the American Physical Society."
+    },
+    {
+        "coherence": 0.265201626402543,
+        "consistency": 0.27338494490367854,
+        "fluency": 0.2338706840151341,
+        "relevance": 0.05190380849393502,
+        "overall": 0.20609026595382268,
+        "Generated": "358",
+        "Gold": "There have been a number of papers published in the journal Plos One this week."
+    },
+    {
+        "coherence": 0.20747052466305407,
+        "consistency": 0.30742427370406195,
+        "fluency": 0.2932951767402816,
+        "relevance": 0.13970789876655987,
+        "overall": 0.23697446846848938,
+        "Generated": "359",
+        "Gold": "Several papers on kernel online search have been published in recent months."
+    },
+    {
+        "coherence": 0.018736984260130634,
+        "consistency": 0.07385422027915742,
+        "fluency": 0.08895627022087237,
+        "relevance": 0.18400627082113236,
+        "overall": 0.0913884363953232,
+        "Generated": "360",
+        "Gold": "The following papers have been reviewed by me."
+    },
+    {
+        "coherence": 0.1299888363246885,
+        "consistency": 0.17321461120695134,
+        "fluency": 0.17149262426172357,
+        "relevance": 0.23368073305885043,
+        "overall": 0.17709420121305347,
+        "Generated": "361",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.30090104986431543,
+        "consistency": 0.31736912676469387,
+        "fluency": 0.3062838372272532,
+        "relevance": 0.16315823237468408,
+        "overall": 0.27192806155773663,
+        "Generated": "362",
+        "Gold": "The following papers have been accepted for publication in the journal Mathematica."
+    },
+    {
+        "coherence": 0.1922929389885586,
+        "consistency": 0.2792247339575426,
+        "fluency": 0.17259852040116497,
+        "relevance": 0.19369005186191177,
+        "overall": 0.20945156130229448,
+        "Generated": "363",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.1114105452893284,
+        "consistency": 0.15083199691478802,
+        "fluency": 0.34011449835903407,
+        "relevance": 0.12905955097398467,
+        "overall": 0.18285414788428378,
+        "Generated": "364",
+        "Gold": "The following papers have been accepted for publication in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.05244898010806554,
+        "consistency": 0.1135608625782854,
+        "fluency": 0.06815776658341614,
+        "relevance": 0.035421985733566405,
+        "overall": 0.06739739875083338,
+        "Generated": "365",
+        "Gold": "There have been a number of papers published in the journal Science this week."
+    },
+    {
+        "coherence": 0.10291578866789731,
+        "consistency": 0.10458889110798153,
+        "fluency": 0.4685423442182467,
+        "relevance": 0.23776252797991923,
+        "overall": 0.2284523879935112,
+        "Generated": "366",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.26592508111703544,
+        "consistency": 0.3074034813152186,
+        "fluency": 0.3636414734457889,
+        "relevance": 0.19752074362074504,
+        "overall": 0.283622694874697,
+        "Generated": "367",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.10299651728694292,
+        "consistency": 0.1642238047906397,
+        "fluency": 0.47159137238708004,
+        "relevance": 0.2554927239291775,
+        "overall": 0.24857610459846002,
+        "Generated": "368",
+        "Gold": "The following papers have been published in the Notices of the Royal Academy of Engineering."
+    },
+    {
+        "coherence": 0.17688029865717791,
+        "consistency": 0.1943303925315066,
+        "fluency": 0.36015513621686074,
+        "relevance": 0.26949829798187686,
+        "overall": 0.25021603134685555,
+        "Generated": "369",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.22601272543629874,
+        "consistency": 0.526906931769515,
+        "fluency": 0.10530403231770599,
+        "relevance": 0.2761668532945271,
+        "overall": 0.2835976357045117,
+        "Generated": "370",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.2150519285993215,
+        "consistency": 0.40614332090793526,
+        "fluency": 0.31175387260030507,
+        "relevance": 0.18572813525592907,
+        "overall": 0.2796693143408727,
+        "Generated": "371",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.09616780087251495,
+        "consistency": 0.14840298513334357,
+        "fluency": 0.47745881992784595,
+        "relevance": 0.04426613136458062,
+        "overall": 0.19157393432457126,
+        "Generated": "372",
+        "Gold": "I've been following sign language ML research for some time now and have come across a number of excellent papers on the topic. I've been following sign language ML research for some time now and have come across a number of excellent papers on the topic."
+    },
+    {
+        "coherence": 0.09699379809622631,
+        "consistency": 0.1719928604920853,
+        "fluency": 0.1821546580979601,
+        "relevance": 0.12414086872149883,
+        "overall": 0.14382054635194264,
+        "Generated": "373",
+        "Gold": "A paper's review will appear here once it has been published."
+    },
+    {
+        "coherence": 0.22459247062363477,
+        "consistency": 0.3521210277018869,
+        "fluency": 0.27171565629652944,
+        "relevance": 0.16164980603936663,
+        "overall": 0.2525197401653544,
+        "Generated": "374",
+        "Gold": "The following papers have been published in the journalReinforcement Learning."
+    },
+    {
+        "coherence": 0.08122842057972755,
+        "consistency": 0.11346015679565524,
+        "fluency": 0.11177565846433125,
+        "relevance": 0.060689704696474736,
+        "overall": 0.09178848513404719,
+        "Generated": "375",
+        "Gold": "There have been a number of papers published in the journal Artificial Intelligence this week."
+    },
+    {
+        "coherence": 0.13725944722978672,
+        "consistency": 0.35287287284661983,
+        "fluency": 0.3793316136778653,
+        "relevance": 0.09271174223383973,
+        "overall": 0.24054391899702787,
+        "Generated": "376",
+        "Gold": "I have read a number of papers on the use of global image labels in chest radiography."
+    },
+    {
+        "coherence": 0.11418029060333408,
+        "consistency": 0.16519665871520042,
+        "fluency": 0.3557932096260717,
+        "relevance": 0.292565140418017,
+        "overall": 0.23193382484065578,
+        "Generated": "377",
+        "Gold": "All of the papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.20551548466923508,
+        "consistency": 0.3932000291715051,
+        "fluency": 0.4184758481484431,
+        "relevance": 0.23969890502002494,
+        "overall": 0.31422256675230203,
+        "Generated": "378",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.05659528929110479,
+        "consistency": 0.05277371057200577,
+        "fluency": 0.3140842906579138,
+        "relevance": 0.24008039645258156,
+        "overall": 0.16588342174340148,
+        "Generated": "379",
+        "Gold": "The following papers have been published in the journal Neural Information Systems."
+    },
+    {
+        "coherence": 0.32267687809458206,
+        "consistency": 0.4291352032846246,
+        "fluency": 0.17928476961166498,
+        "relevance": 0.13132910781726928,
+        "overall": 0.2656064897020352,
+        "Generated": "380",
+        "Gold": "Each day we feature a review of a scientific paper published in the journal Neuron."
+    },
+    {
+        "coherence": 0.3481502935429609,
+        "consistency": 0.3424242747561698,
+        "fluency": 0.1993766707853487,
+        "relevance": 0.24015655565284813,
+        "overall": 0.28252694868433187,
+        "Generated": "381",
+        "Gold": "The following papers have been published in the Journal of Combinatorial Analysis."
+    },
+    {
+        "coherence": 0.24425682448910715,
+        "consistency": 0.2506666470362449,
+        "fluency": 0.40141692641684,
+        "relevance": 0.24700706838901595,
+        "overall": 0.285836866582802,
+        "Generated": "382",
+        "Gold": "The following papers have been published in the journal Neural Networks."
+    },
+    {
+        "coherence": 0.2581577756488907,
+        "consistency": 0.1902948734737855,
+        "fluency": 0.2852039660560685,
+        "relevance": 0.31094450623488734,
+        "overall": 0.26115028035340804,
+        "Generated": "383",
+        "Gold": "The following papers have been published in the Notices of the Royal Academy of Engineering."
+    },
+    {
+        "coherence": 0.2025436014509788,
+        "consistency": 0.2611007581232343,
+        "fluency": 0.2700044787458653,
+        "relevance": 0.23059092487849667,
+        "overall": 0.24105994079964377,
+        "Generated": "384",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.04056864669957047,
+        "consistency": 0.07540924743284076,
+        "fluency": 0.27715169365179537,
+        "relevance": 0.2911108785812182,
+        "overall": 0.1710601165913562,
+        "Generated": "385",
+        "Gold": "Each day we feature a different research paper."
+    },
+    {
+        "coherence": 0.16729005778650077,
+        "consistency": 0.2135684019060608,
+        "fluency": 0.24439826682427326,
+        "relevance": 0.10627551254384629,
+        "overall": 0.18288305976517027,
+        "Generated": "386",
+        "Gold": "The following is a review of a paper published in Nature Communications."
+    },
+    {
+        "coherence": 0.3497514571204075,
+        "consistency": 0.3281522401539659,
+        "fluency": 0.3129087013334776,
+        "relevance": 0.3695328813851294,
+        "overall": 0.3400863199982451,
+        "Generated": "387",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.4502983273124059,
+        "consistency": 0.47936190054716576,
+        "fluency": 0.23445352246691722,
+        "relevance": 0.09999113062902557,
+        "overall": 0.3160262202388786,
+        "Generated": "388",
+        "Gold": "The International Conference on Machine Learning (ICML) is held every two years in Munich, Germany."
+    },
+    {
+        "coherence": 0.3822479469356605,
+        "consistency": 0.45430558267226756,
+        "fluency": 0.30836909010420155,
+        "relevance": 0.27189027276979655,
+        "overall": 0.3542032231204815,
+        "Generated": "389",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.230763726276178,
+        "consistency": 0.20817121988071716,
+        "fluency": 0.351807607446625,
+        "relevance": 0.10040915387973091,
+        "overall": 0.22278792687081278,
+        "Generated": "390",
+        "Gold": "Each week we feature a paper that has been published in a leading journal."
+    },
+    {
+        "coherence": 0.3117259750102978,
+        "consistency": 0.45022747106046973,
+        "fluency": 0.18404121879181318,
+        "relevance": 0.16339196859654032,
+        "overall": 0.2773466583647803,
+        "Generated": "391",
+        "Gold": "A number of papers have been published at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.300089318106964,
+        "consistency": 0.19709584820051831,
+        "fluency": 0.38728593095132297,
+        "relevance": 0.26402838034427384,
+        "overall": 0.28712486940076976,
+        "Generated": "392",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.02579458157682296,
+        "consistency": 0.1129825889040553,
+        "fluency": 0.17101246677578125,
+        "relevance": 0.20727880879734975,
+        "overall": 0.12926711151350231,
+        "Generated": "393",
+        "Gold": "Have you read any of the papers on this page?"
+    },
+    {
+        "coherence": 0.1648061743900884,
+        "consistency": 0.25770126882996647,
+        "fluency": 0.1862051538132872,
+        "relevance": 0.2989720573762892,
+        "overall": 0.2269211636024078,
+        "Generated": "394",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.22277467552015887,
+        "consistency": 0.2184503015264388,
+        "fluency": 0.1904199194149669,
+        "relevance": 0.09773419428050183,
+        "overall": 0.1823447726855166,
+        "Generated": "395",
+        "Gold": "The following is a review of a paper published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.07726075258866756,
+        "consistency": 0.09468757195628527,
+        "fluency": 0.5050207402893293,
+        "relevance": 0.21765513173339288,
+        "overall": 0.22365604914191875,
+        "Generated": "396",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.33423805248265176,
+        "consistency": 0.2144398115769868,
+        "fluency": 0.23951640584923464,
+        "relevance": 0.2670603931892778,
+        "overall": 0.26381366577453774,
+        "Generated": "397",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.36554392925538626,
+        "consistency": 0.45669670848193455,
+        "fluency": 0.3892966147315785,
+        "relevance": 0.2578465709079091,
+        "overall": 0.36734595584420215,
+        "Generated": "398",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.37767065543157613,
+        "consistency": 0.2941552972861847,
+        "fluency": 0.41257368833255564,
+        "relevance": 0.14833884268333336,
+        "overall": 0.3081846209334125,
+        "Generated": "399",
+        "Gold": "Several papers on reinforcement learning have been published in recent weeks."
+    },
+    {
+        "coherence": 0.12294084016519802,
+        "consistency": 0.27049228134915015,
+        "fluency": 0.21265344009624612,
+        "relevance": 0.21371295386301245,
+        "overall": 0.20494987886840169,
+        "Generated": "400",
+        "Gold": "All of the papers on this page have been published in refereed journals."
+    },
+    {
+        "coherence": 0.07806948152950598,
+        "consistency": 0.23458252152998738,
+        "fluency": 0.06004121195998897,
+        "relevance": 0.2074160609028099,
+        "overall": 0.14502731898057306,
+        "Generated": "401",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.047204634040955505,
+        "consistency": 0.13233882112862233,
+        "fluency": 0.2365462608495637,
+        "relevance": 0.2724536900507957,
+        "overall": 0.17213585151748434,
+        "Generated": "402",
+        "Gold": "The following papers have been published in refereed journals."
+    },
+    {
+        "coherence": 0.16079050290214517,
+        "consistency": 0.31665279328784773,
+        "fluency": 0.1512759949575657,
+        "relevance": 0.0448947227873631,
+        "overall": 0.16840350348373043,
+        "Generated": "403",
+        "Gold": "A review of the paper \"Active anomaly detection\" by Veeramachaneni, Ialdo Arnaldoe, and Bassias, V."
+    },
+    {
+        "coherence": 0.12416310870929922,
+        "consistency": 0.30572325997361127,
+        "fluency": 0.26960069821894267,
+        "relevance": 0.06942206055388242,
+        "overall": 0.1922272818639339,
+        "Generated": "404",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.09001773116768558,
+        "consistency": 0.1229059862492682,
+        "fluency": 0.05070311475566239,
+        "relevance": 0.01369390857644235,
+        "overall": 0.06933018518726464,
+        "Generated": "405",
+        "Gold": "I've just finished reading a paper called \"Early exit for transformer language models\". I've just finished reading a paper called \"Early exit for transformer language models\"."
+    },
+    {
+        "coherence": 0.12574774238530215,
+        "consistency": 0.20886350666571454,
+        "fluency": 0.17245751259934144,
+        "relevance": 0.20035151723535813,
+        "overall": 0.1768550697214291,
+        "Generated": "406",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.0766704725989454,
+        "consistency": 0.20840733087618127,
+        "fluency": 0.15383686802190039,
+        "relevance": 0.1373280727611486,
+        "overall": 0.14406068606454392,
+        "Generated": "407",
+        "Gold": "The following papers have been published in the journal NeurIPS."
+    },
+    {
+        "coherence": 0.08071519032876646,
+        "consistency": 0.16217517132116147,
+        "fluency": 0.07789322494047936,
+        "relevance": 0.25234367600433527,
+        "overall": 0.14328181564868564,
+        "Generated": "408",
+        "Gold": "The following papers have been published in refereed journals."
+    },
+    {
+        "coherence": 0.22573390970866541,
+        "consistency": 0.2456945947504176,
+        "fluency": 0.06798785079946315,
+        "relevance": 0.03685384855399666,
+        "overall": 0.1440675509531357,
+        "Generated": "409",
+        "Gold": "Reviews of papers on 3D printing can be found here."
+    },
+    {
+        "coherence": 0.26293487783040187,
+        "consistency": 0.3930562413993843,
+        "fluency": 0.0733212173848929,
+        "relevance": 0.3831387292848026,
+        "overall": 0.27811276647487043,
+        "Generated": "410",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.16005821732083167,
+        "consistency": 0.207255474380331,
+        "fluency": 0.06918069850049395,
+        "relevance": 0.19400482634856514,
+        "overall": 0.15762480413755545,
+        "Generated": "411",
+        "Gold": "The following papers have been published in the Journal of Electrical and Computer Engineering."
+    },
+    {
+        "coherence": 0.14870806785020804,
+        "consistency": 0.19308325243436766,
+        "fluency": 0.07225316748968745,
+        "relevance": 0.3131206400129894,
+        "overall": 0.18179128194681315,
+        "Generated": "412",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.1443205437724719,
+        "consistency": 0.19760935922226566,
+        "fluency": 0.06041012000466291,
+        "relevance": 0.14962732234246914,
+        "overall": 0.1379918363354674,
+        "Generated": "413",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.3325083738012046,
+        "consistency": 0.4061264034942181,
+        "fluency": 0.09267654703976688,
+        "relevance": 0.3473922315352943,
+        "overall": 0.294675888967621,
+        "Generated": "414",
+        "Gold": "The following papers have been reviewed by experts in their field."
+    },
+    {
+        "coherence": 0.1220153119574791,
+        "consistency": 0.17323767262737025,
+        "fluency": 0.10274054840621732,
+        "relevance": 0.0629764091203696,
+        "overall": 0.11524248552785907,
+        "Generated": "415",
+        "Gold": "This week, a number of papers have been published on artificial intelligence."
+    },
+    {
+        "coherence": 0.08942671169029573,
+        "consistency": 0.13090352288068238,
+        "fluency": 0.14520435756572492,
+        "relevance": 0.053931917724883593,
+        "overall": 0.10486662746539666,
+        "Generated": "416",
+        "Gold": "There have been a number of papers published in recent weeks on the topic of video prediction."
+    },
+    {
+        "coherence": 0.07232004006068053,
+        "consistency": 0.1479172476179056,
+        "fluency": 0.07469711058077581,
+        "relevance": 0.22149894841912235,
+        "overall": 0.12910833666962107,
+        "Generated": "417",
+        "Gold": "The following papers have been published in refereed journals in the field of adversarial machine learning."
+    },
+    {
+        "coherence": 0.223803114218315,
+        "consistency": 0.42073457407992715,
+        "fluency": 0.17080485327112283,
+        "relevance": 0.1260205344764748,
+        "overall": 0.23534076901145992,
+        "Generated": "418",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.18247455898876935,
+        "consistency": 0.2686001320165692,
+        "fluency": 0.11248715767853923,
+        "relevance": 0.12370381977554028,
+        "overall": 0.1718164171148545,
+        "Generated": "419",
+        "Gold": "The following papers have been accepted for publication in the journal Mathematica."
+    },
+    {
+        "coherence": 0.21768302289946703,
+        "consistency": 0.36409190042136136,
+        "fluency": 0.04855392441293057,
+        "relevance": 0.04822477879294171,
+        "overall": 0.16963840663167518,
+        "Generated": "420",
+        "Gold": "The International Conference on Learning and Research (ICLR) is an international conference on learning and research that takes place every two years in Paris, France."
+    },
+    {
+        "coherence": 0.07656903852979911,
+        "consistency": 0.18210967435530134,
+        "fluency": 0.18420136747855353,
+        "relevance": 0.0655475384786029,
+        "overall": 0.12710690471056424,
+        "Generated": "421",
+        "Gold": "Several papers on 3D scene compression have been published in recent months."
+    },
+    {
+        "coherence": 0.06710448708307629,
+        "consistency": 0.11651786628999596,
+        "fluency": 0.2805542917562262,
+        "relevance": 0.0387986566478227,
+        "overall": 0.12574382544428028,
+        "Generated": "422",
+        "Gold": "A review of my work is published in the Journal of Combinatorial Mathematics."
+    },
+    {
+        "coherence": 0.10792455178466542,
+        "consistency": 0.2072227650301003,
+        "fluency": 0.15276131429468234,
+        "relevance": 0.06481084827860928,
+        "overall": 0.13317986984701433,
+        "Generated": "423",
+        "Gold": "Robot reviews are a great way to find out what other people are saying about a particular paper."
+    },
+    {
+        "coherence": 0.11338470121157894,
+        "consistency": 0.20704604367800086,
+        "fluency": 0.31589022565954733,
+        "relevance": 0.3369976036823509,
+        "overall": 0.24332964355786948,
+        "Generated": "424",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.20411169152937375,
+        "consistency": 0.739386629592045,
+        "fluency": 0.3154258694624563,
+        "relevance": 0.3401344330896081,
+        "overall": 0.3997646559183708,
+        "Generated": "425",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.06890546332888386,
+        "consistency": 0.08702148367736029,
+        "fluency": 0.31468198262080643,
+        "relevance": 0.17740130148701905,
+        "overall": 0.1620025577785174,
+        "Generated": "426",
+        "Gold": "All of the papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.1148576252790223,
+        "consistency": 0.16837993555547287,
+        "fluency": 0.3467774833802348,
+        "relevance": 0.1726374854985175,
+        "overall": 0.20066313242831185,
+        "Generated": "427",
+        "Gold": "The following papers have been published in the journal Neuron."
+    },
+    {
+        "coherence": 0.04799697029187719,
+        "consistency": 0.12074169919775479,
+        "fluency": 0.27511857520035676,
+        "relevance": 0.25569798001286426,
+        "overall": 0.17488880617571326,
+        "Generated": "428",
+        "Gold": "The following papers have been accepted for publication in refereed journals."
+    },
+    {
+        "coherence": 0.19518102286568462,
+        "consistency": 0.35221580078610587,
+        "fluency": 0.21685649010611438,
+        "relevance": 0.10966870205253904,
+        "overall": 0.21848050395261098,
+        "Generated": "429",
+        "Gold": "A number of papers have been published in the journal Neuron in the past week."
+    },
+    {
+        "coherence": 0.12496025442887763,
+        "consistency": 0.28734760424922445,
+        "fluency": 0.05783452428009029,
+        "relevance": 0.08439864228923526,
+        "overall": 0.1386352563118569,
+        "Generated": "430",
+        "Gold": "Several papers on text-to-speech (TTS) have been published in recent weeks."
+    },
+    {
+        "coherence": 0.05516755211640911,
+        "consistency": 0.21654669572547836,
+        "fluency": 0.11228026112009185,
+        "relevance": 0.19984155397509556,
+        "overall": 0.14595901573426873,
+        "Generated": "431",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Biology."
+    },
+    {
+        "coherence": 0.11181879641972886,
+        "consistency": 0.14799760239445833,
+        "fluency": 0.3227361546044029,
+        "relevance": 0.11514614373305117,
+        "overall": 0.1744246742879103,
+        "Generated": "432",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.1033730831137996,
+        "consistency": 0.15755858373416676,
+        "fluency": 0.1609214236195076,
+        "relevance": 0.010806177046291764,
+        "overall": 0.10816481687844144,
+        "Generated": "433",
+        "Gold": "The results of some of the papers on this page are not well analysed or compared fairly with the literature. the results of this work are not well analysed or compared fairly with the literature."
+    },
+    {
+        "coherence": 0.11062151225387623,
+        "consistency": 0.30944360518983605,
+        "fluency": 0.14542024534117898,
+        "relevance": 0.13320030214402148,
+        "overall": 0.17467141623222818,
+        "Generated": "434",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.08253221146829147,
+        "consistency": 0.12279330153804234,
+        "fluency": 0.20063001673167152,
+        "relevance": 0.10967900141642004,
+        "overall": 0.12890863278860634,
+        "Generated": "435",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.0887332902126715,
+        "consistency": 0.1367787943601966,
+        "fluency": 0.31194150467205156,
+        "relevance": 0.16692718609217286,
+        "overall": 0.17609519383427313,
+        "Generated": "436",
+        "Gold": "The following papers have been published in the journal Communication Research."
+    },
+    {
+        "coherence": 0.08060207726187853,
+        "consistency": 0.23863040572067415,
+        "fluency": 0.2264650993636017,
+        "relevance": 0.2722472140065628,
+        "overall": 0.2044861990881793,
+        "Generated": "437",
+        "Gold": "The following is a list of papers published in the past year."
+    },
+    {
+        "coherence": 0.10077046478897554,
+        "consistency": 0.3054460361454139,
+        "fluency": 0.28137662518259,
+        "relevance": 0.0647712251073536,
+        "overall": 0.18809108780608325,
+        "Generated": "438",
+        "Gold": "A number of papers on anomaly detection have been published in the journal arXiv."
+    },
+    {
+        "coherence": 0.14770073033761863,
+        "consistency": 0.24131939544492997,
+        "fluency": 0.24513313390973296,
+        "relevance": 0.21248157360486802,
+        "overall": 0.2116587083242874,
+        "Generated": "439",
+        "Gold": "The following papers have been published in the journal Mathematica."
+    },
+    {
+        "coherence": 0.13212728473658308,
+        "consistency": 0.39423439601851884,
+        "fluency": 0.10212512495502037,
+        "relevance": 0.12129458738569909,
+        "overall": 0.18744534827395534,
+        "Generated": "440",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.05320135402477311,
+        "consistency": 0.1366218427019951,
+        "fluency": 0.10951929389560881,
+        "relevance": 0.15279076551111376,
+        "overall": 0.11303331403337269,
+        "Generated": "441",
+        "Gold": "The following papers have been accepted for publication in refereed journals."
+    },
+    {
+        "coherence": 0.06312892972283489,
+        "consistency": 0.1555403922993342,
+        "fluency": 0.2702470846070369,
+        "relevance": 0.17855052533618893,
+        "overall": 0.16686673299134874,
+        "Generated": "442",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.03283517751085328,
+        "consistency": 0.10968121355447952,
+        "fluency": 0.1516001233710284,
+        "relevance": 0.12991954911454673,
+        "overall": 0.10600901588772699,
+        "Generated": "443",
+        "Gold": "Each day we feature a paper that has been reviewed by our readers."
+    },
+    {
+        "coherence": 0.029039999251053952,
+        "consistency": 0.07611134741134344,
+        "fluency": 0.2705608406785246,
+        "relevance": 0.007701110804634848,
+        "overall": 0.09585332453638921,
+        "Generated": "444",
+        "Gold": "The following are some of the papers that have been published in the last year. the following is a list of some of the papers that have been published in the last year."
+    },
+    {
+        "coherence": 0.08872968654269164,
+        "consistency": 0.19206701222975756,
+        "fluency": 0.23675604767856215,
+        "relevance": 0.1301941891493905,
+        "overall": 0.16193673390010047,
+        "Generated": "445",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.06411800223805385,
+        "consistency": 0.13614086982888476,
+        "fluency": 0.2945493971731235,
+        "relevance": 0.288347025700701,
+        "overall": 0.19578882373519077,
+        "Generated": "446",
+        "Gold": "The following papers have been reviewed by the BBC News website."
+    },
+    {
+        "coherence": 0.04650431330547194,
+        "consistency": 0.08707764056474514,
+        "fluency": 0.20889036723448778,
+        "relevance": 0.03931725430256531,
+        "overall": 0.09544739385181754,
+        "Generated": "447",
+        "Gold": "The following is a review of the paper \"Deep Learning for Model Correction in ECG\"."
+    },
+    {
+        "coherence": 0.1198721024243989,
+        "consistency": 0.16394421099033726,
+        "fluency": 0.33334908902263477,
+        "relevance": 0.08854163088763961,
+        "overall": 0.17642675833125265,
+        "Generated": "448",
+        "Gold": "Several papers on graph computing have been published in recent weeks."
+    },
+    {
+        "coherence": 0.1411369743104201,
+        "consistency": 0.29797711403247107,
+        "fluency": 0.22747368881111976,
+        "relevance": 0.25922178875607665,
+        "overall": 0.2314523914775219,
+        "Generated": "449",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.1305979860940259,
+        "consistency": 0.23735554816336799,
+        "fluency": 0.11321737588467536,
+        "relevance": 0.11720125837006609,
+        "overall": 0.14959304212803382,
+        "Generated": "450",
+        "Gold": "The following are my top three picks for the best papers of the year."
+    },
+    {
+        "coherence": 0.18457200110129146,
+        "consistency": 0.257627359999423,
+        "fluency": 0.10841823811033915,
+        "relevance": 0.11003568705935965,
+        "overall": 0.1651633215676033,
+        "Generated": "451",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.047943943973776944,
+        "consistency": 0.0756475829685759,
+        "fluency": 0.0740456923320055,
+        "relevance": 0.11846575110902777,
+        "overall": 0.07902574259584652,
+        "Generated": "452",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.12846495595238794,
+        "consistency": 0.27213731713788775,
+        "fluency": 0.11928574447685672,
+        "relevance": 0.06710648293678406,
+        "overall": 0.14674862512597914,
+        "Generated": "453",
+        "Gold": "Arxiv has published a series of papers on the theory and performance of graph networks."
+    },
+    {
+        "coherence": 0.07384219981716218,
+        "consistency": 0.1299590319209771,
+        "fluency": 0.13406277053335497,
+        "relevance": 0.1765946891204237,
+        "overall": 0.1286146728479795,
+        "Generated": "454",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.1145094898992509,
+        "consistency": 0.18912159841326964,
+        "fluency": 0.20081740401298723,
+        "relevance": 0.11727113838362502,
+        "overall": 0.1554299076772832,
+        "Generated": "455",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.11378560799057982,
+        "consistency": 0.24214526551910384,
+        "fluency": 0.17757878302551322,
+        "relevance": 0.10573163508830448,
+        "overall": 0.15981032290587535,
+        "Generated": "456",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.30754972620711957,
+        "consistency": 0.2330742184605831,
+        "fluency": 0.12664542691080763,
+        "relevance": 0.01641606963675659,
+        "overall": 0.17092136030381672,
+        "Generated": "457",
+        "Gold": "The International Conference on Machine Learning and Deep Learning (ICML) is taking place in Amsterdam, the Netherlands, from 6-9 June 2016."
+    },
+    {
+        "coherence": 0.14795912345828102,
+        "consistency": 0.24180997507145613,
+        "fluency": 0.25395614744026507,
+        "relevance": 0.097975224476377,
+        "overall": 0.1854251176115948,
+        "Generated": "458",
+        "Gold": "The following is a review of a study on denoising diffusion models."
+    },
+    {
+        "coherence": 0.29347260697160366,
+        "consistency": 0.41676060136886073,
+        "fluency": 0.29503145749665355,
+        "relevance": 0.06701256147357494,
+        "overall": 0.2680693068276732,
+        "Generated": "459",
+        "Gold": "This week, a number of papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.07349268807141451,
+        "consistency": 0.2298604470848005,
+        "fluency": 0.1245087672688352,
+        "relevance": 0.09651743372307335,
+        "overall": 0.13109483403703087,
+        "Generated": "460",
+        "Gold": "The following is an edited version of my response to your paper:"
+    },
+    {
+        "coherence": 0.15745388068529995,
+        "consistency": 0.22686079909149592,
+        "fluency": 0.16379277022357874,
+        "relevance": 0.3179354979688902,
+        "overall": 0.2165107369923162,
+        "Generated": "461",
+        "Gold": "The following papers have been published in the Notices of the American Mathematical Society and the Notices of the European Mathematical Society."
+    },
+    {
+        "coherence": 0.04077609123906975,
+        "consistency": 0.105890778763119,
+        "fluency": 0.24788997856383507,
+        "relevance": 0.11723492299050291,
+        "overall": 0.12794794288913167,
+        "Generated": "462",
+        "Gold": "The results of this paper are interesting."
+    },
+    {
+        "coherence": 0.12802959814805784,
+        "consistency": 0.2202346500383739,
+        "fluency": 0.1829634905586461,
+        "relevance": 0.09424816239940223,
+        "overall": 0.15636897528612004,
+        "Generated": "463",
+        "Gold": "The following is a review of a paper published in Notices of the National Institute of Standards and Technology (NIST)."
+    },
+    {
+        "coherence": 0.07814629166382636,
+        "consistency": 0.25669303438272006,
+        "fluency": 0.2993014367402622,
+        "relevance": 0.04626552027526054,
+        "overall": 0.1701015707655173,
+        "Generated": "464",
+        "Gold": "The International Journal of Machine Learning (IJML) has published a series of reviews of research papers on the topic of machine learning in agriculture."
+    },
+    {
+        "coherence": 0.18417105938403913,
+        "consistency": 0.22244946921779102,
+        "fluency": 0.16603866479267473,
+        "relevance": 0.188344156375864,
+        "overall": 0.19025083744259222,
+        "Generated": "465",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.1796837646711841,
+        "consistency": 0.2574508588528216,
+        "fluency": 0.39027595559185124,
+        "relevance": 0.07830689307435393,
+        "overall": 0.2264293680475527,
+        "Generated": "466",
+        "Gold": "Several papers have been published at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.3894361535080709,
+        "consistency": 0.4705752271336147,
+        "fluency": 0.2791530909192238,
+        "relevance": 0.15530191106341018,
+        "overall": 0.3236165956560799,
+        "Generated": "467",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.07088893703256047,
+        "consistency": 0.15230283230991357,
+        "fluency": 0.3282101304732281,
+        "relevance": 0.3538647418943025,
+        "overall": 0.22631666042750118,
+        "Generated": "468",
+        "Gold": "The following papers have been published in leading journals in artificial intelligence and machine learning."
+    },
+    {
+        "coherence": 0.16545126665380752,
+        "consistency": 0.2383463966148591,
+        "fluency": 0.280892211983436,
+        "relevance": 0.15497867225512016,
+        "overall": 0.20991713687680572,
+        "Generated": "469",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.1892513188155388,
+        "consistency": 0.2792460790456108,
+        "fluency": 0.22982478973465778,
+        "relevance": 0.3990379223581497,
+        "overall": 0.2743400274884893,
+        "Generated": "470",
+        "Gold": "The following papers have been published in the Notices of the American Mathematical Society and the Notices of the European Mathematical Society."
+    },
+    {
+        "coherence": 0.06678953000229149,
+        "consistency": 0.20597008386433555,
+        "fluency": 0.24222261233940653,
+        "relevance": 0.40049111886335376,
+        "overall": 0.22886833626734684,
+        "Generated": "471",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.2124814048378626,
+        "consistency": 0.15628744746653414,
+        "fluency": 0.36221368891756306,
+        "relevance": 0.05989839590269522,
+        "overall": 0.19772023428116373,
+        "Generated": "472",
+        "Gold": "Several papers have been published in the journal of the American College of Cardiology describing methods for generating anatomical segmentations from cardiac MR images."
+    },
+    {
+        "coherence": 0.13251775671451438,
+        "consistency": 0.24462410933440565,
+        "fluency": 0.10118134293033212,
+        "relevance": 0.03668156302547693,
+        "overall": 0.1287511930011823,
+        "Generated": "473",
+        "Gold": "The results of a study on AxB networks have been published in the journal Neuron."
+    },
+    {
+        "coherence": 0.19416641000956153,
+        "consistency": 0.2896851836552858,
+        "fluency": 0.1660480384515993,
+        "relevance": 0.40677312959794343,
+        "overall": 0.2641681904285975,
+        "Generated": "474",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.1681348095902607,
+        "consistency": 0.2472052716425983,
+        "fluency": 0.27602497170603485,
+        "relevance": 0.03335963619827804,
+        "overall": 0.181181172284293,
+        "Generated": "475",
+        "Gold": "Reinforcement learning (RL) is a branch of computer science that deals with the problem of how to train animals to learn new skills."
+    },
+    {
+        "coherence": 0.3266287653997491,
+        "consistency": 0.30389463075777023,
+        "fluency": 0.2997792960271944,
+        "relevance": 0.15312513439376865,
+        "overall": 0.2708569566446206,
+        "Generated": "476",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.15696452952535891,
+        "consistency": 0.22135054215169042,
+        "fluency": 0.20499406091956324,
+        "relevance": 0.09533103602542575,
+        "overall": 0.16966004215550962,
+        "Generated": "477",
+        "Gold": "A number of papers have been published in the journal Physical Review Letters this week."
+    },
+    {
+        "coherence": 0.2633335579541536,
+        "consistency": 0.33240968119844655,
+        "fluency": 0.3120887562575986,
+        "relevance": 0.4291299384575155,
+        "overall": 0.33424048346692853,
+        "Generated": "478",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.2635256503602312,
+        "consistency": 0.28880298540086097,
+        "fluency": 0.19223527008266444,
+        "relevance": 0.1898588783058691,
+        "overall": 0.2336056960374064,
+        "Generated": "479",
+        "Gold": "The following papers have been published in the journal Information Theory."
+    },
+    {
+        "coherence": 0.1958729599090642,
+        "consistency": 0.2022339922588847,
+        "fluency": 0.07401613607601713,
+        "relevance": 0.20499882807556327,
+        "overall": 0.16928047907988233,
+        "Generated": "480",
+        "Gold": "The aim of this paper is to improve the state-of-the-art for portfolio optimization using reinforcement learning."
+    },
+    {
+        "coherence": 0.19153771159476235,
+        "consistency": 0.3081040145892946,
+        "fluency": 0.12250302833863042,
+        "relevance": 0.2604608236368123,
+        "overall": 0.22065139453987492,
+        "Generated": "481",
+        "Gold": "The following papers have been published in the Notices of the Royal Academy of Engineering."
+    },
+    {
+        "coherence": 0.353481805105749,
+        "consistency": 0.2900003808851903,
+        "fluency": 0.274481935491139,
+        "relevance": 0.20863308409107004,
+        "overall": 0.2816493013932871,
+        "Generated": "482",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.3096322714987731,
+        "consistency": 0.3390900977097987,
+        "fluency": 0.15030966203946491,
+        "relevance": 0.18324861358988662,
+        "overall": 0.24557016120948083,
+        "Generated": "483",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.09845351291194522,
+        "consistency": 0.18708172266149523,
+        "fluency": 0.16161369567326575,
+        "relevance": 0.04934442311788475,
+        "overall": 0.12412333859114773,
+        "Generated": "484",
+        "Gold": "The International Conference on Machine Learning (ICLR) is an annual conference on the theory and practice of machine learning."
+    },
+    {
+        "coherence": 0.03874482366480276,
+        "consistency": 0.06878389948524316,
+        "fluency": 0.10873752246122942,
+        "relevance": 0.06608752311344056,
+        "overall": 0.07058844218117898,
+        "Generated": "485",
+        "Gold": "Reviews are a great way to find out what people are saying about a paper."
+    },
+    {
+        "coherence": 0.4079600769746847,
+        "consistency": 0.4733137075831976,
+        "fluency": 0.11673355023491777,
+        "relevance": 0.031391127104624036,
+        "overall": 0.25734961547435603,
+        "Generated": "486",
+        "Gold": "A paper under review proposes a simple positive sampling scheme in metric learning: only sampling the easiest positive for each anchor."
+    },
+    {
+        "coherence": 0.18697959965373254,
+        "consistency": 0.2127050732904185,
+        "fluency": 0.18715505344583072,
+        "relevance": 0.09527537691471176,
+        "overall": 0.17052877582617337,
+        "Generated": "487",
+        "Gold": "A number of papers have been published on the topic of approximate value formalism in reinforcement learning."
+    },
+    {
+        "coherence": 0.12246956982163544,
+        "consistency": 0.19087866093199043,
+        "fluency": 0.1448609758753269,
+        "relevance": 0.25687418651942734,
+        "overall": 0.17877084828709505,
+        "Generated": "488",
+        "Gold": "The following papers have been accepted for publication in refereed journals."
+    },
+    {
+        "coherence": 0.08546965013835131,
+        "consistency": 0.11972618772019128,
+        "fluency": 0.16012298360869243,
+        "relevance": 0.2584741283392877,
+        "overall": 0.15594823745163067,
+        "Generated": "489",
+        "Gold": "The following papers have been published in the journal Proceedings of the National Academy of Sciences."
+    },
+    {
+        "coherence": 0.12001730256225507,
+        "consistency": 0.16966880318540903,
+        "fluency": 0.18340951579770048,
+        "relevance": 0.2120620810641167,
+        "overall": 0.17128942565237032,
+        "Generated": "490",
+        "Gold": "What you need to know: This paper is an interesting contribution to the field of deep learning."
+    },
+    {
+        "coherence": 0.08542558186239449,
+        "consistency": 0.15336952512714036,
+        "fluency": 0.10712485715320504,
+        "relevance": 0.17807852314611755,
+        "overall": 0.13099962182221436,
+        "Generated": "491",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.2418570640698817,
+        "consistency": 0.2415454860488399,
+        "fluency": 0.24459412423538548,
+        "relevance": 0.45611468784081644,
+        "overall": 0.2960278405487309,
+        "Generated": "492",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.14537411506981135,
+        "consistency": 0.17289598317140897,
+        "fluency": 0.14080975090724526,
+        "relevance": 0.4175252857466476,
+        "overall": 0.2191512837237783,
+        "Generated": "493",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.12896552087943214,
+        "consistency": 0.1384791718179487,
+        "fluency": 0.09560744768797343,
+        "relevance": 0.1372809580677422,
+        "overall": 0.12508327461327412,
+        "Generated": "494",
+        "Gold": "The following reviews have been published in the journal Emotion."
+    },
+    {
+        "coherence": 0.17968438590015276,
+        "consistency": 0.20730947642836936,
+        "fluency": 0.10732344090406659,
+        "relevance": 0.36225213084080343,
+        "overall": 0.21414235851834804,
+        "Generated": "495",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.41283302806803546,
+        "consistency": 0.3801559214429164,
+        "fluency": 0.37233292285023883,
+        "relevance": 0.4095885380347158,
+        "overall": 0.3937276025989766,
+        "Generated": "496",
+        "Gold": "The following papers have been published in refereed journals over the past year."
+    },
+    {
+        "coherence": 0.22451963707037892,
+        "consistency": 0.30713925243368534,
+        "fluency": 0.1262555046280868,
+        "relevance": 0.20860939211723162,
+        "overall": 0.21663094656234566,
+        "Generated": "497",
+        "Gold": "The following papers have been published in the journal Science."
+    },
+    {
+        "coherence": 0.26058687325382796,
+        "consistency": 0.38977523291888444,
+        "fluency": 0.2120751922048242,
+        "relevance": 0.31380001624272896,
+        "overall": 0.2940593286550664,
+        "Generated": "498",
+        "Gold": "The following papers have been published in leading scientific journals."
+    },
+    {
+        "coherence": 0.09072868176854401,
+        "consistency": 0.22335535236685003,
+        "fluency": 0.2695309618680855,
+        "relevance": 0.12079681826674707,
+        "overall": 0.17610295356755665,
+        "Generated": "499",
+        "Gold": "The following papers have been published in the Journal of the American College of Surgeons."
+    },
+    {
+        "coherence": 0.3315237343342486,
+        "consistency": 0.3269774932963235,
+        "fluency": 0.2458858937473548,
+        "relevance": 0.12255795753173836,
+        "overall": 0.2567362697274163,
+        "Generated": "500",
+        "Gold": "The following papers have been published in the journal Neural Networks."
+    },
+    {
+        "coherence": 0.11758099146969048,
+        "consistency": 0.22312532971688986,
+        "fluency": 0.08211663981085673,
+        "relevance": 0.15828167608992819,
+        "overall": 0.14527615927184132,
+        "Generated": "501",
+        "Gold": "The reviews on this page are copyrighted."
+    },
+    {
+        "coherence": 0.06461333710222295,
+        "consistency": 0.18234227693668548,
+        "fluency": 0.17216859292449313,
+        "relevance": 0.04219204659648757,
+        "overall": 0.11532906338997229,
+        "Generated": "502",
+        "Gold": "The following is a review of a recent paper in the field of distributed optimization."
+    },
+    {
+        "coherence": 0.1098703742498807,
+        "consistency": 0.30136836714354787,
+        "fluency": 0.08490382491590168,
+        "relevance": 0.20199180769542557,
+        "overall": 0.17453359350118897,
+        "Generated": "503",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.10309461854845847,
+        "consistency": 0.20534833829453594,
+        "fluency": 0.1762919141995952,
+        "relevance": 0.3842070329323567,
+        "overall": 0.21723547599373658,
+        "Generated": "504",
+        "Gold": "The following papers have been reviewed by the scientific community."
+    },
+    {
+        "coherence": 0.037752908749745274,
+        "consistency": 0.10077698289756651,
+        "fluency": 0.24274952877487788,
+        "relevance": 0.07431292171942687,
+        "overall": 0.11389808553540413,
+        "Generated": "505",
+        "Gold": "A number of papers have been published at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.12134996994158306,
+        "consistency": 0.2462192007820611,
+        "fluency": 0.11366839030782694,
+        "relevance": 0.10753406459955481,
+        "overall": 0.14719290640775648,
+        "Generated": "506",
+        "Gold": "Each day we feature a paper published in a leading journal."
+    },
+    {
+        "coherence": 0.1685433995112953,
+        "consistency": 0.32211213922136817,
+        "fluency": 0.11405216901633859,
+        "relevance": 0.08936311998695823,
+        "overall": 0.17351770693399007,
+        "Generated": "507",
+        "Gold": "A number of papers have been presented at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.056574499958994724,
+        "consistency": 0.14421711051615466,
+        "fluency": 0.06380143293476012,
+        "relevance": 0.05472309534004556,
+        "overall": 0.07982903468748877,
+        "Generated": "508",
+        "Gold": "The following is a review of a paper on speech restoration published in the Journal of Acoustics."
+    },
+    {
+        "coherence": 0.06660663643602587,
+        "consistency": 0.13805052256272404,
+        "fluency": 0.04151226075908664,
+        "relevance": 0.1761735307010897,
+        "overall": 0.10558573761473157,
+        "Generated": "509",
+        "Gold": "This week's papers include:"
+    },
+    {
+        "coherence": 0.16869771032557904,
+        "consistency": 0.21412572724587048,
+        "fluency": 0.07434811292115366,
+        "relevance": 0.21504714335987457,
+        "overall": 0.16805467346311945,
+        "Generated": "510",
+        "Gold": "Each day we feature a different research paper."
+    },
+    {
+        "coherence": 0.11864791442889712,
+        "consistency": 0.2486311655331942,
+        "fluency": 0.016637540093148523,
+        "relevance": 0.08215778366375297,
+        "overall": 0.11651860092974821,
+        "Generated": "511",
+        "Gold": "The following papers have been accepted for publication in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.17291794994737333,
+        "consistency": 0.19786784423429854,
+        "fluency": 0.09631640756492545,
+        "relevance": 0.16500853055658588,
+        "overall": 0.1580276830757958,
+        "Generated": "512",
+        "Gold": "The following papers have been reviewed by the journal Science."
+    },
+    {
+        "coherence": 0.03983364073685948,
+        "consistency": 0.12764180462779645,
+        "fluency": 0.047720648708137726,
+        "relevance": 0.154376922194638,
+        "overall": 0.09239325406685792,
+        "Generated": "513",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.09464945675921231,
+        "consistency": 0.13963470509339712,
+        "fluency": 0.06195555594232635,
+        "relevance": 0.1301929582294139,
+        "overall": 0.10660816900608741,
+        "Generated": "514",
+        "Gold": "The following papers have been published in the journal Neural Computation."
+    },
+    {
+        "coherence": 0.11848404129883755,
+        "consistency": 0.20598323015127507,
+        "fluency": 0.08892494952763526,
+        "relevance": 0.0521362599635212,
+        "overall": 0.11638212023531727,
+        "Generated": "515",
+        "Gold": "A number of papers have been published in the journal reinforcement learning this week."
+    },
+    {
+        "coherence": 0.21779663704297827,
+        "consistency": 0.3449209677842848,
+        "fluency": 0.10881605165138475,
+        "relevance": 0.045140350172447254,
+        "overall": 0.17916850166277376,
+        "Generated": "516",
+        "Gold": "NeurIPS is the world's largest conference on machine learning and artificial intelligence in proteomics."
+    },
+    {
+        "coherence": 0.0987565423292942,
+        "consistency": 0.1300039908049208,
+        "fluency": 0.04513619438630645,
+        "relevance": 0.16296070267640914,
+        "overall": 0.10921435754923264,
+        "Generated": "517",
+        "Gold": "The following papers have been published in refereed journals in recent months."
+    },
+    {
+        "coherence": 0.11808170388208596,
+        "consistency": 0.23081967403660578,
+        "fluency": 0.09244282937480794,
+        "relevance": 0.095723753928908,
+        "overall": 0.1342669903056019,
+        "Generated": "518",
+        "Gold": "The following papers have been published in the journal Machine Translation."
+    },
+    {
+        "coherence": 0.03940740604972193,
+        "consistency": 0.08351465204287203,
+        "fluency": 0.06197184989584418,
+        "relevance": 0.24197640071883,
+        "overall": 0.10671757717681704,
+        "Generated": "519",
+        "Gold": "All of the papers on this page have been reviewed by the journal Science."
+    },
+    {
+        "coherence": 0.16242949778745733,
+        "consistency": 0.3513975850658017,
+        "fluency": 0.1697727773515238,
+        "relevance": 0.12828346748340588,
+        "overall": 0.20297083192204718,
+        "Generated": "520",
+        "Gold": "Several papers on graph Neural Networks (GNNs) have been published in recent weeks."
+    },
+    {
+        "coherence": 0.0445805932562986,
+        "consistency": 0.07049489244323719,
+        "fluency": 0.17050600078279696,
+        "relevance": 0.10275765952727946,
+        "overall": 0.09708478650240304,
+        "Generated": "521",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.17601246201085755,
+        "consistency": 0.2931489687496899,
+        "fluency": 0.2040964351474386,
+        "relevance": 0.13183834386494298,
+        "overall": 0.20127405244323224,
+        "Generated": "522",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.09848221101466316,
+        "consistency": 0.1706211504868161,
+        "fluency": 0.1256982903903345,
+        "relevance": 0.18412806389783498,
+        "overall": 0.14473242894741217,
+        "Generated": "523",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.0721408446273632,
+        "consistency": 0.12278287046056283,
+        "fluency": 0.2009200566865022,
+        "relevance": 0.14353057303257266,
+        "overall": 0.13484358620175022,
+        "Generated": "524",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.06787180337311287,
+        "consistency": 0.19840838794217666,
+        "fluency": 0.2042161885158112,
+        "relevance": 0.16474720094213782,
+        "overall": 0.15881089519330963,
+        "Generated": "525",
+        "Gold": "The following papers have been accepted for publication in refereed journals."
+    },
+    {
+        "coherence": 0.10268915689538138,
+        "consistency": 0.14041945813870815,
+        "fluency": 0.19753395907742874,
+        "relevance": 0.20669932159360963,
+        "overall": 0.16183547392628198,
+        "Generated": "526",
+        "Gold": "The following papers have been published in the journal Proceedings of the National Academy of Sciences."
+    },
+    {
+        "coherence": 0.25389193027707124,
+        "consistency": 0.42196417678356396,
+        "fluency": 0.2525109731253388,
+        "relevance": 0.09473591774797487,
+        "overall": 0.25577574948348725,
+        "Generated": "527",
+        "Gold": "Reviews of research papers can be found here."
+    },
+    {
+        "coherence": 0.1825027751370372,
+        "consistency": 0.3511720290224374,
+        "fluency": 0.18097869614242135,
+        "relevance": 0.17788966199835576,
+        "overall": 0.22313579057506291,
+        "Generated": "528",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Physical Society (APS)."
+    },
+    {
+        "coherence": 0.19121333521333236,
+        "consistency": 0.22760904115005892,
+        "fluency": 0.07360786450423507,
+        "relevance": 0.16339304930648205,
+        "overall": 0.16395582254352709,
+        "Generated": "529",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.2613671061003617,
+        "consistency": 0.4894734056294349,
+        "fluency": 0.0535065066854453,
+        "relevance": 0.12394415751992548,
+        "overall": 0.23207279398379185,
+        "Generated": "530",
+        "Gold": "The following papers have been published in the Journal of graph theory and graph analysis."
+    },
+    {
+        "coherence": 0.10445002142467415,
+        "consistency": 0.26619218721551996,
+        "fluency": 0.0808570453984387,
+        "relevance": 0.055196053284515524,
+        "overall": 0.12667382683078707,
+        "Generated": "531",
+        "Gold": "There have been a number of papers published in the Notices of the Royal Society of Chemistry this week."
+    },
+    {
+        "coherence": 0.04505443536063376,
+        "consistency": 0.10412383766474154,
+        "fluency": 0.167489823694146,
+        "relevance": 0.20637592666088075,
+        "overall": 0.1307610058451005,
+        "Generated": "532",
+        "Gold": "The following papers have been published in the Notices of the Royal Society of Chemistry."
+    },
+    {
+        "coherence": 0.16090993527030076,
+        "consistency": 0.280301110686908,
+        "fluency": 0.1400234665878288,
+        "relevance": 0.15085662474785508,
+        "overall": 0.18302278432322316,
+        "Generated": "533",
+        "Gold": "All papers on this page are copyrighted."
+    },
+    {
+        "coherence": 0.14340701762025015,
+        "consistency": 0.25567474889223674,
+        "fluency": 0.09444097165739607,
+        "relevance": 0.1430693837991912,
+        "overall": 0.15914803049226856,
+        "Generated": "534",
+        "Gold": "The following papers have been published in Nature Communications."
+    },
+    {
+        "coherence": 0.04941814793381833,
+        "consistency": 0.12084788064596412,
+        "fluency": 0.1174270776821638,
+        "relevance": 0.1058927475474242,
+        "overall": 0.09839646345234263,
+        "Generated": "535",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.13661041281616806,
+        "consistency": 0.17514503938099324,
+        "fluency": 0.23059263361437893,
+        "relevance": 0.05949079282318439,
+        "overall": 0.15045971965868113,
+        "Generated": "536",
+        "Gold": "A paper's reviews are a good way to find out what others are saying about it."
+    },
+    {
+        "coherence": 0.04774934763713125,
+        "consistency": 0.13458496937609296,
+        "fluency": 0.13201060307744833,
+        "relevance": 0.22103151331812831,
+        "overall": 0.13384410835220023,
+        "Generated": "537",
+        "Gold": "The following papers have been published in the refereed journals of the European Association for the Study of Machine Learning (EASL)."
+    },
+    {
+        "coherence": 0.16846305360859526,
+        "consistency": 0.18851066333900623,
+        "fluency": 0.1766585766256506,
+        "relevance": 0.12192150510830858,
+        "overall": 0.16388844967039015,
+        "Generated": "538",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.09031559852942174,
+        "consistency": 0.24291641936190977,
+        "fluency": 0.12127077391232646,
+        "relevance": 0.2824488716192104,
+        "overall": 0.18423791585571708,
+        "Generated": "539",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.2468957823040774,
+        "consistency": 0.379776984830715,
+        "fluency": 0.10077176002363887,
+        "relevance": 0.24219896981731479,
+        "overall": 0.2424108742439365,
+        "Generated": "540",
+        "Gold": "All papers are copyrighted."
+    },
+    {
+        "coherence": 0.08515317146896584,
+        "consistency": 0.22308817954446292,
+        "fluency": 0.07029877038695992,
+        "relevance": 0.30508156945333736,
+        "overall": 0.1709054227134315,
+        "Generated": "541",
+        "Gold": "The following papers have been published in refereed journals in the past year."
+    },
+    {
+        "coherence": 0.12853731897268042,
+        "consistency": 0.27720199370692256,
+        "fluency": 0.17576351858681075,
+        "relevance": 0.33204331837140894,
+        "overall": 0.22838653740945564,
+        "Generated": "542",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.06914284657550704,
+        "consistency": 0.10522941986951526,
+        "fluency": 0.09298353899438837,
+        "relevance": 0.11332013243299623,
+        "overall": 0.09516898446810172,
+        "Generated": "543",
+        "Gold": "All reviews are copyrighted."
+    },
+    {
+        "coherence": 0.06462433763295379,
+        "consistency": 0.16848030182036172,
+        "fluency": 0.08480658198749824,
+        "relevance": 0.3099616249724953,
+        "overall": 0.15696821160332725,
+        "Generated": "544",
+        "Gold": "The following papers have been published in the Notices of the American Mathematical Society and the Notices of the European Mathematical Society."
+    },
+    {
+        "coherence": 0.08552251435111972,
+        "consistency": 0.16796210304315512,
+        "fluency": 0.12487948743391768,
+        "relevance": 0.05564182610056836,
+        "overall": 0.10850148273219022,
+        "Generated": "545",
+        "Gold": "The journal Brain has published a series of papers on artificial intelligence (AI) in the field of brain cancer."
+    },
+    {
+        "coherence": 0.11325302396960137,
+        "consistency": 0.1317981815659087,
+        "fluency": 0.1675445399087781,
+        "relevance": 0.30250284581939857,
+        "overall": 0.17877464781592167,
+        "Generated": "546",
+        "Gold": "All papers in this series are copyrighted."
+    },
+    {
+        "coherence": 0.029706313336956645,
+        "consistency": 0.05945829303761247,
+        "fluency": 0.125931148010253,
+        "relevance": 0.13750721141649097,
+        "overall": 0.08815074145032828,
+        "Generated": "547",
+        "Gold": "The following papers have been published in the journal Fuzzy Logic."
+    },
+    {
+        "coherence": 0.1339087345736614,
+        "consistency": 0.17010863483059085,
+        "fluency": 0.18943035580093767,
+        "relevance": 0.22401087945905146,
+        "overall": 0.17936465116606037,
+        "Generated": "548",
+        "Gold": "The following papers have been accepted for publication at the annual meeting of the American Association for the Advancement of Science (AAAS)."
+    },
+    {
+        "coherence": 0.3656611740694733,
+        "consistency": 0.4577813907350059,
+        "fluency": 0.09050925639972654,
+        "relevance": 0.10589418814947,
+        "overall": 0.2549615023384189,
+        "Generated": "549",
+        "Gold": "In our series of letters from African journalists, film-maker and columnist Ahmed Rashid looks at some of the papers he has read this week."
+    }
+]

@@ -1,0 +1,45 @@
+Evaluating coherence of 549 samples !!!
+Evaluating consistency of 549 samples !!!
+Evaluating fluency of 549 samples !!!
+Evaluating relevance of 549 samples !!!
+
+Evaluation scores are shown below:
++-------------+----------+
+|  Dimensions |  Score   |
++-------------+----------+
+|  coherence  | 0.771689 |
+| consistency | 0.645166 |
+|   fluency   | 0.898657 |
+|  relevance  | 0.84713  |
+|   overall   | 0.790661 |
++-------------+----------+
+Evaluating coherence of 549 samples !!!
+Evaluating consistency of 549 samples !!!
+Evaluating fluency of 549 samples !!!
+Evaluating relevance of 549 samples !!!
+
+Evaluation scores are shown below:
++-------------+----------+
+|  Dimensions |  Score   |
++-------------+----------+
+|  coherence  | 0.640166 |
+| consistency | 0.790061 |
+|   fluency   | 0.888642 |
+|  relevance  | 0.588698 |
+|   overall   | 0.726892 |
++-------------+----------+
+Evaluating coherence of 549 samples !!!
+Evaluating consistency of 549 samples !!!
+Evaluating fluency of 549 samples !!!
+Evaluating relevance of 549 samples !!!
+
+Evaluation scores are shown below:
++-------------+----------+
+|  Dimensions |  Score   |
++-------------+----------+
+|  coherence  | 0.768723 |
+| consistency | 0.641469 |
+|   fluency   | 0.935372 |
+|  relevance  | 0.863283 |
+|   overall   | 0.802212 |
++-------------+----------+
