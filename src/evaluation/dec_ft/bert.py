@@ -1,6 +1,7 @@
 from .args import get_args
 from transformers import BertTokenizerFast, AutoModel, TrainingArguments, Trainer
 from torch import nn
+from datasets import Dataset
 
 #load model and tokenizer
 bert = AutoModel.from_pretrained('bert-base-uncased')
@@ -38,16 +39,22 @@ class BERT_architecture(nn.Module):
       soft = self.softmax(x)
       return soft
 
+
 def process_dec_data(path):
     with open(path, 'r') as f:
         lines = f.readlines()
-    mr, dec = [], []
+    pairs = []
     for line in lines:
         _, label, text = line.strip().split('\t')
-        # data.append({'input_text': input_text, 'target_text': target_text})
-        mr.append(text)
-        dec.append(int(label))
-    return mr, dec
+        pairs.append({'text': text, 'label': label})
+    return pairs
+
+
+def preprocess_function(examples):
+    model_inputs = tokenizer(examples["text"], padding='longest', truncation=True)
+    model_inputs["labels"] = examples["label"]
+    return model_inputs
+
 
 if __name__ == "__main__":
     # args: train_data_option, valid_data_option, output_path
@@ -59,11 +66,21 @@ if __name__ == "__main__":
     train_data_path = "data/preprocessed/dec_" + args.train_data_option + ".txt"
     valid_data_path = "data/preprocessed/dec_" + args.valid_data_option + ".txt"
 
-    train_data_list, train_label = process_dec_data(train_data_path)
-    valid_data_list, valid_label = process_dec_data(valid_data_path)
+    train_dicts = process_dec_data(train_data_path)
+    valid_dicts = process_dec_data(valid_data_path)
+    train_data = Dataset.from_list(train_dicts)
+    valid_data = Dataset.from_list(valid_dicts)
 
-    tokenized_train_data = tokenizer(train_data_list, padding='longest', truncation=True)
-    tokenized_valid_data = tokenizer(valid_data_list, padding='longest', truncation=True)
+    tokenized_train_data = train_data.map(
+        preprocess_function,
+        batched=True,
+        remove_columns=train_data.column_names,
+    )
+    tokenized_valid_data = valid_data.map(
+        preprocess_function,
+        batched=True,
+        remove_columns=valid_data.column_names,
+    )
 
     #freeze the pretrained layers
     for param in bert.parameters():
