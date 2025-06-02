@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
     training_args = TrainingArguments(
         output_dir=model_save_path,   # Directory to save the model
-        evaluation_strategy="epoch",    # Evaluate after each epoch
+        eval_strategy="epoch",    # Evaluate after each epoch
         learning_rate=1e-5,             # Common starting point for BERT
         per_device_train_batch_size=4, # Adjust based on GPU memory
         num_train_epochs=15,             # You can experiment with more epochs
