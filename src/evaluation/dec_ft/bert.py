@@ -1,3 +1,5 @@
+import numpy as np
+import evaluate
 from .args import get_args
 from transformers import BertTokenizerFast, AutoModelForSequenceClassification, TrainingArguments, Trainer
 from torch import nn
@@ -10,6 +12,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
     num_labels=2 
 )
 tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
+metric = evaluate.load("accuracy")
 
 '''
 #defining new layers
@@ -54,6 +57,13 @@ def preprocess_function(examples):
     model_inputs = tokenizer(examples["text"], padding='longest', truncation=True)
     model_inputs["labels"] = examples["label"]
     return model_inputs
+
+
+def compute_metrics(eval_pred):
+    logits, labels = eval_pred
+    # convert the logits to their predicted class
+    predictions = np.argmax(logits, axis=-1)
+    return metric.compute(predictions=predictions, references=labels)
 
 
 if __name__ == "__main__":
@@ -107,7 +117,8 @@ if __name__ == "__main__":
         args=training_args,
         train_dataset=tokenized_train_data,
         eval_dataset=tokenized_valid_data,
-        processing_class=tokenizer
+        processing_class=tokenizer,
+        compute_metrics=compute_metrics
     )
 
     print('training')
