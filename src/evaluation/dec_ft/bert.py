@@ -25,19 +25,16 @@ class BERT_architecture(nn.Module):
       self.softmax = nn.LogSoftmax(dim=1)
 
     #define the forward pass
-    def forward(self, sent_id, mask):
+    def forward(self, input_ids, attention_mask):
       #pass the inputs to the model
-      _, cls_hs = self.bert(sent_id, attention_mask=mask, return_dict=False)
+      _, cls_hs = self.bert(input_ids, attention_mask=attention_mask, return_dict=False)
       x = self.fc1(cls_hs)
       x = self.relu(x)
       x = self.dropout(x)
       # output layer
       x = self.fc2(x)
-      # save last hidden state
-      self.last = x
-      # apply softmax activation
-      soft = self.softmax(x)
-      return soft
+      # return the logits
+      return x
 
 
 def process_dec_data(path):
