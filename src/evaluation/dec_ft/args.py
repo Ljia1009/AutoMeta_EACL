@@ -10,22 +10,16 @@ def get_args() -> argparse.Namespace:
         help="Full path of the file used for training. ",
     )
     parser.add_argument(
-        "--test_data_path",
+        "--train_data_option",
+        type=str,
+        default="train",
+        help="Option for the training data. ",
+    )
+    parser.add_argument(
+        "--valid_data_option",
         type=str,
         default="dev",
-        help="Full path of the file used for testing.",
-    )
-    parser.add_argument(
-        "--key_option",
-        type=str,
-        default="review",
-        help="Option for the keys extracted from each review. Valid options are review, all.",
-    )
-    parser.add_argument(
-        "--sample_size",
-        type=int,
-        default=0,
-        help="Number of samples to run summarization for, default to dataset length.",
+        help="Option for the validation data.",
     )
     parser.add_argument(
         "--output_path",

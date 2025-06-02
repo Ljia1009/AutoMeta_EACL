@@ -1,122 +1,96 @@
-# from src.utils.load_data import load_data_from_json
 from .args import get_args
-from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
-from datasets import Dataset
+from transformers import BertTokenizerFast, AutoModel, TrainingArguments, Trainer
+from torch import nn
 
-model_name = "facebook/bart-large-cnn"
-tokenizer = AutoTokenizer.from_pretrained(model_name, model_max_length=1024)
-model = AutoModelForSeq2SeqLM.from_pretrained(
-    model_name, device_map="auto")
+#load model and tokenizer
+bert = AutoModel.from_pretrained('bert-base-uncased')
+tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
 
+#defining new layers
+class BERT_architecture(nn.Module):
 
-# def get_data(data_list: list, sample_size: int):
-#     "data_list: list of dictionaries, each containing 'ReviewList' and 'Metareview' keys"
-#     data = []
-#     summarizer = pipeline(
-#         "summarization", model="facebook/bart-large-cnn")
-#     if sample_size == 0:
-#         sample_size = len(data_list)
-#     elif sample_size > len(data_list):
-#         sample_size = len(data_list)
-#     for paper in data_list[:sample_size]:
-#         item = {}
-#         input_text = 'Below are multiple reviews of a paper. '
-#         for review in paper['ReviewList']:
-#             tokens = tokenizer.encode(
-#                 review, truncation='longest_first', max_length=1020)
-#             text_to_summary = tokenizer.decode(
-#                 tokens, skip_special_tokens=True)
-#             summary = summarizer(text_to_summary, max_length=70,
-#                                  min_length=20, do_sample=False)
-#             input_text += summary[0]['summary_text']
-#         item['input_text'] = input_text
-#         item['target_text'] = paper['Metareview']
-#         data.append(item)
-#     return data
+    def __init__(self, bert):
+      super(BERT_architecture, self).__init__()
+      self.bert = bert
+      # dropout layer
+      self.dropout = nn.Dropout(0.2)
+      # relu activation function
+      self.relu =  nn.ReLU()
+      # dense layer 1
+      self.fc1 = nn.Linear(768,512)
+      # dense layer 2 (Output layer)
+      self.fc2 = nn.Linear(512,2)
+      #softmax activation function
+      self.softmax = nn.LogSoftmax(dim=1)
 
+    #define the forward pass
+    def forward(self, sent_id, mask):
+      #pass the inputs to the model
+      _, cls_hs = self.bert(sent_id, attention_mask=mask, return_dict=False)
+      x = self.fc1(cls_hs)
+      x = self.relu(x)
+      x = self.dropout(x)
+      # output layer
+      x = self.fc2(x)
+      # save last hidden state
+      self.last = x
+      # apply softmax activation
+      soft = self.softmax(x)
+      return soft
 
-def preprocess_function(examples):
-    # inputs = [ex['input_text'] for ex in examples]
-    # targets = [ex['target_text'] for ex in examples]
-    model_inputs = tokenizer(
-        examples["input_text"], max_length=1020, truncation=True)
-
-    with tokenizer.as_target_tokenizer():
-        labels = tokenizer(examples["target_text"],
-                           max_length=1020, truncation=True)
-
-    model_inputs["labels"] = labels["input_ids"]
-    return model_inputs
-
-
-def get_data(path) -> list:
-    """ returns a list of dictionaries, each containing 'input_text' and 'target_text' keys """
-    # path = 'src/models/finetune/data/dev_data.txt'
+def process_dec_data(path):
     with open(path, 'r') as f:
         lines = f.readlines()
-    data = []
+    mr, dec = [], []
     for line in lines:
-        #         print(line)
-        input_text, target_text = line.strip().split('\t')
-#         print(input_text, '\n', target_text)
-        data.append({'input_text': input_text, 'target_text': target_text})
-    return data
-
+        _, label, text = line.strip().split('\t')
+        # data.append({'input_text': input_text, 'target_text': target_text})
+        mr.append(text)
+        dec.append(int(label))
+    return mr, dec
 
 if __name__ == "__main__":
-    # args: train_data_path, test_data_path, output_dir
+    # args: train_data_option, valid_data_option, output_path
     args = get_args()
-    output_dir = args.output_dir
-    # train_data_list = load_data_from_json(
-    #     args.train_data_path, args.data_option, args.key_option)
-    # test_data_list = load_data_from_json(
-    #     args.test_data_path, args.data_option, args.key_option)
-    train_data_original = get_data(
-        args.train_data_path)
-    test_data_original = get_data(
-        args.test_data_path)
-    train_data = Dataset.from_list(train_data_original)
-    test_data = Dataset.from_list(test_data_original)
+    model_save_path = args.output_path
+    if not model_save_path:
+        model_save_path = "src/evaluation/dec_ft/model"
 
-    max_input_length = 1020
-    max_output_length = 1020
+    train_data_path = "data/preprocessed/dec_" + args.train_data_option + ".txt"
+    valid_data_path = "data/preprocessed/dec_" + args.valid_data_option + ".txt"
 
-    tokenized_train_data = train_data.map(
-        preprocess_function,
-        batched=True,
-        remove_columns=train_data.column_names,
+    train_data_list, train_label = process_dec_data(train_data_path)
+    valid_data_list, valid_label = process_dec_data(valid_data_path)
+
+    tokenized_train_data = tokenizer(train_data_list, padding='longest', truncation=True)
+    tokenized_valid_data = tokenizer(valid_data_list, padding='longest', truncation=True)
+
+    #freeze the pretrained layers
+    for param in bert.parameters():
+        param.requires_grad = False
+    
+    model = BERT_architecture(bert)
+
+    training_args = TrainingArguments(
+        output_dir=model_save_path,   # Directory to save the model
+        evaluation_strategy="epoch",    # Evaluate after each epoch
+        learning_rate=1e-5,             # Common starting point for BERT
+        per_device_train_batch_size=4, # Adjust based on GPU memory
+        num_train_epochs=15,             # You can experiment with more epochs
+        weight_decay=0.01,              # L2 regularization
+        logging_dir=model_save_path + "/logs",           # TensorBoard logs
+        save_total_limit=2,             # Save only the last 2 checkpoints
     )
-    tokenized_test_data = test_data.map(
-        preprocess_function,
-        batched=True,
-        remove_columns=test_data.column_names,
-    )
-    data_collator = DataCollatorForSeq2Seq(
-        tokenizer, model=model, padding=True, max_length=max_input_length)
-    training_args = Seq2SeqTrainingArguments(
-        output_dir=output_dir,
-        save_strategy="epoch",
-        eval_strategy="epoch",
-        learning_rate=1e-5,
-        per_device_train_batch_size=4,
-        per_device_eval_batch_size=4,
-        weight_decay=0.01,
-        save_total_limit=2,
-        num_train_epochs=15,
-        predict_with_generate=True,
-        logging_dir='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart_logs',
-    )
-    trainer = Seq2SeqTrainer(
+    trainer = Trainer(
         model=model,
         args=training_args,
-        data_collator=data_collator,
         train_dataset=tokenized_train_data,
-        eval_dataset=tokenized_test_data,
-        tokenizer=tokenizer,
+        eval_dataset=tokenized_valid_data,
     )
+
     print('training')
     trainer.train()
     print('saving model')
-    trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
+    trainer.save_model(model_save_path)
+    tokenizer.save_pretrained(model_save_path)
     print('finished')
