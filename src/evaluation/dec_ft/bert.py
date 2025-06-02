@@ -46,7 +46,7 @@ def process_dec_data(path):
     pairs = []
     for line in lines:
         _, label, text = line.strip().split('\t')
-        pairs.append({'text': text, 'label': label})
+        pairs.append({'text': text, 'label': int(label)})
     return pairs
 
 
@@ -74,12 +74,12 @@ if __name__ == "__main__":
     tokenized_train_data = train_data.map(
         preprocess_function,
         batched=True,
-        remove_columns=train_data.column_names,
+        remove_columns=train_data.column_names
     )
     tokenized_valid_data = valid_data.map(
         preprocess_function,
         batched=True,
-        remove_columns=valid_data.column_names,
+        remove_columns=valid_data.column_names
     )
     
     '''
