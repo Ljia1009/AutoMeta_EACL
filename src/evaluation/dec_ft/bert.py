@@ -2,7 +2,6 @@ import numpy as np
 import evaluate
 from .args import get_args
 from transformers import BertTokenizerFast, AutoModelForSequenceClassification, TrainingArguments, Trainer
-from torch import nn
 from datasets import Dataset
 
 #load model and tokenizer
