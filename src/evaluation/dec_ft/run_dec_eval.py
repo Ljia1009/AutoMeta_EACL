@@ -1,11 +1,20 @@
 import argparse
 from transformers import pipeline, BertTokenizerFast, AutoModelForSequenceClassification
 from datasets import Dataset
+import json
 import torch
 import pandas as pd
 
 GE_LABEL = "Generated"
 GO_LABEL = "Gold"
+
+def load_json_output(file_path):
+    with open(file_path, "r") as file:
+        json_blob = json.load(file)
+    data = []
+    for item in json_blob:
+        data.append({'gen': item[1], 'ref': item[2]})
+    return data
 
 def get_data(path):
     with open(path, 'r') as f:
@@ -55,7 +64,10 @@ if __name__ == '__main__':
     # load test mreviews and generated mreviews
     arg = get_args()
     input_path = arg.input_path
-    mr_dicts = get_data(input_path)
+    if input_path.endswith(".json"):
+        mr_dicts = load_json_output(input_path)
+    else:
+        mr_dicts = get_data(input_path)
 
     # run model to get logits from both mreviews
     mr_data = Dataset.from_list(mr_dicts)
@@ -67,12 +79,12 @@ if __name__ == '__main__':
 
     with torch.no_grad():
         gen_logits = dec_model(
-            input_ids=tokenized_mr_data["gen_input_ids"],
-            attention_mask=tokenized_mr_data["gen_attention_mask"]
+            input_ids=torch.LongTensor(tokenized_mr_data["gen_input_ids"]),
+            attention_mask=torch.Tensor(tokenized_mr_data["gen_attention_mask"])
         ).logits
         ref_logits = dec_model(
-            input_ids=tokenized_mr_data["ref_input_ids"],
-            attention_mask=tokenized_mr_data["ref_attention_mask"]
+            input_ids=torch.LongTensor(tokenized_mr_data["ref_input_ids"]),
+            attention_mask=torch.Tensor(tokenized_mr_data["ref_attention_mask"])
         ).logits
     
     # compute normalized logit diff
