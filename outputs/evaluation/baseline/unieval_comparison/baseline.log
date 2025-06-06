@@ -7,11 +7,11 @@ Evaluation scores are shown below:
 +-------------+----------+
 |  Dimensions |  Score   |
 +-------------+----------+
-|  coherence  | 0.177204 |
-| consistency | 0.283776 |
-|   fluency   | 0.221962 |
-|  relevance  | 0.033844 |
-|   overall   | 0.179196 |
+|  coherence  | 0.750129 |
+| consistency | 0.818505 |
+|   fluency   | 0.887903 |
+|  relevance  | 0.795852 |
+|   overall   | 0.813097 |
 +-------------+----------+
 Evaluating coherence of 549 samples !!!
 Evaluating consistency of 549 samples !!!
@@ -22,11 +22,11 @@ Evaluation scores are shown below:
 +-------------+----------+
 |  Dimensions |  Score   |
 +-------------+----------+
-|  coherence  | 0.177204 |
-| consistency | 0.283776 |
-|   fluency   | 0.221962 |
-|  relevance  | 0.081965 |
-|   overall   | 0.191226 |
+|  coherence  | 0.653953 |
+| consistency | 0.789203 |
+|   fluency   | 0.821838 |
+|  relevance  | 0.579199 |
+|   overall   | 0.711048 |
 +-------------+----------+
 Evaluating coherence of 549 samples !!!
 Evaluating consistency of 549 samples !!!
@@ -37,9 +37,9 @@ Evaluation scores are shown below:
 +-------------+----------+
 |  Dimensions |  Score   |
 +-------------+----------+
-|  coherence  | 0.177204 |
-| consistency | 0.283776 |
-|   fluency   | 0.221962 |
-|  relevance  | 0.227413 |
-|   overall   | 0.227588 |
+|  coherence  | 0.526639 |
+| consistency | 0.526352 |
+|   fluency   | 0.948301 |
+|  relevance  | 0.563775 |
+|   overall   | 0.641267 |
 +-------------+----------+
