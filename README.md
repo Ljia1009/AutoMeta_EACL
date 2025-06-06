@@ -9,8 +9,7 @@ Data used for finetuning models are under `src/models/finetune/data`
 
 For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
 
-For finetuned models checkpoints, visit: https://drive.google.com/drive/folders/1U4WhO_MG_uu-d_oxzNWZxJZapuz-YaTD?usp=sharing
-
+For finetuned models checkpoints, visit: https://drive.google.com/drive/folders/1U4WhO_MG_uu-d_oxzNWZxJZapuz-YaTD?usp=drive_link
 ## Environment
 To use our repo, run:
 ```
