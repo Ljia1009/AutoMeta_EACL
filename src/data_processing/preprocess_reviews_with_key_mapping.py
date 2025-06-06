@@ -14,7 +14,7 @@ DEFAULT_REVIEW_FIELD_MAPPING = {
 }
 VENUE_REVIEW_FIELD_MAPPING_OVERRIDES = {
     'JSYS': {
-        'decision': 'decision'
+        'rating': 'decision'
     },
     'AutoML-Conf-2022': {
         'rating': 'review_rating',
