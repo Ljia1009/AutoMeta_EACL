@@ -15,6 +15,10 @@ To use our repo, run:
 ```
 pip install -r requirements.txt
 ```
+If conflicts arise and you want to use the model inference and training, not the evaluation, run:
+```
+pip install -r requirements_model.txt
+```
 If any conflicts or issues arise, you can set up an enviroment that is exactly ours by:
 ```
 conda env create -f environment.yml
