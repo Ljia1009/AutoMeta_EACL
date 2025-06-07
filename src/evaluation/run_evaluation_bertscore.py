@@ -50,10 +50,6 @@ if __name__ == "__main__":
     rouge_scores = ev.evaluate('rouge_L')
     bert_scores = ev.evaluate('bertscore')
     
-    # factcc = ev.evaluate('factCC', reviews=overall_review_lists, meta_reviews=overall_predicted_metareviews)
-    # summac = ev.evaluate('summaC', reviews=overall_review_lists, meta_reviews=overall_predicted_metareviews)
-    # disco = ev.evaluate('disco', reviews=overall_review_lists, meta_reviews=overall_predicted_metareviews)
-
     for i in tqdm(range(len(overall_gold_metareviews))):
         evaluation_result.append({"gold": overall_gold_metareviews[i],
                                   "prediction":overall_predicted_metareviews[i],

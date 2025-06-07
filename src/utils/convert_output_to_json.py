@@ -20,11 +20,11 @@ def load_output_from_txt(file_path:str, type:str):
         )
     else:
         pattern = re.compile(
-        r"Generated Summary (\d+):\s*"       # 捕获编号 N
-        r"(.*?)"                             # 非贪婪地捕获 Generated Summary 内容
-        r"\s*Gold Metareview \1:\s*"         # 匹配相同编号的 Gold Metareview
-        r"(.*?)(?=(?:Generated Summary \d+:|$))",  # 捕获 Gold Metareview 内容，直到下一个块或文件末尾
-        re.S                                 # 让 . 能匹配换行
+        r"Generated Summary (\d+):\s*"       
+        r"(.*?)"                             
+        r"\s*Gold Metareview \1:\s*"         
+        r"(.*?)(?=(?:Generated Summary \d+:|$))", 
+        re.S                                 
         )
 
     matches = pattern.findall(text)

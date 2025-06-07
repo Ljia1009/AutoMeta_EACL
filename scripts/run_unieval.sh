@@ -2,8 +2,10 @@
 
 DATA_PATH="../data/raw/ORSUM_test.jsonl"
 OUTPUT_DIR="../outputs/generated/baseline/comparison/review"
-EVAL_DIR="../outputs/evaluation/baseline/comparison"
+EVAL_DIR="../outputs/evaluation/baseline/comparison" # the directory that saves the evaluation result
+TYPE="baseline" # evaluation type = [baseline, finetune]
 FILE_OPTION="test"
+DEVICE="cuda"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -16,13 +18,14 @@ for OUTPUT_PATH in "$OUTPUT_DIR"/*_out.txt.json; do
     EVAL_FILE="$EVAL_DIR/${BASENAME}.json"
 
     KEY_OPTION="review"
-
+    echo "=== handling $OUTPUT_PATH ==="
     python -m evaluation.run_unieval "$@" \
         --output_json_path $OUTPUT_PATH \
+        --eval_type $TYPE \
         --orig_data_path $DATA_PATH \
         --save_path $EVAL_DIR \
         --save_file $EVAL_FILE \
         --file_option  $FILE_OPTION \
         --key_option $KEY_OPTION \
-        --device "cuda"
+        --device $DEVICE
 done

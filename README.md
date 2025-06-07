@@ -51,22 +51,20 @@ For our finetuned models, you can run them by using individual files located in 
 The results of them locate in `outputs/generated/finetune`
 
 ## Evaluation
-The following command runs evaluation using rougeL, bertscore, and factCC metrics from the repo root, for all the output files under `outputs/generated/`:
+The generated outputs that are ready to run evaluation on are under:
+`outputs/generated/baseline/baseline/comparison/review` (for baseline)
+`outputs/generated/finetune/comparison` (for finetuned results)
+
+The following command runs evaluation using rougeL and metrics from the `scripts` directory; Be sure to pass the correct OUTPUT_DIR and EVAL_DIR arguments
+
 ```bash
-src/evaluation/run_evaluation.sh
+run_bertscore.sh
 ```
-Before running the disco evaluation, do:
-```
-pip install "git+https://github.com/AIPHES/DiscoScore.git"
-```
+The evaluation results are save as csv files under `outputs/evaluation/<type>/review_bertscore` (type=[baseline, finetune])as `<model>_review_out.txt.csv`
 
-The following command runs evaluation using disco metrics from the repo root, for all the output files under `outputs/generated/`:
+The following command runs evaluation using rougeL and metrics from the `scripts` directory; Be sure to pass the correct OUTPUT_DIR and EVAL_DIR arguments
+
 ```bash
-./src/evaluation/run_evaluation_disco.sh
+run_unieval.sh
 ```
-
-The evaluation results are save as csv files under `outputs/evaluation/baseline` as `<metric>_<model>_<key_option>_out.txt.csv`
-
-### Metrics issues
-"DS_Focus_NN" and "DS_SENT_NN" require using BERT model that has a limit for input length(512).
-It seems that some of our inputs are longer than the limits. So at this moment the two are not includede.
+The evaluation results are save as csv files under `outputs/evaluation/<type>/unieval_comparison` (type=[baseline, finetune]) as `<model>_review_out.txt.json`

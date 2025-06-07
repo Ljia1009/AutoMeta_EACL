@@ -295,6 +295,7 @@ dependencies:
   - zstandard=0.23.0=py39hf3bc14e_1
   - zstd=1.5.7=h6491c7d_2
   - pip:
+      - -e .
       - absl-py==2.2.2
       - appnope==0.1.4
       - asttokens==3.0.0

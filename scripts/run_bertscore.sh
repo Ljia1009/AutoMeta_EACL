@@ -2,9 +2,9 @@
 
 DATA_PATH="../data/raw/ORSUM_test.jsonl"
 OUTPUT_DIR="../outputs/generated/baseline/comparison/review"
-EVAL_DIR="../outputs/evaluation/baseline/review_bertscore"
+EVAL_DIR="../outputs/evaluation/baseline/review_bertscore" # the directory that saves the evaluation result
 FILE_OPTION="test"
-
+DEVICE="cuda"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$SCRIPT_DIR/../src" || exit
@@ -26,5 +26,5 @@ for OUTPUT_PATH in "$OUTPUT_DIR"/*_out.txt.json; do
         --save_file $EVAL_FILE \
         --file_option  $FILE_OPTION \
         --key_option $KEY_OPTION \
-        --device "mps"
+        --device $DEVICE
 done
