@@ -73,6 +73,21 @@ run_unieval.sh
 ```
 The evaluation results are save as csv files under `outputs/evaluation/<type>/unieval_comparison` (type=[baseline, finetune]) as `<model>_review_out.txt.json`
 
+
 Necessary files for decision distance evaluation are under `src/evaluation/dec_ft`.
 
+To finetune BERT for decision prediction:
 
+```bash
+python3 -m src.evaluation.dec_ft.bert --train_data_option train --valid_data_option dev
+```
+
+To produce decision distance and save the output logits for comparison from meta-review pairs based on the fine-tuned decision model:
+```bash
+python3 -m src.evaluation.dec_ft.run_dec_eval --input_path outputs/generated/<SUM_OUTPUT_FILE_NAME> --result_path src/evaluation/dec_ft/results/<LOGITS_FILE_NAME>
+```
+
+To get a classification report based on the output logits from meta-review pairs:
+```bash
+python3 src.evaluation.dec_ft.logits_to_acc.py --input_path src/evaluation/dec_ft/results/<LOGITS_FILE_NAME> --result_path src/evaluation/dec_ft/results/<REPORT_FILE_NAME>
+```
