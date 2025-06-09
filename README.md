@@ -72,3 +72,7 @@ The following command runs evaluation using rougeL and metrics from the `scripts
 run_unieval.sh
 ```
 The evaluation results are save as csv files under `outputs/evaluation/<type>/unieval_comparison` (type=[baseline, finetune]) as `<model>_review_out.txt.json`
+
+Necessary files for decision distance evaluation are under `src/evaluation/dec_ft`.
+
+
