@@ -1,4 +1,4 @@
-# LING573_AutoMeta
+
 
 ## Data
 The dev and test sets are under `data/raw`.
@@ -7,9 +7,9 @@ Standardized dev and test sets (across venues) are under `data/preprocessed`
 
 Data used for finetuning models are under `src/models/finetune/data`
 
-For full original and training dataset, visit https://drive.google.com/drive/folders/14CXIUZWwPkoUQxVDcN8NLVOaYjwcPc-q?usp=drive_link
+For full original and training dataset, visit xxxx
 
-For finetuned models checkpoints, visit: https://drive.google.com/drive/folders/1U4WhO_MG_uu-d_oxzNWZxJZapuz-YaTD?usp=drive_link
+For finetuned models checkpoints, visit xxxx
 ## Environment
 To use our repo, run:
 ```
