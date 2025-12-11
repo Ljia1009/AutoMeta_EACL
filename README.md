@@ -1,15 +1,7 @@
 
 
 ## Data
-The dev and test sets are under `data/raw`.
-
-Standardized dev and test sets (across venues) are under `data/preprocessed`
-
-Data used for finetuning models are under `src/models/finetune/data`
-
-For full original and training dataset, visit xxxx
-
-For finetuned models checkpoints, visit xxxx
+In this anonymous repo the data were deleted. They are from the ORSUM dataset.
 ## Environment
 To use our repo, run:
 ```
