@@ -12,4 +12,3 @@ accelerate==1.6.0
 psutil==5.9.8   # 
 tiktoken==0.9.0
 protobuf==6.31.0
--e .

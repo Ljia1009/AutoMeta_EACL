@@ -39,10 +39,10 @@ if __name__ == "__main__":
     task_prefix = 'summarize: '
     for d in train_data_original:
         d['input_text'] = task_prefix+d['input_text']
-        d['target_text'] = task_prefix+ d['target_text']
+        d['target_text'] = task_prefix + d['target_text']
     for d in test_data_original:
         d['input_text'] = task_prefix+d['input_text']
-        d['target_text'] = task_prefix+ d['target_text']
+        d['target_text'] = task_prefix + d['target_text']
 
     train_data = Dataset.from_list(train_data_original)
     test_data = Dataset.from_list(test_data_original)
@@ -73,7 +73,7 @@ if __name__ == "__main__":
         save_total_limit=2,
         num_train_epochs=20,
         predict_with_generate=True,
-        logging_dir='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/t5_logs',
+        logging_dir='anonymous',
     )
     trainer = Seq2SeqTrainer(
         model=model,

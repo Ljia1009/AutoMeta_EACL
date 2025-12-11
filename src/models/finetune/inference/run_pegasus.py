@@ -2,6 +2,7 @@ from transformers import pipeline
 from ..data.get_data import get_data
 import argparse
 
+
 def run_pegasus_summarization(data_path):
     test_data = get_data(data_path)
     test_input = []
@@ -9,12 +10,14 @@ def run_pegasus_summarization(data_path):
     for d in test_data:
         test_input.append(d['input_text'])
         gold_metareviews.append(d['target_text'])
-    summarizer = pipeline("summarization",model='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/pegasus_out_2')
+    summarizer = pipeline("summarization", model='anonymous')
     metareviews = []
     for reviews in test_input:
-        metareview = summarizer(reviews,min_length=90,max_length=200,do_sample=False)
+        metareview = summarizer(reviews, min_length=90,
+                                max_length=200, do_sample=False)
         metareviews.append(metareview[0]['summary_text'])
-    return metareviews,gold_metareviews
+    return metareviews, gold_metareviews
+
 
 def get_arg():
     parser = argparse.ArgumentParser()
@@ -27,12 +30,13 @@ def get_arg():
     arg = parser.parse_args()
     return arg
 
+
 if __name__ == '__main__':
-    metareviews,gold_metareviews = run_pegasus_summarization('/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/data/test_data_2.txt')
+    metareviews, gold_metareviews = run_pegasus_summarization('anonymous')
     arg = get_arg()
     output_path = arg.output_path
-    with open(output_path,'w') as f:
-        for generated,gold in zip(metareviews,gold_metareviews):
+    with open(output_path, 'w') as f:
+        for generated, gold in zip(metareviews, gold_metareviews):
             f.write('Generated:'+'\t')
             f.write(generated+'\n')
             f.write('Gold:'+'\t')

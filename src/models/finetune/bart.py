@@ -92,7 +92,7 @@ if __name__ == "__main__":
         save_total_limit=2,
         num_train_epochs=15,
         predict_with_generate=True,
-        logging_dir='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart_logs',
+        logging_dir='anonymous',
     )
     trainer = Seq2SeqTrainer(
         model=model,

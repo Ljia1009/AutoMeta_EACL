@@ -11,6 +11,7 @@ model = AutoModelForSeq2SeqLM.from_pretrained(
 
 max_source_length = 1020
 
+
 def preprocess_function(examples):
     # inputs = [ex['input_text'] for ex in examples]
     # targets = [ex['target_text'] for ex in examples]
@@ -67,7 +68,7 @@ if __name__ == "__main__":
         save_total_limit=3,
         num_train_epochs=25,
         predict_with_generate=True,
-        logging_dir='/gscratch/stf/jiamu/LING573_AutoMeta/src/models/finetune/bart_all_logs',
+        logging_dir='anonymous',
     )
     trainer = Seq2SeqTrainer(
         model=model,
